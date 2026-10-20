@@ -11,7 +11,7 @@ defined('ABSPATH') || exit;
 
 /** Name the existing native template panel without replacing its controls or save handler. */
 add_action('add_meta_boxes', static function (string $post_type, \WP_Post $post): void {
-    if (!in_array($post_type, ['page', 'post', 'starter_product', 'starter_category', 'starter_industry', 'starter_guide'], true)
+    if (!in_array($post_type, ['page', 'post', 'starter_product', 'starter_category', 'starter_industry', 'starter_guide', 'axis_capability', 'axis_solution', 'axis_material', 'axis_resource'], true)
         || !get_page_templates($post)) return;
     global $wp_meta_boxes;
     foreach ($wp_meta_boxes[$post_type] ?? [] as $context => $priorities) {

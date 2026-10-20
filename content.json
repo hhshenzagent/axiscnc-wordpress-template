@@ -213,10 +213,10 @@
     },
     {
       "id": 317,
-      "type": "page",
+      "type": "axis_material",
       "title": "TPU · 3D printing",
       "slug": "printing-tpu",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -411,6 +411,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "printing-materials"
         ]
       },
       "refs": {
@@ -423,10 +426,10 @@
     },
     {
       "id": 318,
-      "type": "page",
+      "type": "axis_material",
       "title": "Resin · 3D printing",
       "slug": "printing-resin",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -621,6 +624,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "printing-materials"
         ]
       },
       "refs": {
@@ -633,10 +639,10 @@
     },
     {
       "id": 319,
-      "type": "page",
+      "type": "axis_material",
       "title": "3D printing materials",
       "slug": "printing-materials",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -896,6 +902,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "printing-materials"
         ]
       },
       "refs": {
@@ -924,10 +933,10 @@
     },
     {
       "id": 320,
-      "type": "page",
+      "type": "axis_material",
       "title": "ABS · Injection molding",
       "slug": "molding-abs",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -1122,6 +1131,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "molding-materials"
         ]
       },
       "refs": {
@@ -1134,10 +1146,10 @@
     },
     {
       "id": 321,
-      "type": "page",
+      "type": "axis_material",
       "title": "PC · Injection molding",
       "slug": "molding-pc",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -1332,6 +1344,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "molding-materials"
         ]
       },
       "refs": {
@@ -1344,10 +1359,10 @@
     },
     {
       "id": 322,
-      "type": "page",
+      "type": "axis_material",
       "title": "PBT · Injection molding",
       "slug": "molding-pa-pbt",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -1542,6 +1557,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "molding-materials"
         ]
       },
       "refs": {
@@ -1554,10 +1572,10 @@
     },
     {
       "id": 323,
-      "type": "page",
+      "type": "axis_material",
       "title": "PE · Injection molding",
       "slug": "molding-pp-pe",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -1752,6 +1770,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "molding-materials"
         ]
       },
       "refs": {
@@ -1764,10 +1785,10 @@
     },
     {
       "id": 324,
-      "type": "page",
+      "type": "axis_material",
       "title": "TPE · Injection molding",
       "slug": "molding-tpe",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -1962,6 +1983,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "molding-materials"
         ]
       },
       "refs": {
@@ -1974,10 +1998,10 @@
     },
     {
       "id": 325,
-      "type": "page",
+      "type": "axis_material",
       "title": "Injection molding materials",
       "slug": "molding-materials",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -2271,6 +2295,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "molding-materials"
         ]
       },
       "refs": {
@@ -2303,10 +2330,10 @@
     },
     {
       "id": 326,
-      "type": "page",
+      "type": "axis_material",
       "title": "Aluminum sheet · Sheet metal",
       "slug": "aluminum-sheet",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -2501,6 +2528,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "sheet-metals"
         ]
       },
       "refs": {
@@ -2513,10 +2543,10 @@
     },
     {
       "id": 327,
-      "type": "page",
+      "type": "axis_material",
       "title": "Stainless steel sheet · Sheet metal",
       "slug": "stainless-sheet",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -2711,6 +2741,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "sheet-metals"
         ]
       },
       "refs": {
@@ -2723,10 +2756,10 @@
     },
     {
       "id": 328,
-      "type": "page",
+      "type": "axis_material",
       "title": "Mild steel · Sheet metal",
       "slug": "mild-steel-sheet",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -2921,6 +2954,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "sheet-metals"
         ]
       },
       "refs": {
@@ -2933,10 +2969,10 @@
     },
     {
       "id": 329,
-      "type": "page",
+      "type": "axis_material",
       "title": "Sheet metal materials",
       "slug": "sheet-metals",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:21",
@@ -3162,6 +3198,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "sheet-metals"
         ]
       },
       "refs": {
@@ -3186,10 +3225,10 @@
     },
     {
       "id": 294,
-      "type": "page",
+      "type": "axis_material",
       "title": "Aluminum",
       "slug": "aluminum",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -3804,6 +3843,15 @@
         ],
         "_clone_approved_questions_material-family": [
           "field_axis_suite_clone_approved_questions_material-family"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
+        ],
+        "axis_design_sections_0_axis_auto_children": [
+          "1"
+        ],
+        "_axis_design_sections_0_axis_auto_children": [
+          "field_axis_design_section_cards_axis_auto_children"
         ]
       },
       "refs": {
@@ -3844,7 +3892,7 @@
     },
     {
       "id": 295,
-      "type": "page",
+      "type": "axis_material",
       "title": "6061-T6",
       "slug": "6061-t6",
       "parent": 294,
@@ -4551,6 +4599,9 @@
         ],
         "_rank_math_description": [
           "field_axis_design_seo_rank_math_description"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -4579,7 +4630,7 @@
     },
     {
       "id": 296,
-      "type": "page",
+      "type": "axis_material",
       "title": "7075-T6",
       "slug": "7075-t6",
       "parent": 294,
@@ -5142,6 +5193,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -5170,7 +5224,7 @@
     },
     {
       "id": 297,
-      "type": "page",
+      "type": "axis_material",
       "title": "6082-T6",
       "slug": "6082-t6",
       "parent": 294,
@@ -5733,6 +5787,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -5761,7 +5818,7 @@
     },
     {
       "id": 298,
-      "type": "page",
+      "type": "axis_material",
       "title": "5083",
       "slug": "aluminum-5083",
       "parent": 294,
@@ -6324,6 +6381,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -6352,7 +6412,7 @@
     },
     {
       "id": 299,
-      "type": "page",
+      "type": "axis_material",
       "title": "5052",
       "slug": "aluminum-5052",
       "parent": 294,
@@ -6915,6 +6975,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -6943,7 +7006,7 @@
     },
     {
       "id": 300,
-      "type": "page",
+      "type": "axis_material",
       "title": "Cast tooling plate",
       "slug": "cast-tooling-plate",
       "parent": 294,
@@ -7506,6 +7569,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -7534,10 +7600,10 @@
     },
     {
       "id": 301,
-      "type": "page",
+      "type": "axis_capability",
       "title": "Insert Molding",
       "slug": "insert-molding",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -7545,7 +7611,7 @@
       "path": "/capabilities/insert-molding/",
       "meta": {
         "_wp_page_template": [
-          "page-templates/axis-approved-capability.php"
+          "page-templates/axis-capability-molding.php"
         ],
         "axis_suite_kicker": [
           "MOLDING"
@@ -7872,10 +7938,10 @@
     },
     {
       "id": 302,
-      "type": "page",
+      "type": "axis_material",
       "title": "Stainless steel · CNC metals",
       "slug": "stainless-steel",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -8070,6 +8136,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -8082,10 +8151,10 @@
     },
     {
       "id": 303,
-      "type": "page",
+      "type": "axis_material",
       "title": "Alloy steel · CNC metals",
       "slug": "alloy-steel",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -8280,6 +8349,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -8292,10 +8364,10 @@
     },
     {
       "id": 304,
-      "type": "page",
+      "type": "axis_material",
       "title": "Brass · CNC metals",
       "slug": "brass",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -8490,6 +8562,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -8502,10 +8577,10 @@
     },
     {
       "id": 305,
-      "type": "page",
+      "type": "axis_material",
       "title": "Copper · CNC metals",
       "slug": "copper",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -8700,6 +8775,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -8712,10 +8790,10 @@
     },
     {
       "id": 306,
-      "type": "page",
+      "type": "axis_material",
       "title": "Titanium · CNC metals",
       "slug": "titanium",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -8910,6 +8988,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -8922,10 +9003,10 @@
     },
     {
       "id": 307,
-      "type": "page",
+      "type": "axis_material",
       "title": "CNC metals materials",
       "slug": "cnc-metals",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -9253,6 +9334,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-metals"
         ]
       },
       "refs": {
@@ -9289,10 +9373,10 @@
     },
     {
       "id": 308,
-      "type": "page",
+      "type": "axis_material",
       "title": "ABS · CNC plastics",
       "slug": "abs",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -9487,6 +9571,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-plastics"
         ]
       },
       "refs": {
@@ -9499,10 +9586,10 @@
     },
     {
       "id": 309,
-      "type": "page",
+      "type": "axis_material",
       "title": "POM · CNC plastics",
       "slug": "pom-acetal",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -9697,6 +9784,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-plastics"
         ]
       },
       "refs": {
@@ -9709,10 +9799,10 @@
     },
     {
       "id": 310,
-      "type": "page",
+      "type": "axis_material",
       "title": "PEEK · CNC plastics",
       "slug": "peek",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -9907,6 +9997,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-plastics"
         ]
       },
       "refs": {
@@ -9919,10 +10012,10 @@
     },
     {
       "id": 311,
-      "type": "page",
+      "type": "axis_material",
       "title": "Nylon · CNC plastics",
       "slug": "nylon",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -10117,6 +10210,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-plastics"
         ]
       },
       "refs": {
@@ -10129,10 +10225,10 @@
     },
     {
       "id": 312,
-      "type": "page",
+      "type": "axis_material",
       "title": "Polycarbonate · CNC plastics",
       "slug": "polycarbonate",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -10327,6 +10423,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-plastics"
         ]
       },
       "refs": {
@@ -10339,10 +10438,10 @@
     },
     {
       "id": 313,
-      "type": "page",
+      "type": "axis_material",
       "title": "PTFE · CNC plastics",
       "slug": "ptfe",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -10537,6 +10636,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-plastics"
         ]
       },
       "refs": {
@@ -10549,10 +10651,10 @@
     },
     {
       "id": 314,
-      "type": "page",
+      "type": "axis_material",
       "title": "CNC plastics materials",
       "slug": "cnc-plastics",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -10880,6 +10982,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "cnc-plastics"
         ]
       },
       "refs": {
@@ -10916,10 +11021,10 @@
     },
     {
       "id": 315,
-      "type": "page",
+      "type": "axis_material",
       "title": "ABS · 3D printing",
       "slug": "printing-pla-abs",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -11114,6 +11219,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "printing-materials"
         ]
       },
       "refs": {
@@ -11126,10 +11234,10 @@
     },
     {
       "id": 316,
-      "type": "page",
+      "type": "axis_material",
       "title": "PA12 · 3D printing",
       "slug": "printing-pa12",
-      "parent": 117,
+      "parent": 0,
       "content": "",
       "excerpt": "",
       "date": "2026-10-20 11:28:20",
@@ -11324,6 +11432,9 @@
         ],
         "_axis_suite_faq": [
           "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_content_group": [
+          "printing-materials"
         ]
       },
       "refs": {
@@ -11336,10 +11447,10 @@
     },
     {
       "id": 101,
-      "type": "page",
+      "type": "axis_capability",
       "title": "CNC Machining",
       "slug": "cnc-machining",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "Housings, shafts, brackets and drawing-defined interfaces.",
       "date": "2026-10-19 11:16:01",
@@ -11350,7 +11461,7 @@
           "axis-template-suite-20261019:capabilities/cnc-machining"
         ],
         "_wp_page_template": [
-          "page-templates/axis-approved-capability.php"
+          "page-templates/axis-capability-cnc.php"
         ],
         "axis_suite_family": [
           "machining"
@@ -13320,10 +13431,10 @@
     },
     {
       "id": 102,
-      "type": "page",
+      "type": "axis_capability",
       "title": "CNC Milling",
       "slug": "cnc-milling",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "Pockets, profiles, plates and multi-face features.",
       "date": "2026-10-19 11:16:01",
@@ -14506,10 +14617,10 @@
     },
     {
       "id": 103,
-      "type": "page",
+      "type": "axis_capability",
       "title": "Injection Molding",
       "slug": "injection-molding",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "Polymer enclosures, covers and production-intent molded geometry.",
       "date": "2026-10-19 11:16:01",
@@ -14520,7 +14631,7 @@
           "axis-template-suite-20261019:capabilities/injection-molding"
         ],
         "_wp_page_template": [
-          "page-templates/axis-approved-capability.php"
+          "page-templates/axis-capability-molding.php"
         ],
         "axis_suite_family": [
           "molding"
@@ -16517,10 +16628,10 @@
     },
     {
       "id": 104,
-      "type": "page",
+      "type": "axis_capability",
       "title": "Injection Mold Tooling",
       "slug": "injection-mold-tooling",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "Tooling for an agreed part geometry and production requirement.",
       "date": "2026-10-19 11:16:01",
@@ -17611,10 +17722,10 @@
     },
     {
       "id": 105,
-      "type": "page",
+      "type": "axis_capability",
       "title": "Sheet Metal Fabrication",
       "slug": "sheet-metal-fabrication",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "Panels, brackets, covers and sheet-metal enclosures.",
       "date": "2026-10-19 11:16:01",
@@ -17625,7 +17736,7 @@
           "axis-template-suite-20261019:capabilities/sheet-metal-fabrication"
         ],
         "_wp_page_template": [
-          "page-templates/axis-approved-capability.php"
+          "page-templates/axis-capability-sheet-metal.php"
         ],
         "axis_suite_family": [
           "fabrication"
@@ -19276,10 +19387,10 @@
     },
     {
       "id": 106,
-      "type": "page",
+      "type": "axis_capability",
       "title": "Laser Cutting",
       "slug": "laser-cutting",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "Drawing-defined flat profiles, panels and detailed cut features.",
       "date": "2026-10-19 11:16:01",
@@ -20462,10 +20573,10 @@
     },
     {
       "id": 107,
-      "type": "page",
+      "type": "axis_capability",
       "title": "3D Printing",
       "slug": "3d-printing",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "Fit-check, appearance and application-defined functional prototypes.",
       "date": "2026-10-19 11:16:01",
@@ -20476,7 +20587,7 @@
           "axis-template-suite-20261019:capabilities/3d-printing"
         ],
         "_wp_page_template": [
-          "page-templates/axis-approved-capability.php"
+          "page-templates/axis-capability-printing.php"
         ],
         "axis_suite_family": [
           "printing"
@@ -22177,10 +22288,10 @@
     },
     {
       "id": 108,
-      "type": "page",
+      "type": "axis_capability",
       "title": "SLA 3D Printing",
       "slug": "sla",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "Detailed models, enclosure concepts and fit-check components.",
       "date": "2026-10-19 11:16:01",
@@ -23271,10 +23382,10 @@
     },
     {
       "id": 109,
-      "type": "page",
+      "type": "axis_capability",
       "title": "Die Casting",
       "slug": "die-casting",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "Cast enclosure and structural component concepts.",
       "date": "2026-10-19 11:16:01",
@@ -24365,10 +24476,10 @@
     },
     {
       "id": 110,
-      "type": "page",
+      "type": "axis_capability",
       "title": "Vacuum Casting",
       "slug": "vacuum-casting",
-      "parent": 111,
+      "parent": 0,
       "content": "",
       "excerpt": "Development enclosures, appearance samples and limited-build concepts.",
       "date": "2026-10-19 11:16:01",
@@ -25560,10 +25671,10 @@
     },
     {
       "id": 113,
-      "type": "page",
+      "type": "starter_industry",
       "title": "Aerospace & Defense",
       "slug": "aerospace-and-defense",
-      "parent": 115,
+      "parent": 0,
       "content": "",
       "excerpt": "Drawing-defined components, prototypes and tooling with program requirements made explicit.",
       "date": "2026-10-19 11:16:01",
@@ -26073,10 +26184,10 @@
     },
     {
       "id": 114,
-      "type": "page",
+      "type": "starter_industry",
       "title": "Automotive",
       "slug": "automotive",
-      "parent": 115,
+      "parent": 0,
       "content": "",
       "excerpt": "Prototype, tooling and production-intent component requirements for vehicle development teams.",
       "date": "2026-10-19 11:16:01",
@@ -28503,10 +28614,10 @@
     },
     {
       "id": 121,
-      "type": "page",
+      "type": "axis_resource",
       "title": "Keep the function. Make the requirements clear.",
       "slug": "design-guidelines",
-      "parent": 112,
+      "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#guide-0\">Show what controls the function</a><a href=\"#guide-1\">Review access and holding</a><a href=\"#guide-2\">Specify only what is required</a><a href=\"#comparison\">Review table</a><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"guide-0\"><h2>Show what controls the function</h2><ul><li>Mark the surfaces that locate, seal, support or move against another component.</li><li>Build the datum scheme around those relationships and explain any unusual mating condition.</li></ul></section><section id=\"guide-1\"><h2>Review access and holding</h2><ul><li>Highlight deep pockets, narrow slots, undercuts and internal corners that may restrict the tool.</li><li>Consider how a part can be held without damaging thin sections or cosmetic surfaces.</li></ul></section><section id=\"guide-2\"><h2>Specify only what is required</h2><ul><li>Use tight tolerances where the function needs them. Unnecessary blanket control can increase machining and inspection work.</li><li>Separate general edge treatment and surface requirements from individual critical features.</li></ul></section><section id=\"comparison\"><p>KEEP THE SCOPE CLEAR</p><h2>A practical review table.</h2><table><thead><tr><th>Feature</th><th>Review question</th><th>Useful information</th></tr></thead><tbody><tr><th>Internal corners</th><td>Does the function need a sharp corner?</td><td>Mating geometry and permitted corner relief or radius.</td></tr><tr><th>Deep pockets &amp; holes</th><td>Can the feature be reached and checked?</td><td>Section view, depth, diameter and access direction.</td></tr><tr><th>Thin sections</th><td>How will the part behave during holding and machining?</td><td>Material, wall geometry, functional purpose and allowable changes.</td></tr><tr><th>Threads</th><td>Is the definition complete?</td><td>Thread standard, pitch, depth, entry and relief requirements.</td></tr><tr><th>Critical fits</th><td>Which relationship controls the assembly?</td><td>Datum references, mating part and final-condition tolerances.</td></tr></tbody></table></section><section id=\"questions\"><h2>Questions to clarify.</h2><details><summary>Why does this guide avoid a single minimum wall or maximum depth?<span>+</span></summary><p>Such limits depend on material, geometry, tools, holding and acceptance requirements. The actual drawing is the basis for a useful review.</p></details><details><summary>Can manufacturing suggestions change the function?<span>+</span></summary><p>Any proposed change should be identified explicitly and approved by the design authority. Keep the accepted change in a controlled drawing revision.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/capabilities/cnc-milling/\"><strong>CNC Milling <span>↗</span></strong><p>Housings, pockets, mounting plates and machined interfaces.</p></a><a href=\"{{SITE_URL}}/capabilities/cnc-machining/\"><strong>5-Axis Machining <span>↗</span></strong><p>Multi-face geometry, angled features and difficult tool access.</p></a><a href=\"{{SITE_URL}}/resources/rfq-checklist/\"><strong>Drawing &amp; RFQ Checklist <span>↗</span></strong><p>Files, specifications and commercial inputs for a useful first review.</p></a>",
       "excerpt": "A machining review works best when the purpose of a feature is visible. Use this guide to identify geometry, fits and acceptance details worth discussing before release; it is not a universal dimensional standard.",
       "date": "2026-10-19 11:16:01",
@@ -28599,10 +28710,10 @@
     },
     {
       "id": 122,
-      "type": "page",
+      "type": "axis_resource",
       "title": "Agree what will be checked. Know what will arrive.",
       "slug": "inspection-handover",
-      "parent": 112,
+      "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#guide-0\">Before machining</a><a href=\"#guide-1\">During the project</a><a href=\"#guide-2\">Before dispatch</a><a href=\"#comparison\">Review table</a><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"guide-0\"><h2>Before machining</h2><ul><li>Confirm the controlling revision, datum scheme and features that affect fit or function.</li><li>Agree material records, measurement scope, sampling and any special test method.</li></ul></section><section id=\"guide-1\"><h2>During the project</h2><ul><li>Identify the checkpoints or sample approvals needed for this order.</li><li>Record changes and resolve discrepancies against the agreed drawing rather than informal messages.</li></ul></section><section id=\"guide-2\"><h2>Before dispatch</h2><ul><li>Match the release records to part number, revision, quantity and any agreed batch identifier.</li><li>Protect sensitive surfaces and include the agreed packing list and inspection documentation.</li></ul></section><section id=\"comparison\"><p>KEEP THE SCOPE CLEAR</p><h2>A practical review table.</h2><table><thead><tr><th>Handover item</th><th>Define in the inquiry</th><th>Purpose</th></tr></thead><tbody><tr><th>Dimensional records</th><td>Features, reference system, sample size and report format</td><td>Connect measured results to the actual drawing and revision.</td></tr><tr><th>Material documents</th><td>Document type, grade and identification required</td><td>Clarify the requested link between material and supplied parts.</td></tr><tr><th>Part identification</th><td>Part number, revision, quantity and batch information where agreed</td><td>Support receiving, storage and repeat-order reference.</td></tr><tr><th>Protection &amp; packing</th><td>Sensitive faces, corrosion or contamination concerns, separate packing</td><td>Reduce handling and transport risks specific to these parts.</td></tr><tr><th>Special tests</th><td>Method, conditions, acceptance criteria and responsible party</td><td>Confirm availability and scope before treating a test as included.</td></tr></tbody></table></section><section id=\"questions\"><h2>Questions to clarify.</h2><details><summary>Does this page establish an accredited inspection capability?<span>+</span></summary><p>No. It describes requirements to agree. Equipment, methods, certification scope and any independent verification must be confirmed for the actual order.</p></details><details><summary>What should I report if receiving finds a problem?<span>+</span></summary><p>Keep the part identification, drawing revision, photographs, measured results and relevant conditions together. Contact the project team so the discrepancy can be assessed against the agreed requirements.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/resources/rfq-checklist/\"><strong>Drawing &amp; RFQ Checklist <span>↗</span></strong><p>Files, specifications and commercial inputs for a useful first review.</p></a><a href=\"{{SITE_URL}}/resources/workflow/\"><strong>How We Work <span>↗</span></strong><p>Responsibilities, approval points, changes and delivery planning.</p></a><a href=\"{{SITE_URL}}/resources/surface-finishes/\"><strong>Surface Finish Planning <span>↗</span></strong><p>Finishing choices, masked interfaces and final-condition inspection.</p></a>",
       "excerpt": "Turn the drawing requirements into an agreed inspection and delivery package. Specify the critical features, records and packing needs before the order is released.",
       "date": "2026-10-19 11:16:01",
@@ -28695,10 +28806,10 @@
     },
     {
       "id": 123,
-      "type": "page",
+      "type": "axis_resource",
       "title": "Answers that move a machining decision forward.",
       "slug": "machining-faqs",
-      "parent": 112,
+      "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"questions\"><h2>Questions before machining.</h2><details><summary>Are these stock products?<span>+</span></summary><p>No. AXISCNC is presented here around custom machining solutions. Component images illustrate possible geometry; your drawing defines the requested part.</p></details><details><summary>What should my first inquiry include?<span>+</span></summary><p>Start with the application, current model and drawing, revision, material, quantity and required finish. Include critical fits, inspection records and your desired milestone.</p></details><details><summary>Can I start if the material is undecided?<span>+</span></summary><p>Yes. Describe operating conditions and what is fixed. Candidate materials and availability need review before a manufacturing scope is confirmed.</p></details><details><summary>What tolerance is achievable?<span>+</span></summary><p>It depends on the feature, geometry, material, process and final condition. Identify the functional tolerances and datums instead of assuming one blanket capability.</p></details><details><summary>Can I request a prototype first?<span>+</span></summary><p>State the sample quantity, purpose, test conditions and approval criteria. Note any differences from the intended production material or finish.</p></details><details><summary>How is a price established?<span>+</span></summary><p>Geometry, stock, quantity, setups, finishing, inspection and delivery scope affect the quotation. A concept image or material family is insufficient for a confirmed price.</p></details><details><summary>Are certificates and special tests included?<span>+</span></summary><p>List the exact document or test required, the acceptance criteria and the expected relationship to supplied parts. Availability and scope need explicit agreement.</p></details><details><summary>Can I change the drawing after quotation?<span>+</span></summary><p>Share the changed revision before release. Changes may require a revised price, process, inspection plan or schedule.</p></details><details><summary>How should repeat orders be identified?<span>+</span></summary><p>Provide the earlier reference, approved drawing revision and declared changes. Reconfirm quantity, material, finish and handover needs.</p></details><details><summary>How can I send a confidential drawing?<span>+</span></summary><p>First discuss the handling method and any NDA requirement through the contact channel. This local design preview does not accept file uploads.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/resources/rfq-checklist/\"><strong>Drawing &amp; RFQ Checklist <span>↗</span></strong><p>Files, specifications and commercial inputs for a useful first review.</p></a><a href=\"{{SITE_URL}}/materials/\"><strong>CNC Material Selection <span>↗</span></strong><p>Compare suitability, constraints and cost or lead-time drivers.</p></a><a href=\"{{SITE_URL}}/resources/workflow/\"><strong>How We Work <span>↗</span></strong><p>Responsibilities, approval points, changes and delivery planning.</p></a>",
       "excerpt": "Find practical starting points for drawings, materials, samples, quotations and delivery. Requirements are confirmed against your actual component and order scope.",
       "date": "2026-10-19 11:16:01",
@@ -28791,10 +28902,10 @@
     },
     {
       "id": 124,
-      "type": "page",
+      "type": "axis_resource",
       "title": "A clearer brief starts a better quotation.",
       "slug": "rfq-checklist",
-      "parent": 112,
+      "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#guide-0\">01 / Geometry &amp; version</a><a href=\"#guide-1\">02 / Material &amp; final condition</a><a href=\"#guide-2\">03 / Quantity &amp; acceptance</a><a href=\"#guide-3\">04 / Commercial &amp; handover</a><a href=\"#comparison\">Review table</a><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"guide-0\"><h2>01 / Geometry &amp; version</h2><ul><li>Include a matching solid model and dimensioned drawing; state units and revision.</li><li>Identify critical dimensions, datums, threads, fits and surfaces.</li><li>Show mating components or an assembly view when a relationship is difficult to explain.</li></ul></section><section id=\"guide-1\"><h2>02 / Material &amp; final condition</h2><ul><li>State the exact grade, condition and any approved alternatives.</li><li>Include finish, cosmetic faces, masked areas and dimensions that apply after finishing.</li><li>Specify special cleaning, marking or edge requirements.</li></ul></section><section id=\"guide-2\"><h2>03 / Quantity &amp; acceptance</h2><ul><li>Separate sample quantity, first batch and expected repeat quantities.</li><li>Describe the sample purpose and approval criteria.</li><li>Request inspection and material records by type and scope.</li></ul></section><section id=\"guide-3\"><h2>04 / Commercial &amp; handover</h2><ul><li>Give the desired date and destination; distinguish a target from a confirmed schedule.</li><li>List packaging, identification and delivery-document requirements.</li><li>Flag confidential material before sending files; agree the handling method first.</li></ul></section><section id=\"comparison\"><p>KEEP THE SCOPE CLEAR</p><h2>A practical review table.</h2><table><thead><tr><th>If this is missing</th><th>You can still provide</th><th>What remains open</th></tr></thead><tbody><tr><th>Final material</th><td>Operating environment and the reason for selection</td><td>Grade, availability and compatibility require confirmation.</td></tr><tr><th>Complete drawing</th><td>Current model and marked critical interfaces</td><td>The manufacturing release needs an agreed specification.</td></tr><tr><th>Firm quantity</th><td>Sample need and expected quantity range</td><td>Pricing and schedule depend on the final scope.</td></tr></tbody></table></section><section id=\"questions\"><h2>Questions to clarify.</h2><details><summary>Can I start without a finished CAD file?<span>+</span></summary><p>Start with the application and available geometry. Explain what is incomplete. A preliminary discussion is different from a confirmed manufacturing quotation.</p></details><details><summary>Should I put different revisions in one archive?<span>+</span></summary><p>Identify the controlling version explicitly. Keep superseded files clearly separated to avoid quoting or making the wrong revision.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/resources/design-guidelines/\"><strong>CNC Design Guidelines <span>↗</span></strong><p>Tool access, internal corners, thin walls, tolerances and drawing clarity.</p></a><a href=\"{{SITE_URL}}/materials/\"><strong>CNC Material Selection <span>↗</span></strong><p>Compare suitability, constraints and cost or lead-time drivers.</p></a><a href=\"{{SITE_URL}}/resources/inspection-handover/\"><strong>Inspection &amp; Handover <span>↗</span></strong><p>Plan acceptance records, part identification and protective packaging.</p></a>",
       "excerpt": "Put geometry, quantity and acceptance requirements in one reviewable package. You do not need to know every machining detail; identify what is fixed and where you want advice.",
       "date": "2026-10-19 11:16:01",
@@ -28887,10 +28998,10 @@
     },
     {
       "id": 125,
-      "type": "page",
+      "type": "axis_resource",
       "title": "Define the finished surface before machining.",
       "slug": "surface-finishes",
-      "parent": 112,
+      "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#guide-0\">Separate function from appearance</a><a href=\"#guide-1\">Describe the finish scope</a><a href=\"#guide-2\">Approve the final condition</a><a href=\"#comparison\">Review table</a><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"guide-0\"><h2>Separate function from appearance</h2><ul><li>Mark sealing, sliding, bearing and electrical contact surfaces separately from visible cosmetic faces.</li><li>Specify roughness or another measurable requirement where the function needs it; avoid relying on a photograph alone.</li></ul></section><section id=\"guide-1\"><h2>Describe the finish scope</h2><ul><li>State the requested coating or treatment, standard, color and acceptance reference where applicable.</li><li>Identify masking, threads, bores, contact faces and locations where coating is not permitted.</li></ul></section><section id=\"guide-2\"><h2>Approve the final condition</h2><ul><li>Clarify whether the dimension applies before or after treatment.</li><li>For cosmetic work, agree a sample or objective acceptance reference, inspection conditions and any allowed variation.</li></ul></section><section id=\"comparison\"><p>KEEP THE SCOPE CLEAR</p><h2>A practical review table.</h2><table><thead><tr><th>Option to discuss</th><th>Potential purpose</th><th>Confirm before selection</th></tr></thead><tbody><tr><th>As-machined surface</th><td>Functional components where tool marks may be acceptable</td><td>Roughness, edge treatment and visible-tool-mark expectations.</td></tr><tr><th>Bead blasting</th><td>A more uniform texture before final finishing</td><td>Media, geometry, protected interfaces and cosmetic acceptance.</td></tr><tr><th>Anodizing for suitable aluminum grades</th><td>A specified protective or cosmetic finish</td><td>Alloy, coating specification, color, masking and dimensional allowance.</td></tr><tr><th>Coating, passivation or other treatment</th><td>Application-specific appearance or surface condition</td><td>Material compatibility, specification, supplier scope and required records.</td></tr></tbody></table></section><section id=\"questions\"><h2>Questions to clarify.</h2><details><summary>Are all finishing methods available for every part?<span>+</span></summary><p>No. Material, geometry, functional requirements and the available process route must be reviewed. The quotation confirms the agreed method.</p></details><details><summary>Will coating leave a precision fit unchanged?<span>+</span></summary><p>Do not assume so. Define the final dimensions, allowance and masking so the fit can be assessed after the specified treatment.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/materials/\"><strong>CNC Material Selection <span>↗</span></strong><p>Compare suitability, constraints and cost or lead-time drivers.</p></a><a href=\"{{SITE_URL}}/resources/inspection-handover/\"><strong>Inspection &amp; Handover <span>↗</span></strong><p>Plan acceptance records, part identification and protective packaging.</p></a><a href=\"{{SITE_URL}}/resources/rfq-checklist/\"><strong>Drawing &amp; RFQ Checklist <span>↗</span></strong><p>Files, specifications and commercial inputs for a useful first review.</p></a>",
       "excerpt": "A finish can change appearance, dimensions and the way a part contacts its assembly. Put the required final condition into the drawing package before machining and quotation are agreed.",
       "date": "2026-10-19 11:16:01",
@@ -28983,10 +29094,10 @@
     },
     {
       "id": 126,
-      "type": "page",
+      "type": "axis_resource",
       "title": "A defined next step, at every stage.",
       "slug": "workflow",
-      "parent": 112,
+      "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#guide-0\">01 / Share the requirement</a><a href=\"#guide-1\">02 / Review &amp; confirm</a><a href=\"#guide-2\">03 / Sample or manufacturing stage</a><a href=\"#guide-3\">04 / Handover &amp; follow-up</a><a href=\"#comparison\">Review table</a><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"guide-0\"><h2>01 / Share the requirement</h2><ul><li>Provide the application, current files, material, quantity and desired date.</li><li>Mark what is final and what still needs discussion; identify the people approving technical and commercial scope.</li></ul></section><section id=\"guide-1\"><h2>02 / Review &amp; confirm</h2><ul><li>Resolve geometry, finish, inspection and packing questions.</li><li>Confirm the quotation, drawing revision, included services and delivery conditions before release.</li></ul></section><section id=\"guide-2\"><h2>03 / Sample or manufacturing stage</h2><ul><li>If a sample is needed, agree its purpose and how feedback will be approved.</li><li>Record changes explicitly; review their effect on work already planned or completed.</li></ul></section><section id=\"guide-3\"><h2>04 / Handover &amp; follow-up</h2><ul><li>Confirm the agreed inspection records, identification, packaging and delivery arrangements.</li><li>Use the approved revision and declared changes as the starting point for repeat orders.</li></ul></section><section id=\"comparison\"><p>KEEP THE SCOPE CLEAR</p><h2>A practical review table.</h2><table><thead><tr><th>Decision</th><th>Buyer provides</th><th>To agree together</th></tr></thead><tbody><tr><th>Technical release</th><td>Current drawing and acceptance requirements</td><td>Resolved open items and controlling revision.</td></tr><tr><th>Sample approval</th><td>Test objective and feedback</td><td>What is approved, what changes and the next stage.</td></tr><tr><th>Schedule</th><td>Desired milestone and destination</td><td>Material, manufacture, inspection and transit conditions.</td></tr><tr><th>Repeat order</th><td>Prior reference and declared changes</td><td>Current revision, quantity, availability and release scope.</td></tr></tbody></table></section><section id=\"questions\"><h2>Questions to clarify.</h2><details><summary>Is the requested date automatically confirmed?<span>+</span></summary><p>No. Keep your desired milestone in the brief. A commitment depends on the reviewed specification, material, quantity, schedule and delivery arrangements.</p></details><details><summary>How are design changes handled?<span>+</span></summary><p>Identify the new revision and changed features. Confirm the impact on price, timing, inspection and any existing work before proceeding.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/solutions/\"><strong>Process Planning <span>↗</span></strong><p>Drawing review, sample planning and repeat-order requirements.</p></a><a href=\"{{SITE_URL}}/resources/rfq-checklist/\"><strong>Drawing &amp; RFQ Checklist <span>↗</span></strong><p>Files, specifications and commercial inputs for a useful first review.</p></a><a href=\"{{SITE_URL}}/resources/inspection-handover/\"><strong>Inspection &amp; Handover <span>↗</span></strong><p>Plan acceptance records, part identification and protective packaging.</p></a>",
       "excerpt": "Keep technical decisions and commercial scope connected from the first question through the agreed handover. The process starts with your current information and makes unresolved items visible.",
       "date": "2026-10-19 11:16:01",
@@ -29079,10 +29190,10 @@
     },
     {
       "id": 127,
-      "type": "page",
+      "type": "axis_solution",
       "title": "Connect the two sides of the design.",
       "slug": "custom-interfaces",
-      "parent": 116,
+      "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Bolt patterns and orientation can be ambiguous without mating context.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Locating fits and clearance holes serve different functions.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Material, finish and protection requirements need to reflect the operating environment.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Map both interfaces</h3><p>Provide the mating dimensions or models on each side of the connection.</p></li><li><span>02</span><h3>Separate function from clearance</h3><p>Identify locating features, load-bearing surfaces and noncritical clearance geometry.</p></li><li><span>03</span><h3>Agree the machining brief</h3><p>Bring material, finish, quantity and verification needs into one revision-controlled scope.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=custom-interfaces\">Prepare this solution brief ↗</a><dl><dt>Mating details</dt><dd>Models or drawings of the parts and equipment being connected.</dd><dt>Orientation</dt><dd>Bolt pattern, assembly direction and clocking requirements.</dd><dt>Functional fits</dt><dd>Locating diameters, faces and the dimensions that control alignment.</dd><dt>Material &amp; finish</dt><dd>Exact grade, environmental context and surface requirements.</dd><dt>Order &amp; handover</dt><dd>Quantity, identification, packing and inspection requirements.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Check the drawing basis for bolt patterns and locating features.</li><li><span>✓</span>Agree the final dimensions that control assembly fit.</li><li><span>✓</span>Define required records and delivery protection.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Can you quote from a sketch?<span>+</span></summary><p>A sketch can start the discussion. Dimensions, tolerances, material and acceptance requirements still need clarification before a manufacturing scope can be confirmed.</p></details><details><summary>Is the pictured flange the offered product?<span>+</span></summary><p>It is a concept used to explain interface questions. The proposed solution is reviewed around your equipment and engineering requirements.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=custom-interfaces\">Discuss custom equipment interfaces ↗</a></section>",
       "excerpt": "Flanges, adapters and custom interface parts need to match the equipment around them. Use the mating details to define what the component must locate, carry or connect.",
       "date": "2026-10-19 11:16:01",
@@ -29175,10 +29286,10 @@
     },
     {
       "id": 128,
-      "type": "page",
+      "type": "axis_solution",
       "title": "Fluid-system components",
       "slug": "fluid-system-components",
-      "parent": 116,
+      "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Intersecting passages and internal edges need clear drawing requirements.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Ports and sealing faces depend on the mating components and connection standards.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Pressure, cleanliness or leak-testing requirements cannot be assumed from a component image.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Describe the operating context</h3><p>Explain the fluid, working conditions and connection interfaces relevant to the part.</p></li><li><span>02</span><h3>Review the passage layout</h3><p>Identify ports, threads, intersections, access and the requirements for internal features.</p></li><li><span>03</span><h3>Agree verification and handover</h3><p>Specify dimensional, surface, cleanliness or testing requirements that need review and agreement.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=fluid-system-components\">Prepare this solution brief ↗</a><dl><dt>Port interfaces</dt><dd>Thread or connection standards, locations and mating details.</dd><dt>Internal geometry</dt><dd>Passage routes, intersections and requirements for internal edges.</dd><dt>Sealing surfaces</dt><dd>Functional faces, surface requirements and datum references.</dd><dt>Material compatibility</dt><dd>Exact grade and relevant operating conditions for review.</dd><dt>Testing &amp; cleanliness</dt><dd>Requested acceptance methods, limits and documentation; subject to agreement.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Agree the inspection scope for ports and sealing interfaces.</li><li><span>✓</span>State any cleaning, pressure or leak-testing requirements explicitly.</li><li><span>✓</span>Confirm port protection, identification and packing requirements.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Does machining include pressure or leak testing?<span>+</span></summary><p>Testing is a separate requirement to specify and agree. A machining illustration does not establish test capability or acceptance limits.</p></details><details><summary>What should a manifold inquiry include?<span>+</span></summary><p>Provide the model, drawing revision, port standards, material, quantity, sealing requirements and any requested cleaning or testing scope.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=fluid-system-components\">Discuss fluid-system machining interfaces ↗</a></section>",
       "excerpt": "A manifold or connection block combines internal passages with external interfaces. Define the port standards, sealing conditions and acceptance requirements before agreeing a machining scope.",
       "date": "2026-10-19 11:16:01",
@@ -30208,10 +30319,10 @@
     },
     {
       "id": 129,
-      "type": "page",
+      "type": "axis_solution",
       "title": "Resolve the geometry before the setup.",
       "slug": "multi-axis-mounting",
-      "parent": 116,
+      "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Angled features can complicate tool access and workholding.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Several mounting faces may need controlled positional relationships.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Inspection requirements should reflect the functional datums rather than appearance alone.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Prioritize the relationships</h3><p>Identify the planes, holes and locating features that position the component in the assembly.</p></li><li><span>02</span><h3>Review access and fixturing</h3><p>Discuss angled faces, deep features and potential workholding restrictions.</p></li><li><span>03</span><h3>Define a reviewable outcome</h3><p>Agree the critical geometric requirements and the records needed for approval.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=multi-axis-mounting\">Prepare this solution brief ↗</a><dl><dt>Geometry</dt><dd>Complete model, face orientation and difficult-to-reach features.</dd><dt>Assembly datums</dt><dd>Locating surfaces, mounting points and alignment requirements.</dd><dt>Material &amp; section</dt><dd>Grade, condition, thin sections and relevant loading context.</dd><dt>Surface scope</dt><dd>Functional and cosmetic faces with their separate requirements.</dd><dt>Verification</dt><dd>Critical feature relationships and the required inspection scope.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Agree how the critical faces and holes relate to the datum scheme.</li><li><span>✓</span>Review any proposed design changes against the assembly function.</li><li><span>✓</span>Specify sample and inspection approval before the next production stage.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Does every complex bracket require five-axis machining?<span>+</span></summary><p>The process depends on geometry, access and the required relationships. The model and drawing are the basis for reviewing a suitable route.</p></details><details><summary>Which dimensions should be emphasized?<span>+</span></summary><p>Mark the features that locate the component and the relationships that affect alignment or assembly. Avoid leaving functional priorities to visual interpretation.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=multi-axis-mounting\">Discuss complex mounting &amp; multi-axis parts ↗</a></section>",
       "excerpt": "A mounting component can place important features on several faces. Explain which relationships control the assembly, then review access, workholding and inspection around those requirements.",
       "date": "2026-10-19 11:16:01",
@@ -30304,10 +30415,10 @@
     },
     {
       "id": 130,
-      "type": "page",
+      "type": "axis_solution",
       "title": "Make the housing fit the assembly.",
       "slug": "precision-housings",
-      "parent": 116,
+      "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Deep pockets and small internal corners can constrain tool access.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Thin walls can influence workholding and dimensional behavior.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Sealing, mounting and locating faces may need different acceptance criteria.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Map the interfaces</h3><p>Identify the mating components, datums, mounting points and faces that control the assembly.</p></li><li><span>02</span><h3>Review the machining route</h3><p>Discuss pocket depth, corner radii, wall sections and access against the proposed material.</p></li><li><span>03</span><h3>Agree the acceptance scope</h3><p>State the functional dimensions, finish allowances and records needed for sample or order approval.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=precision-housings\">Prepare this solution brief ↗</a><dl><dt>Assembly context</dt><dd>Mating models, mounting locations and the surfaces that locate the housing.</dd><dt>Cavities &amp; openings</dt><dd>Internal corners, depths, wall sections and access restrictions.</dd><dt>Material &amp; finish</dt><dd>Exact grade and condition, cosmetic faces and coating allowances.</dd><dt>Critical features</dt><dd>Datum references, fits, sealing faces and applicable drawing notes.</dd><dt>Order context</dt><dd>Sample quantity, expected repeat volume and approval requirements.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Agree which interfaces need dimensional inspection.</li><li><span>✓</span>Clarify whether acceptance dimensions apply before or after finishing.</li><li><span>✓</span>Identify the report format, sample approval and packaging requirements.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Can an existing housing be used as the only specification?<span>+</span></summary><p>A reference part helps explain the application, but identify the engineering files, dimensions and material requirements needed for a comparable machining scope.</p></details><details><summary>What if the internal geometry is difficult to reach?<span>+</span></summary><p>Share the model and the functional requirements. Tool access, corner radii and possible design changes need review before feasibility is confirmed.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=precision-housings\">Discuss precision housings &amp; enclosures ↗</a></section>",
       "excerpt": "A housing connects internal components, mounting points and the outside environment. Start with the locating faces and functional interfaces, then review how the pockets, openings and final finish work together.",
       "date": "2026-10-19 11:16:01",
@@ -30400,10 +30511,10 @@
     },
     {
       "id": 131,
-      "type": "page",
+      "type": "axis_solution",
       "title": "Let the sample answer the right questions.",
       "slug": "prototype-to-production",
-      "parent": 116,
+      "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Sample objectives and production requirements are not always the same.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Drawing changes can become unclear when several revisions circulate.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Inspection, packaging and documentation may need adjustment as quantity changes.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Define the sample objective</h3><p>Identify what must be demonstrated and which features control approval.</p></li><li><span>02</span><h3>Capture decisions and revisions</h3><p>Keep the model, drawing, material and acceptance notes aligned.</p></li><li><span>03</span><h3>Plan the next order</h3><p>State expected quantity, repeat requirements and any changes to verification or delivery.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=prototype-to-production\">Prepare this solution brief ↗</a><dl><dt>Sample purpose</dt><dd>Fit, function, appearance or another explicitly defined review objective.</dd><dt>Engineering files</dt><dd>Matching model and dimensioned drawing revisions.</dd><dt>Quantities</dt><dd>Sample quantity and an indication of future batch requirements.</dd><dt>Approval method</dt><dd>Critical features, acceptance criteria and the sample reference to retain.</dd><dt>Repeat scope</dt><dd>Changes in material, finish, inspection, packing or delivery needs.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Agree the sample approval criteria before machining starts.</li><li><span>✓</span>Identify the revision and sample reference for repeat inquiries.</li><li><span>✓</span>Confirm the scope again when quantity or requirements change.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Does a sample guarantee an unchanged production price or lead time?<span>+</span></summary><p>No. Quantity, scope, material and production conditions need to be reviewed for the repeat order.</p></details><details><summary>What if the drawing changes after the sample?<span>+</span></summary><p>Identify the new revision and the affected features. Review the change against the previously approved requirements before proceeding.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=prototype-to-production\">Discuss prototype-to-repeat machining planning ↗</a></section>",
       "excerpt": "A prototype can test fit, function or appearance, while a repeat order needs an agreed and consistent specification. Define what the sample must demonstrate and what must be approved before the next stage.",
       "date": "2026-10-19 11:16:01",
@@ -30496,10 +30607,10 @@
     },
     {
       "id": 132,
-      "type": "page",
+      "type": "axis_solution",
       "title": "Treat the fit as part of the function.",
       "slug": "shafts-and-bearing-interfaces",
-      "parent": 116,
+      "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Concentric features need a clear relationship to the drawing datums.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Long slender features and thin sleeves can require workholding review.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Finishing or heat-treatment requirements may affect the final mating dimensions.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Define the mating conditions</h3><p>Identify bearing seats, sliding interfaces, threads and the mating component requirements.</p></li><li><span>02</span><h3>Review the complete feature set</h3><p>Include grooves, cross holes, flats and any operations beyond the main turned geometry.</p></li><li><span>03</span><h3>Plan final acceptance</h3><p>Agree critical fits, runout references and when final measurements apply.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=shafts-and-bearing-interfaces\">Prepare this solution brief ↗</a><dl><dt>Fits &amp; interfaces</dt><dd>Mating diameters, bearing or sliding functions and datum references.</dd><dt>Secondary features</dt><dd>Threads, grooves, cross holes, flats and end-face relationships.</dd><dt>Material condition</dt><dd>Exact alloy, supplied condition and any treatment requirements.</dd><dt>Finish effects</dt><dd>Final mating sizes and surface requirements after the agreed finishing steps.</dd><dt>Inspection scope</dt><dd>Critical diameters, runout references and documentation needs.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Mark functional fits separately from general clearance dimensions.</li><li><span>✓</span>Define the datum and measurement conditions for concentric features.</li><li><span>✓</span>Confirm sample acceptance and part-protection requirements.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Are the shaft and bushing images stock items?<span>+</span></summary><p>No. They illustrate geometry and interface questions. A project is reviewed against the customer's own drawing and agreed requirements.</p></details><details><summary>Can turned parts also have milled features?<span>+</span></summary><p>Include every secondary feature in the model and drawing so the process route and required setups can be reviewed together.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=shafts-and-bearing-interfaces\">Discuss shafts &amp; bearing interfaces ↗</a></section>",
       "excerpt": "For shafts, sleeves and bushings, the important question is how the component locates and moves against its mating parts. Define the functional fits and material condition before agreeing the turning and inspection requirements.",
       "date": "2026-10-19 11:16:01",
@@ -38257,14 +38368,15 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         },
         {
           "id": 229,
           "parent": "0",
           "title": "Aerospace &#038; Defense",
           "url": "{{SITE_URL}}/industries/aerospace-and-defense/",
-          "object": "page",
+          "object": "starter_industry",
           "object_id": "113",
           "type": "post_type",
           "description": "",
@@ -38272,14 +38384,15 @@
             ""
           ],
           "target": "",
-          "order": 2
+          "order": 2,
+          "family": ""
         },
         {
           "id": 230,
           "parent": "0",
           "title": "Automotive",
           "url": "{{SITE_URL}}/industries/automotive/",
-          "object": "page",
+          "object": "starter_industry",
           "object_id": "114",
           "type": "post_type",
           "description": "",
@@ -38287,7 +38400,8 @@
             ""
           ],
           "target": "",
-          "order": 3
+          "order": 3,
+          "family": ""
         },
         {
           "id": 231,
@@ -38302,7 +38416,8 @@
             ""
           ],
           "target": "",
-          "order": 4
+          "order": 4,
+          "family": ""
         },
         {
           "id": 232,
@@ -38317,7 +38432,8 @@
             ""
           ],
           "target": "",
-          "order": 5
+          "order": 5,
+          "family": ""
         }
       ]
     },
@@ -38338,14 +38454,15 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         },
         {
           "id": 218,
           "parent": "0",
           "title": "CNC Machining",
           "url": "{{SITE_URL}}/capabilities/cnc-machining/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "101",
           "type": "post_type",
           "description": "",
@@ -38353,14 +38470,15 @@
             ""
           ],
           "target": "",
-          "order": 2
+          "order": 2,
+          "family": ""
         },
         {
           "id": 219,
           "parent": "0",
           "title": "CNC Milling",
           "url": "{{SITE_URL}}/capabilities/cnc-milling/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "102",
           "type": "post_type",
           "description": "",
@@ -38368,14 +38486,15 @@
             ""
           ],
           "target": "",
-          "order": 3
+          "order": 3,
+          "family": ""
         },
         {
           "id": 220,
           "parent": "0",
           "title": "Injection Molding",
           "url": "{{SITE_URL}}/capabilities/injection-molding/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "103",
           "type": "post_type",
           "description": "",
@@ -38383,14 +38502,15 @@
             ""
           ],
           "target": "",
-          "order": 4
+          "order": 4,
+          "family": ""
         },
         {
           "id": 221,
           "parent": "0",
           "title": "Injection Mold Tooling",
           "url": "{{SITE_URL}}/capabilities/injection-mold-tooling/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "104",
           "type": "post_type",
           "description": "",
@@ -38398,14 +38518,15 @@
             ""
           ],
           "target": "",
-          "order": 5
+          "order": 5,
+          "family": ""
         },
         {
           "id": 222,
           "parent": "0",
           "title": "Sheet Metal Fabrication",
           "url": "{{SITE_URL}}/capabilities/sheet-metal-fabrication/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "105",
           "type": "post_type",
           "description": "",
@@ -38413,14 +38534,15 @@
             ""
           ],
           "target": "",
-          "order": 6
+          "order": 6,
+          "family": ""
         },
         {
           "id": 223,
           "parent": "0",
           "title": "Laser Cutting",
           "url": "{{SITE_URL}}/capabilities/laser-cutting/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "106",
           "type": "post_type",
           "description": "",
@@ -38428,14 +38550,15 @@
             ""
           ],
           "target": "",
-          "order": 7
+          "order": 7,
+          "family": ""
         },
         {
           "id": 224,
           "parent": "0",
           "title": "3D Printing",
           "url": "{{SITE_URL}}/capabilities/3d-printing/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "107",
           "type": "post_type",
           "description": "",
@@ -38443,14 +38566,15 @@
             ""
           ],
           "target": "",
-          "order": 8
+          "order": 8,
+          "family": ""
         },
         {
           "id": 225,
           "parent": "0",
           "title": "SLA 3D Printing",
           "url": "{{SITE_URL}}/capabilities/sla/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "108",
           "type": "post_type",
           "description": "",
@@ -38458,14 +38582,15 @@
             ""
           ],
           "target": "",
-          "order": 9
+          "order": 9,
+          "family": ""
         },
         {
           "id": 226,
           "parent": "0",
           "title": "Die Casting",
           "url": "{{SITE_URL}}/capabilities/die-casting/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "109",
           "type": "post_type",
           "description": "",
@@ -38473,14 +38598,15 @@
             ""
           ],
           "target": "",
-          "order": 10
+          "order": 10,
+          "family": ""
         },
         {
           "id": 227,
           "parent": "0",
           "title": "Vacuum Casting",
           "url": "{{SITE_URL}}/capabilities/vacuum-casting/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "110",
           "type": "post_type",
           "description": "",
@@ -38488,7 +38614,8 @@
             ""
           ],
           "target": "",
-          "order": 11
+          "order": 11,
+          "family": ""
         }
       ]
     },
@@ -38509,7 +38636,8 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         },
         {
           "id": 234,
@@ -38524,7 +38652,8 @@
             ""
           ],
           "target": "",
-          "order": 2
+          "order": 2,
+          "family": ""
         },
         {
           "id": 235,
@@ -38539,7 +38668,8 @@
             ""
           ],
           "target": "",
-          "order": 3
+          "order": 3,
+          "family": ""
         },
         {
           "id": 236,
@@ -38554,7 +38684,8 @@
             ""
           ],
           "target": "",
-          "order": 4
+          "order": 4,
+          "family": ""
         }
       ]
     },
@@ -38567,7 +38698,7 @@
           "parent": "0",
           "title": "Design guidelines",
           "url": "{{SITE_URL}}/resources/design-guidelines/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "121",
           "type": "post_type",
           "description": "",
@@ -38575,14 +38706,15 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         },
         {
           "id": 238,
           "parent": "0",
           "title": "Inspection & handover",
           "url": "{{SITE_URL}}/resources/inspection-handover/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "122",
           "type": "post_type",
           "description": "",
@@ -38590,14 +38722,15 @@
             ""
           ],
           "target": "",
-          "order": 2
+          "order": 2,
+          "family": ""
         },
         {
           "id": 239,
           "parent": "0",
           "title": "Machining FAQs",
           "url": "{{SITE_URL}}/resources/machining-faqs/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "123",
           "type": "post_type",
           "description": "",
@@ -38605,14 +38738,15 @@
             ""
           ],
           "target": "",
-          "order": 3
+          "order": 3,
+          "family": ""
         },
         {
           "id": 240,
           "parent": "0",
           "title": "RFQ checklist",
           "url": "{{SITE_URL}}/resources/rfq-checklist/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "124",
           "type": "post_type",
           "description": "",
@@ -38620,14 +38754,15 @@
             ""
           ],
           "target": "",
-          "order": 4
+          "order": 4,
+          "family": ""
         },
         {
           "id": 241,
           "parent": "0",
           "title": "Surface finishes",
           "url": "{{SITE_URL}}/resources/surface-finishes/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "125",
           "type": "post_type",
           "description": "",
@@ -38635,14 +38770,15 @@
             ""
           ],
           "target": "",
-          "order": 5
+          "order": 5,
+          "family": ""
         },
         {
           "id": 242,
           "parent": "0",
           "title": "Project workflow",
           "url": "{{SITE_URL}}/resources/workflow/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "126",
           "type": "post_type",
           "description": "",
@@ -38650,7 +38786,8 @@
             ""
           ],
           "target": "",
-          "order": 6
+          "order": 6,
+          "family": ""
         }
       ]
     },
@@ -38671,7 +38808,8 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         },
         {
           "id": 179,
@@ -38679,21 +38817,22 @@
           "title": "Machining",
           "url": "{{SITE_URL}}/capabilities/cnc-machining/",
           "object": "page",
-          "object_id": "101",
+          "object_id": "111",
           "type": "post_type",
           "description": "",
           "classes": [
             ""
           ],
           "target": "",
-          "order": 2
+          "order": 2,
+          "family": "machining"
         },
         {
           "id": 180,
           "parent": "179",
           "title": "CNC Machining",
           "url": "{{SITE_URL}}/capabilities/cnc-machining/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "101",
           "type": "post_type",
           "description": "",
@@ -38701,14 +38840,15 @@
             ""
           ],
           "target": "",
-          "order": 3
+          "order": 3,
+          "family": ""
         },
         {
           "id": 181,
           "parent": "179",
           "title": "CNC Milling",
           "url": "{{SITE_URL}}/capabilities/cnc-milling/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "102",
           "type": "post_type",
           "description": "",
@@ -38716,7 +38856,8 @@
             ""
           ],
           "target": "",
-          "order": 4
+          "order": 4,
+          "family": ""
         },
         {
           "id": 182,
@@ -38724,21 +38865,22 @@
           "title": "Molding",
           "url": "{{SITE_URL}}/capabilities/injection-molding/",
           "object": "page",
-          "object_id": "103",
+          "object_id": "111",
           "type": "post_type",
           "description": "",
           "classes": [
             ""
           ],
           "target": "",
-          "order": 5
+          "order": 5,
+          "family": "molding"
         },
         {
           "id": 183,
           "parent": "182",
           "title": "Injection Molding",
           "url": "{{SITE_URL}}/capabilities/injection-molding/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "103",
           "type": "post_type",
           "description": "",
@@ -38746,14 +38888,15 @@
             ""
           ],
           "target": "",
-          "order": 6
+          "order": 6,
+          "family": ""
         },
         {
           "id": 184,
           "parent": "182",
           "title": "Injection Mold Tooling",
           "url": "{{SITE_URL}}/capabilities/injection-mold-tooling/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "104",
           "type": "post_type",
           "description": "",
@@ -38761,7 +38904,8 @@
             ""
           ],
           "target": "",
-          "order": 7
+          "order": 7,
+          "family": ""
         },
         {
           "id": 185,
@@ -38769,21 +38913,22 @@
           "title": "Fabrication",
           "url": "{{SITE_URL}}/capabilities/sheet-metal-fabrication/",
           "object": "page",
-          "object_id": "105",
+          "object_id": "111",
           "type": "post_type",
           "description": "",
           "classes": [
             ""
           ],
           "target": "",
-          "order": 8
+          "order": 8,
+          "family": "fabrication"
         },
         {
           "id": 186,
           "parent": "185",
           "title": "Sheet Metal Fabrication",
           "url": "{{SITE_URL}}/capabilities/sheet-metal-fabrication/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "105",
           "type": "post_type",
           "description": "",
@@ -38791,14 +38936,15 @@
             ""
           ],
           "target": "",
-          "order": 9
+          "order": 9,
+          "family": ""
         },
         {
           "id": 187,
           "parent": "185",
           "title": "Laser Cutting",
           "url": "{{SITE_URL}}/capabilities/laser-cutting/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "106",
           "type": "post_type",
           "description": "",
@@ -38806,29 +38952,31 @@
             ""
           ],
           "target": "",
-          "order": 10
+          "order": 10,
+          "family": ""
         },
         {
           "id": 188,
           "parent": "178",
-          "title": "3D Printing",
+          "title": "Capabilities",
           "url": "{{SITE_URL}}/capabilities/3d-printing/",
           "object": "page",
-          "object_id": "107",
+          "object_id": "111",
           "type": "post_type",
           "description": "",
           "classes": [
             ""
           ],
           "target": "",
-          "order": 11
+          "order": 11,
+          "family": "printing"
         },
         {
           "id": 189,
           "parent": "188",
           "title": "3D Printing",
           "url": "{{SITE_URL}}/capabilities/3d-printing/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "107",
           "type": "post_type",
           "description": "",
@@ -38836,14 +38984,15 @@
             ""
           ],
           "target": "",
-          "order": 12
+          "order": 12,
+          "family": ""
         },
         {
           "id": 190,
           "parent": "188",
           "title": "SLA 3D Printing",
           "url": "{{SITE_URL}}/capabilities/sla/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "108",
           "type": "post_type",
           "description": "",
@@ -38851,7 +39000,8 @@
             ""
           ],
           "target": "",
-          "order": 13
+          "order": 13,
+          "family": ""
         },
         {
           "id": 191,
@@ -38859,21 +39009,22 @@
           "title": "Value-Added Services",
           "url": "{{SITE_URL}}/capabilities/die-casting/",
           "object": "page",
-          "object_id": "109",
+          "object_id": "111",
           "type": "post_type",
           "description": "",
           "classes": [
             ""
           ],
           "target": "",
-          "order": 14
+          "order": 14,
+          "family": "value-added"
         },
         {
           "id": 192,
           "parent": "191",
           "title": "Die Casting",
           "url": "{{SITE_URL}}/capabilities/die-casting/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "109",
           "type": "post_type",
           "description": "",
@@ -38881,14 +39032,15 @@
             ""
           ],
           "target": "",
-          "order": 15
+          "order": 15,
+          "family": ""
         },
         {
           "id": 193,
           "parent": "191",
           "title": "Vacuum Casting",
           "url": "{{SITE_URL}}/capabilities/vacuum-casting/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "110",
           "type": "post_type",
           "description": "",
@@ -38896,7 +39048,8 @@
             ""
           ],
           "target": "",
-          "order": 16
+          "order": 16,
+          "family": ""
         },
         {
           "id": 194,
@@ -38911,14 +39064,15 @@
             ""
           ],
           "target": "",
-          "order": 17
+          "order": 17,
+          "family": ""
         },
         {
           "id": 195,
           "parent": "194",
           "title": "Aerospace &#038; Defense",
           "url": "{{SITE_URL}}/industries/aerospace-and-defense/",
-          "object": "page",
+          "object": "starter_industry",
           "object_id": "113",
           "type": "post_type",
           "description": "",
@@ -38926,14 +39080,15 @@
             ""
           ],
           "target": "",
-          "order": 18
+          "order": 18,
+          "family": ""
         },
         {
           "id": 196,
           "parent": "194",
           "title": "Automotive",
           "url": "{{SITE_URL}}/industries/automotive/",
-          "object": "page",
+          "object": "starter_industry",
           "object_id": "114",
           "type": "post_type",
           "description": "",
@@ -38941,7 +39096,8 @@
             ""
           ],
           "target": "",
-          "order": 19
+          "order": 19,
+          "family": ""
         },
         {
           "id": 197,
@@ -38956,7 +39112,8 @@
             ""
           ],
           "target": "",
-          "order": 20
+          "order": 20,
+          "family": ""
         },
         {
           "id": 198,
@@ -38971,14 +39128,15 @@
             ""
           ],
           "target": "",
-          "order": 21
+          "order": 21,
+          "family": ""
         },
         {
           "id": 199,
           "parent": "197",
           "title": "Custom interfaces",
           "url": "{{SITE_URL}}/solutions/custom-interfaces/",
-          "object": "page",
+          "object": "axis_solution",
           "object_id": "127",
           "type": "post_type",
           "description": "",
@@ -38986,14 +39144,15 @@
             ""
           ],
           "target": "",
-          "order": 22
+          "order": 22,
+          "family": ""
         },
         {
           "id": 200,
           "parent": "197",
           "title": "Fluid-system components",
           "url": "{{SITE_URL}}/solutions/fluid-system-components/",
-          "object": "page",
+          "object": "axis_solution",
           "object_id": "128",
           "type": "post_type",
           "description": "",
@@ -39001,14 +39160,15 @@
             ""
           ],
           "target": "",
-          "order": 23
+          "order": 23,
+          "family": ""
         },
         {
           "id": 201,
           "parent": "197",
           "title": "Multi-axis mounting",
           "url": "{{SITE_URL}}/solutions/multi-axis-mounting/",
-          "object": "page",
+          "object": "axis_solution",
           "object_id": "129",
           "type": "post_type",
           "description": "",
@@ -39016,14 +39176,15 @@
             ""
           ],
           "target": "",
-          "order": 24
+          "order": 24,
+          "family": ""
         },
         {
           "id": 202,
           "parent": "197",
           "title": "Precision housings",
           "url": "{{SITE_URL}}/solutions/precision-housings/",
-          "object": "page",
+          "object": "axis_solution",
           "object_id": "130",
           "type": "post_type",
           "description": "",
@@ -39031,14 +39192,15 @@
             ""
           ],
           "target": "",
-          "order": 25
+          "order": 25,
+          "family": ""
         },
         {
           "id": 203,
           "parent": "197",
           "title": "Prototype to production",
           "url": "{{SITE_URL}}/solutions/prototype-to-production/",
-          "object": "page",
+          "object": "axis_solution",
           "object_id": "131",
           "type": "post_type",
           "description": "",
@@ -39046,14 +39208,15 @@
             ""
           ],
           "target": "",
-          "order": 26
+          "order": 26,
+          "family": ""
         },
         {
           "id": 204,
           "parent": "197",
           "title": "Shafts & bearing interfaces",
           "url": "{{SITE_URL}}/solutions/shafts-and-bearing-interfaces/",
-          "object": "page",
+          "object": "axis_solution",
           "object_id": "132",
           "type": "post_type",
           "description": "",
@@ -39061,7 +39224,8 @@
             ""
           ],
           "target": "",
-          "order": 27
+          "order": 27,
+          "family": ""
         },
         {
           "id": 205,
@@ -39076,7 +39240,8 @@
             ""
           ],
           "target": "",
-          "order": 28
+          "order": 28,
+          "family": ""
         },
         {
           "id": 206,
@@ -39091,7 +39256,8 @@
             ""
           ],
           "target": "",
-          "order": 29
+          "order": 29,
+          "family": ""
         },
         {
           "id": 207,
@@ -39106,7 +39272,8 @@
             ""
           ],
           "target": "",
-          "order": 30
+          "order": 30,
+          "family": ""
         },
         {
           "id": 208,
@@ -39121,14 +39288,15 @@
             ""
           ],
           "target": "",
-          "order": 31
+          "order": 31,
+          "family": ""
         },
         {
           "id": 209,
           "parent": "208",
           "title": "Design guidelines",
           "url": "{{SITE_URL}}/resources/design-guidelines/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "121",
           "type": "post_type",
           "description": "",
@@ -39136,14 +39304,15 @@
             ""
           ],
           "target": "",
-          "order": 32
+          "order": 32,
+          "family": ""
         },
         {
           "id": 210,
           "parent": "208",
           "title": "Inspection & handover",
           "url": "{{SITE_URL}}/resources/inspection-handover/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "122",
           "type": "post_type",
           "description": "",
@@ -39151,14 +39320,15 @@
             ""
           ],
           "target": "",
-          "order": 33
+          "order": 33,
+          "family": ""
         },
         {
           "id": 211,
           "parent": "208",
           "title": "Machining FAQs",
           "url": "{{SITE_URL}}/resources/machining-faqs/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "123",
           "type": "post_type",
           "description": "",
@@ -39166,14 +39336,15 @@
             ""
           ],
           "target": "",
-          "order": 34
+          "order": 34,
+          "family": ""
         },
         {
           "id": 212,
           "parent": "208",
           "title": "RFQ checklist",
           "url": "{{SITE_URL}}/resources/rfq-checklist/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "124",
           "type": "post_type",
           "description": "",
@@ -39181,14 +39352,15 @@
             ""
           ],
           "target": "",
-          "order": 35
+          "order": 35,
+          "family": ""
         },
         {
           "id": 213,
           "parent": "208",
           "title": "Surface finishes",
           "url": "{{SITE_URL}}/resources/surface-finishes/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "125",
           "type": "post_type",
           "description": "",
@@ -39196,14 +39368,15 @@
             ""
           ],
           "target": "",
-          "order": 36
+          "order": 36,
+          "family": ""
         },
         {
           "id": 214,
           "parent": "208",
           "title": "Project workflow",
           "url": "{{SITE_URL}}/resources/workflow/",
-          "object": "page",
+          "object": "axis_resource",
           "object_id": "126",
           "type": "post_type",
           "description": "",
@@ -39211,7 +39384,8 @@
             ""
           ],
           "target": "",
-          "order": 37
+          "order": 37,
+          "family": ""
         },
         {
           "id": 215,
@@ -39226,7 +39400,8 @@
             ""
           ],
           "target": "",
-          "order": 38
+          "order": 38,
+          "family": ""
         },
         {
           "id": 216,
@@ -39241,14 +39416,15 @@
             ""
           ],
           "target": "",
-          "order": 39
+          "order": 39,
+          "family": ""
         },
         {
           "id": 372,
           "parent": "205",
           "title": "CNC metals",
           "url": "{{SITE_URL}}/materials/cnc-metals/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "307",
           "type": "post_type",
           "description": "material-group:cnc-metals",
@@ -39256,14 +39432,15 @@
             ""
           ],
           "target": "",
-          "order": 40
+          "order": 40,
+          "family": ""
         },
         {
           "id": 373,
           "parent": "372",
           "title": "Aluminum",
           "url": "{{SITE_URL}}/materials/aluminum/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "294",
           "type": "post_type",
           "description": "",
@@ -39271,14 +39448,15 @@
             ""
           ],
           "target": "",
-          "order": 41
+          "order": 41,
+          "family": ""
         },
         {
           "id": 374,
           "parent": "372",
           "title": "Stainless steel",
           "url": "{{SITE_URL}}/materials/stainless-steel/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "302",
           "type": "post_type",
           "description": "",
@@ -39286,14 +39464,15 @@
             ""
           ],
           "target": "",
-          "order": 42
+          "order": 42,
+          "family": ""
         },
         {
           "id": 375,
           "parent": "372",
           "title": "Alloy steel",
           "url": "{{SITE_URL}}/materials/alloy-steel/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "303",
           "type": "post_type",
           "description": "",
@@ -39301,14 +39480,15 @@
             ""
           ],
           "target": "",
-          "order": 43
+          "order": 43,
+          "family": ""
         },
         {
           "id": 376,
           "parent": "372",
           "title": "Brass",
           "url": "{{SITE_URL}}/materials/brass/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "304",
           "type": "post_type",
           "description": "",
@@ -39316,14 +39496,15 @@
             ""
           ],
           "target": "",
-          "order": 44
+          "order": 44,
+          "family": ""
         },
         {
           "id": 377,
           "parent": "372",
           "title": "Copper",
           "url": "{{SITE_URL}}/materials/copper/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "305",
           "type": "post_type",
           "description": "",
@@ -39331,14 +39512,15 @@
             ""
           ],
           "target": "",
-          "order": 45
+          "order": 45,
+          "family": ""
         },
         {
           "id": 378,
           "parent": "372",
           "title": "Titanium",
           "url": "{{SITE_URL}}/materials/titanium/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "306",
           "type": "post_type",
           "description": "",
@@ -39346,14 +39528,15 @@
             ""
           ],
           "target": "",
-          "order": 46
+          "order": 46,
+          "family": ""
         },
         {
           "id": 379,
           "parent": "205",
           "title": "CNC plastics",
           "url": "{{SITE_URL}}/materials/cnc-plastics/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "314",
           "type": "post_type",
           "description": "material-group:cnc-plastics",
@@ -39361,14 +39544,15 @@
             ""
           ],
           "target": "",
-          "order": 47
+          "order": 47,
+          "family": ""
         },
         {
           "id": 380,
           "parent": "379",
           "title": "ABS",
           "url": "{{SITE_URL}}/materials/abs/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "308",
           "type": "post_type",
           "description": "",
@@ -39376,14 +39560,15 @@
             ""
           ],
           "target": "",
-          "order": 48
+          "order": 48,
+          "family": ""
         },
         {
           "id": 381,
           "parent": "379",
           "title": "POM",
           "url": "{{SITE_URL}}/materials/pom-acetal/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "309",
           "type": "post_type",
           "description": "",
@@ -39391,14 +39576,15 @@
             ""
           ],
           "target": "",
-          "order": 49
+          "order": 49,
+          "family": ""
         },
         {
           "id": 382,
           "parent": "379",
           "title": "PEEK",
           "url": "{{SITE_URL}}/materials/peek/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "310",
           "type": "post_type",
           "description": "",
@@ -39406,14 +39592,15 @@
             ""
           ],
           "target": "",
-          "order": 50
+          "order": 50,
+          "family": ""
         },
         {
           "id": 383,
           "parent": "379",
           "title": "Nylon",
           "url": "{{SITE_URL}}/materials/nylon/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "311",
           "type": "post_type",
           "description": "",
@@ -39421,14 +39608,15 @@
             ""
           ],
           "target": "",
-          "order": 51
+          "order": 51,
+          "family": ""
         },
         {
           "id": 384,
           "parent": "379",
           "title": "Polycarbonate",
           "url": "{{SITE_URL}}/materials/polycarbonate/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "312",
           "type": "post_type",
           "description": "",
@@ -39436,14 +39624,15 @@
             ""
           ],
           "target": "",
-          "order": 52
+          "order": 52,
+          "family": ""
         },
         {
           "id": 385,
           "parent": "379",
           "title": "PTFE",
           "url": "{{SITE_URL}}/materials/ptfe/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "313",
           "type": "post_type",
           "description": "",
@@ -39451,14 +39640,15 @@
             ""
           ],
           "target": "",
-          "order": 53
+          "order": 53,
+          "family": ""
         },
         {
           "id": 386,
           "parent": "205",
           "title": "3D printing",
           "url": "{{SITE_URL}}/materials/printing-materials/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "319",
           "type": "post_type",
           "description": "material-group:printing-materials",
@@ -39466,14 +39656,15 @@
             ""
           ],
           "target": "",
-          "order": 54
+          "order": 54,
+          "family": ""
         },
         {
           "id": 387,
           "parent": "386",
           "title": "PLA / ABS",
           "url": "{{SITE_URL}}/materials/printing-pla-abs/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "315",
           "type": "post_type",
           "description": "",
@@ -39481,14 +39672,15 @@
             ""
           ],
           "target": "",
-          "order": 55
+          "order": 55,
+          "family": ""
         },
         {
           "id": 388,
           "parent": "386",
           "title": "PA12",
           "url": "{{SITE_URL}}/materials/printing-pa12/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "316",
           "type": "post_type",
           "description": "",
@@ -39496,14 +39688,15 @@
             ""
           ],
           "target": "",
-          "order": 56
+          "order": 56,
+          "family": ""
         },
         {
           "id": 389,
           "parent": "386",
           "title": "TPU",
           "url": "{{SITE_URL}}/materials/printing-tpu/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "317",
           "type": "post_type",
           "description": "",
@@ -39511,14 +39704,15 @@
             ""
           ],
           "target": "",
-          "order": 57
+          "order": 57,
+          "family": ""
         },
         {
           "id": 390,
           "parent": "386",
           "title": "Resin",
           "url": "{{SITE_URL}}/materials/printing-resin/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "318",
           "type": "post_type",
           "description": "",
@@ -39526,14 +39720,15 @@
             ""
           ],
           "target": "",
-          "order": 58
+          "order": 58,
+          "family": ""
         },
         {
           "id": 391,
           "parent": "205",
           "title": "Injection molding",
           "url": "{{SITE_URL}}/materials/molding-materials/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "325",
           "type": "post_type",
           "description": "material-group:molding-materials",
@@ -39541,14 +39736,15 @@
             ""
           ],
           "target": "",
-          "order": 59
+          "order": 59,
+          "family": ""
         },
         {
           "id": 392,
           "parent": "391",
           "title": "ABS",
           "url": "{{SITE_URL}}/materials/molding-abs/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "320",
           "type": "post_type",
           "description": "",
@@ -39556,14 +39752,15 @@
             ""
           ],
           "target": "",
-          "order": 60
+          "order": 60,
+          "family": ""
         },
         {
           "id": 393,
           "parent": "391",
           "title": "PC",
           "url": "{{SITE_URL}}/materials/molding-pc/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "321",
           "type": "post_type",
           "description": "",
@@ -39571,14 +39768,15 @@
             ""
           ],
           "target": "",
-          "order": 61
+          "order": 61,
+          "family": ""
         },
         {
           "id": 394,
           "parent": "391",
           "title": "PA / PBT",
           "url": "{{SITE_URL}}/materials/molding-pa-pbt/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "322",
           "type": "post_type",
           "description": "",
@@ -39586,14 +39784,15 @@
             ""
           ],
           "target": "",
-          "order": 62
+          "order": 62,
+          "family": ""
         },
         {
           "id": 395,
           "parent": "391",
           "title": "PP / PE",
           "url": "{{SITE_URL}}/materials/molding-pp-pe/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "323",
           "type": "post_type",
           "description": "",
@@ -39601,14 +39800,15 @@
             ""
           ],
           "target": "",
-          "order": 63
+          "order": 63,
+          "family": ""
         },
         {
           "id": 396,
           "parent": "391",
           "title": "TPE",
           "url": "{{SITE_URL}}/materials/molding-tpe/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "324",
           "type": "post_type",
           "description": "",
@@ -39616,14 +39816,15 @@
             ""
           ],
           "target": "",
-          "order": 64
+          "order": 64,
+          "family": ""
         },
         {
           "id": 397,
           "parent": "205",
           "title": "Sheet metal",
           "url": "{{SITE_URL}}/materials/sheet-metals/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "329",
           "type": "post_type",
           "description": "material-group:sheet-metals",
@@ -39631,14 +39832,15 @@
             ""
           ],
           "target": "",
-          "order": 65
+          "order": 65,
+          "family": ""
         },
         {
           "id": 398,
           "parent": "397",
           "title": "Aluminum sheet",
           "url": "{{SITE_URL}}/materials/aluminum-sheet/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "326",
           "type": "post_type",
           "description": "",
@@ -39646,14 +39848,15 @@
             ""
           ],
           "target": "",
-          "order": 66
+          "order": 66,
+          "family": ""
         },
         {
           "id": 399,
           "parent": "397",
           "title": "Stainless steel sheet",
           "url": "{{SITE_URL}}/materials/stainless-sheet/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "327",
           "type": "post_type",
           "description": "",
@@ -39661,14 +39864,15 @@
             ""
           ],
           "target": "",
-          "order": 67
+          "order": 67,
+          "family": ""
         },
         {
           "id": 400,
           "parent": "397",
           "title": "Mild steel",
           "url": "{{SITE_URL}}/materials/mild-steel-sheet/",
-          "object": "page",
+          "object": "axis_material",
           "object_id": "328",
           "type": "post_type",
           "description": "",
@@ -39676,14 +39880,15 @@
             ""
           ],
           "target": "",
-          "order": 68
+          "order": 68,
+          "family": ""
         },
         {
           "id": 401,
           "parent": "182",
           "title": "Insert Molding",
           "url": "{{SITE_URL}}/capabilities/insert-molding/",
-          "object": "page",
+          "object": "axis_capability",
           "object_id": "301",
           "type": "post_type",
           "description": "",
@@ -39691,7 +39896,8 @@
             ""
           ],
           "target": "",
-          "order": 69
+          "order": 69,
+          "family": ""
         }
       ]
     },
@@ -39712,7 +39918,8 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         },
         {
           "id": 76,
@@ -39727,7 +39934,8 @@
             ""
           ],
           "target": "",
-          "order": 2
+          "order": 2,
+          "family": ""
         },
         {
           "id": 77,
@@ -39742,7 +39950,8 @@
             ""
           ],
           "target": "",
-          "order": 3
+          "order": 3,
+          "family": ""
         },
         {
           "id": 78,
@@ -39757,7 +39966,8 @@
             ""
           ],
           "target": "",
-          "order": 4
+          "order": 4,
+          "family": ""
         },
         {
           "id": 79,
@@ -39772,7 +39982,8 @@
             ""
           ],
           "target": "",
-          "order": 5
+          "order": 5,
+          "family": ""
         }
       ]
     },
@@ -39793,7 +40004,8 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         },
         {
           "id": 87,
@@ -39808,7 +40020,8 @@
             ""
           ],
           "target": "",
-          "order": 2
+          "order": 2,
+          "family": ""
         },
         {
           "id": 88,
@@ -39823,7 +40036,8 @@
             ""
           ],
           "target": "",
-          "order": 3
+          "order": 3,
+          "family": ""
         },
         {
           "id": 89,
@@ -39838,7 +40052,8 @@
             ""
           ],
           "target": "",
-          "order": 4
+          "order": 4,
+          "family": ""
         },
         {
           "id": 90,
@@ -39853,7 +40068,8 @@
             ""
           ],
           "target": "",
-          "order": 5
+          "order": 5,
+          "family": ""
         }
       ]
     },
@@ -39874,7 +40090,8 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         },
         {
           "id": 81,
@@ -39889,7 +40106,8 @@
             ""
           ],
           "target": "",
-          "order": 2
+          "order": 2,
+          "family": ""
         },
         {
           "id": 82,
@@ -39904,7 +40122,8 @@
             ""
           ],
           "target": "",
-          "order": 3
+          "order": 3,
+          "family": ""
         },
         {
           "id": 83,
@@ -39919,7 +40138,8 @@
             ""
           ],
           "target": "",
-          "order": 4
+          "order": 4,
+          "family": ""
         },
         {
           "id": 84,
@@ -39934,7 +40154,8 @@
             ""
           ],
           "target": "",
-          "order": 5
+          "order": 5,
+          "family": ""
         },
         {
           "id": 85,
@@ -39949,7 +40170,8 @@
             ""
           ],
           "target": "",
-          "order": 6
+          "order": 6,
+          "family": ""
         }
       ]
     },
@@ -39970,7 +40192,8 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         }
       ]
     },
@@ -39991,7 +40214,8 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         },
         {
           "id": 92,
@@ -40006,7 +40230,8 @@
             ""
           ],
           "target": "",
-          "order": 2
+          "order": 2,
+          "family": ""
         },
         {
           "id": 93,
@@ -40021,7 +40246,8 @@
             ""
           ],
           "target": "",
-          "order": 3
+          "order": 3,
+          "family": ""
         },
         {
           "id": 94,
@@ -40036,7 +40262,8 @@
             ""
           ],
           "target": "",
-          "order": 4
+          "order": 4,
+          "family": ""
         }
       ]
     },
@@ -40057,7 +40284,8 @@
             ""
           ],
           "target": "",
-          "order": 1
+          "order": 1,
+          "family": ""
         },
         {
           "id": 61,
@@ -40073,7 +40301,8 @@
             "axis-nav-capabilities"
           ],
           "target": "",
-          "order": 2
+          "order": 2,
+          "family": ""
         },
         {
           "id": 38,
@@ -40088,7 +40317,8 @@
             ""
           ],
           "target": "",
-          "order": 3
+          "order": 3,
+          "family": ""
         },
         {
           "id": 39,
@@ -40103,7 +40333,8 @@
             ""
           ],
           "target": "",
-          "order": 4
+          "order": 4,
+          "family": ""
         },
         {
           "id": 40,
@@ -40118,7 +40349,8 @@
             ""
           ],
           "target": "",
-          "order": 5
+          "order": 5,
+          "family": ""
         },
         {
           "id": 41,
@@ -40133,7 +40365,8 @@
             ""
           ],
           "target": "",
-          "order": 6
+          "order": 6,
+          "family": ""
         },
         {
           "id": 37,
@@ -40149,7 +40382,8 @@
             "axis-nav-products"
           ],
           "target": "",
-          "order": 7
+          "order": 7,
+          "family": ""
         },
         {
           "id": 62,
@@ -40164,7 +40398,8 @@
             ""
           ],
           "target": "",
-          "order": 8
+          "order": 8,
+          "family": ""
         },
         {
           "id": 63,
@@ -40179,7 +40414,8 @@
             ""
           ],
           "target": "",
-          "order": 9
+          "order": 9,
+          "family": ""
         },
         {
           "id": 64,
@@ -40194,7 +40430,8 @@
             ""
           ],
           "target": "",
-          "order": 10
+          "order": 10,
+          "family": ""
         },
         {
           "id": 65,
@@ -40209,7 +40446,8 @@
             ""
           ],
           "target": "",
-          "order": 11
+          "order": 11,
+          "family": ""
         },
         {
           "id": 66,
@@ -40224,7 +40462,8 @@
             ""
           ],
           "target": "",
-          "order": 12
+          "order": 12,
+          "family": ""
         },
         {
           "id": 67,
@@ -40239,7 +40478,8 @@
             ""
           ],
           "target": "",
-          "order": 13
+          "order": 13,
+          "family": ""
         },
         {
           "id": 42,
@@ -40254,7 +40494,8 @@
             ""
           ],
           "target": "",
-          "order": 14
+          "order": 14,
+          "family": ""
         },
         {
           "id": 68,
@@ -40269,7 +40510,8 @@
             ""
           ],
           "target": "",
-          "order": 15
+          "order": 15,
+          "family": ""
         },
         {
           "id": 69,
@@ -40284,7 +40526,8 @@
             ""
           ],
           "target": "",
-          "order": 16
+          "order": 16,
+          "family": ""
         },
         {
           "id": 70,
@@ -40299,7 +40542,8 @@
             ""
           ],
           "target": "",
-          "order": 17
+          "order": 17,
+          "family": ""
         },
         {
           "id": 71,
@@ -40314,7 +40558,8 @@
             ""
           ],
           "target": "",
-          "order": 18
+          "order": 18,
+          "family": ""
         },
         {
           "id": 72,
@@ -40329,7 +40574,8 @@
             ""
           ],
           "target": "",
-          "order": 19
+          "order": 19,
+          "family": ""
         },
         {
           "id": 73,
@@ -40344,7 +40590,8 @@
             ""
           ],
           "target": "",
-          "order": 20
+          "order": 20,
+          "family": ""
         },
         {
           "id": 74,
@@ -40359,7 +40606,8 @@
             ""
           ],
           "target": "",
-          "order": 21
+          "order": 21,
+          "family": ""
         },
         {
           "id": 43,
@@ -40374,7 +40622,8 @@
             ""
           ],
           "target": "",
-          "order": 22
+          "order": 22,
+          "family": ""
         }
       ]
     }
@@ -40465,6 +40714,7 @@
     }
   ],
   "options": {
+    "axis_content_model_version": "20261020",
     "starter_rfq_form_id": "3",
     "show_on_front": "page",
     "page_on_front": "31",

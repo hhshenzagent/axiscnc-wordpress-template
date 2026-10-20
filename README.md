@@ -32,7 +32,11 @@
 
 ## 日常编辑
 
-- 页面图片、文字、表格与模块：`Pages → 对应页面 → AXISCNC 编辑区`。
+- 能力：`Capabilities`；行业：`Industries`；方案：`Solutions`；材料及牌号：`Materials`；资料：`Resources`。
+- 各类入口中的 `Overview page / 聚合页` 编辑共用目录；首页、关于、联系等普通页面使用 `Pages`。
+- 详情页右侧 `Page Template` 选择完整模板，`Classification & navigation / 分类与导航` 指定分组和是否加入导航。材料牌号选择其上级材料。
+- 新增同类型记录使用原生 Add New；草稿/回收站内容不会显示在导航，恢复发布后重新显示。铝材料下的牌号卡片自动同步。
+- 历史零件示例保留在 `Example Parts`，其分类与能力、行业、材料相互独立。
 - 文章正文：`Posts` 原生编辑器。
 - 图片资源：`Media`。
 - 询盘记录：`Fluent Forms → Entries`。

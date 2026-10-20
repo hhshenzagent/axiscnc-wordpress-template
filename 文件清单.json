@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-20T06:38:47.885Z",
+  "at": "2026-10-20T18:11:37.439Z",
   "files": [
     {
       "file": ".gitignore",
@@ -8,8 +8,8 @@
     },
     {
       "file": "content.json",
-      "bytes": 1438190,
-      "sha256": "e7138bd9797dbebd425d3e206f09d4c9f6d4ad778f890e5e1b233d04b0a39f11"
+      "bytes": 1445377,
+      "sha256": "b0f46ccbfd4e4135c21acbcd0a2b3fa8e09f0c44fc284c155296bbe472beade0"
     },
     {
       "file": "images/10-axis-image-10.webp",
@@ -363,13 +363,13 @@
     },
     {
       "file": "import.php",
-      "bytes": 7835,
-      "sha256": "66ba90e1197156c7badcd75527c124c2c8ad1cfb2862f4324bf2aa4dc669e973"
+      "bytes": 8122,
+      "sha256": "9b86b798b4c4ef60f6ffb6e981f5f53d329f2cb596371dc63c955bcf714efd28"
     },
     {
       "file": "README.md",
-      "bytes": 2645,
-      "sha256": "ab8effef674b2f6d9139a5e5ca2cce6defed07f1883a7b00b62df49c25ec59dd"
+      "bytes": 3198,
+      "sha256": "1c0a2da56f9c8a805df37e53cebf68b512e863c16ab5c2ea78ccf326a2efa220"
     },
     {
       "file": "wp-content/plugins/starter-model/assets/css/inquiry-attachments.css",
@@ -398,8 +398,8 @@
     },
     {
       "file": "wp-content/plugins/starter-model/includes/approved-design.php",
-      "bytes": 8998,
-      "sha256": "18c0b7eab3de5bf0e70cf3784027dd3855024cd0c77cb7e3901b8cbf3f8419a4"
+      "bytes": 9331,
+      "sha256": "216dfcd5e41e990f16a2ce77b7da0cbf2874fb17d7e28ebe84a971197ba4cce3"
     },
     {
       "file": "wp-content/plugins/starter-model/includes/author-profile.php",
@@ -407,19 +407,24 @@
       "sha256": "367b48adab85d0c561a38cd4a4b38e26190aaea47fb5dbc155a479be408c2291"
     },
     {
+      "file": "wp-content/plugins/starter-model/includes/axis-content-types.php",
+      "bytes": 12499,
+      "sha256": "04baf37424afe6000031ded865a44d5c236b274e461b756c99e51f87006c8c22"
+    },
+    {
       "file": "wp-content/plugins/starter-model/includes/axis-home-schema.json",
-      "bytes": 162632,
-      "sha256": "69b456aab80c2473bbbecff862fb73b4cf57dd3dfdd178ed72ddb1023cb855c3"
+      "bytes": 158595,
+      "sha256": "a9965f53e7d4fe677ad0466f1bcec2dd536315e9e7baba77ba6ad0fc858a91eb"
     },
     {
       "file": "wp-content/plugins/starter-model/includes/axis-suite-extra.php",
-      "bytes": 8699,
-      "sha256": "aab7f9aee784689d3cf450daf9b354672be5caa077168fdd0c815d5b2811b649"
+      "bytes": 8666,
+      "sha256": "0e45649328ab2afa64f3218377dea4d90d51aeb7f5f6961845cd8ecaca805d5d"
     },
     {
       "file": "wp-content/plugins/starter-model/includes/axis-template-suite.php",
-      "bytes": 10513,
-      "sha256": "3b4fe3c4c2f100263c8d901fb2c62758fed6816654f62b6a3d693cdeede4ccc5"
+      "bytes": 10468,
+      "sha256": "8388481ab5bcae4f73422eae194d7f4cf4fce25f8488d842f23bc353391e1396"
     },
     {
       "file": "wp-content/plugins/starter-model/includes/category-fields.php",
@@ -478,8 +483,8 @@
     },
     {
       "file": "wp-content/plugins/starter-model/starter-model.php",
-      "bytes": 52508,
-      "sha256": "716da75755c48a906471842d46adee562763e9afc7e5c2f8a9f5ee897e544d77"
+      "bytes": 52567,
+      "sha256": "a8208761dcb2f301688aca68bbeef23b228834a529d36d6da4e8379403ba3548"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/404.php",
@@ -753,8 +758,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/approved-design.php",
-      "bytes": 13041,
-      "sha256": "ddc818b65daee82d91ce8390a99daf7d3350024b73c2c358c518d071d4e46e6c"
+      "bytes": 14012,
+      "sha256": "8d536e442886e99eac7ce06659085f7b6a7cc9610218ce4cc39e8de0cfc782b7"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/author-profile.php",
@@ -773,13 +778,13 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/axis-suite-extra.php",
-      "bytes": 18062,
-      "sha256": "25b71d97367c1357301c8f7f3285e9474c9643f5d69ead32f10ff308271c6d76"
+      "bytes": 18083,
+      "sha256": "e90c912801638611f8399d675e219aefaff6313397da1ddbac65bc70416f4c4c"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/axis-template-suite.php",
-      "bytes": 20096,
-      "sha256": "b5995830bd596825a77c1ff4cf8c9a752471a758d16629053bd338b970685356"
+      "bytes": 20692,
+      "sha256": "e7219d0f29b9a303dbd57f8ec439f70b91c5156876cd57b307c9d93ee99a0128"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/blog.php",
@@ -823,8 +828,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/template-loader.php",
-      "bytes": 7675,
-      "sha256": "1f90d7d5daff55000293c601a2f1ec1cdaf71d9813f5d557e05d0b38be4ec2a5"
+      "bytes": 7745,
+      "sha256": "945d4483a2c6878ad8e38dc5fc0e8cba2989aba009bb41079580c4009d2d5b7d"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/index.php",
@@ -843,23 +848,23 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-approved-capability.php",
-      "bytes": 191,
-      "sha256": "7aa7727125fd204bde87514e71105e456fd597783fb4c712b5028ab291ab2c8a"
+      "bytes": 208,
+      "sha256": "eef92c8921c55b05a7986ffa0255b299a2e66892719177e9f419ffb5413ec076"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-approved-material-family.php",
-      "bytes": 189,
-      "sha256": "9e71cc4dd21c1550f764e0c5a27b3f0a30265b07ea906e918b786ed5edd42340"
+      "bytes": 204,
+      "sha256": "46b53abaff92dc645b2775a64e93149fca56c1f6d3e1e855a71d4b808dda5a7d"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-approved-material-grade.php",
-      "bytes": 188,
-      "sha256": "d0ca4f9cbd7ecfe44de3477fc0d5bd4cff8189d60fc40e4987e7038217c1b6be"
+      "bytes": 203,
+      "sha256": "96820091a85cdf44f286244cca698a4e1763c993b42d06005cc115af2b57bcff"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-approved-solution.php",
-      "bytes": 189,
-      "sha256": "017da423ff9860ffb6600c205e9caf5b2d5d539547ebc887d6cd1ea4040ac1fd"
+      "bytes": 204,
+      "sha256": "da5519ec40bc655cb9ce581b64dbc8139b85352d7793c749429047a535d047a6"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-blog.php",
@@ -867,14 +872,34 @@
       "sha256": "a043a2951d3a49d9d04dfe890dfeefb3332bbd1ac405c4723ed38f5ccb5fbb19"
     },
     {
+      "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-capability-cnc.php",
+      "bytes": 187,
+      "sha256": "fd439aca2f6ae76d5c0cb008449e23fff8b860a5543dedd3453e7b66ad020236"
+    },
+    {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-capability-hub.php",
       "bytes": 165,
       "sha256": "462e82e846fc35221e13526caff09db62bc976794438502d6c74436a74fa522b"
     },
     {
+      "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-capability-molding.php",
+      "bytes": 191,
+      "sha256": "4522300c28d333686324ff6bbacedf26b0eee3c990a2d4aab231223875634ac5"
+    },
+    {
+      "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-capability-printing.php",
+      "bytes": 185,
+      "sha256": "3808bd586f1d8cc82689483998e2d6b610f662c811f25c08d5bdbbc79fdff7b3"
+    },
+    {
+      "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-capability-sheet-metal.php",
+      "bytes": 197,
+      "sha256": "e0296238dbf583da07176f208575d8a0fee6ecb4d4685e532965063a8f09f97f"
+    },
+    {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-capability.php",
-      "bytes": 162,
-      "sha256": "5bfcc332f528a3f77353abbd8546526a61e16601ef45bcd0f4b7795f41228d2b"
+      "bytes": 179,
+      "sha256": "757f7f0967642f16632d5cbd5446b589ac7102b3aec9bd9701d6dd027a439837"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-contact.php",
@@ -883,8 +908,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-guide.php",
-      "bytes": 151,
-      "sha256": "9efda2a83360bc414c69cd9d8b6664c1513b504b5426eddf8a22a217685aecc9"
+      "bytes": 181,
+      "sha256": "6d5a88a31291072c8f0a8949c48b43c46e1a0b714da24de87b966b76b5fdf5ab"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-home.php",
@@ -898,8 +923,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-industry.php",
-      "bytes": 171,
-      "sha256": "63ecdcdb0193d359d74a2676f67807668a0fe093295c979eaf36bb62d739d88c"
+      "bytes": 189,
+      "sha256": "44b4d8deef76b6ae3e50f4b498976ca414b75fd66a45afad77d58563d4884270"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/page-templates/axis-materials.php",
@@ -1048,8 +1073,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/parts/axis-suite-header.php",
-      "bytes": 4496,
-      "sha256": "c47a41ec4e1a872aa173ec018a9fe357a6b5d1f3d3a7d5037fd6934391e028ac"
+      "bytes": 4530,
+      "sha256": "57f39edb34e2ceac5a542923314d0132c5d6589c10c58a3ca89c097b4c827f00"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/parts/blog-card.php",
@@ -1178,13 +1203,12 @@
     },
     {
       "file": "安装说明.txt",
-      "bytes": 1907,
-      "sha256": "24a2a8d0c6019ad827795cd015acd46d2ef0ef2453ab2847139f1fd5a5a20514"
+      "bytes": 2109,
+      "sha256": "b9c840b673f08a4b85cd5d27eaf1b795efa47da751ab8d9aa57d772779582b2b"
     }
   ],
-  "totalBytes": 8565490,
-  "mediaBytes": 5742328,
+  "totalBytes": 8585074,
   "records": 89,
   "images": 70,
-  "privacyScan": "passed-before-github-upload"
+  "privacyScan": "pending-independent-history-audit"
 }

@@ -5,7 +5,16 @@ defined('ABSPATH') || exit;
 function valid($v):bool{return \AxisCNC\SuiteTheme\has_text($v);}
 function picture($id,string $class=''):void{if(\AxisCNC\SuiteTheme\has_image($id))echo wp_get_attachment_image((int)$id,'full',false,['class'=>$class,'sizes'=>'(max-width: 700px) 100vw, 1200px']);}
 function action($v,string $class='button'):void{if(is_array($v)&&valid($v['title']??'')&&!empty($v['url']))echo '<a class="'.esc_attr($class).'" href="'.esc_url(\AxisCNC\SuiteTheme\local_url($v['url'])).'">'.esc_html($v['title']).'</a>';}
-function items($s):array{return array_values(array_filter((array)($s['items']??[]),static fn($i)=>is_array($i)&&valid($i['title']??'')));}
+function items($s):array{
+ if(!empty($s['axis_auto_children'])&&is_singular('axis_material')){
+  $out=[];$children=[];foreach(get_posts(['post_type'=>'axis_material','post_parent'=>get_queried_object_id(),'post_status'=>'publish','numberposts'=>-1,'orderby'=>'menu_order title','order'=>'ASC'])as$p)$children[wp_parse_url(get_permalink($p),PHP_URL_PATH)]=$p;
+  // Keep the approved order, labels, images and filter tags for existing cards.
+  // A saved card cannot resurrect an unpublished or deleted native child.
+  foreach((array)($s['items']??[])as$item){$path=wp_parse_url($item['link']['url']??'',PHP_URL_PATH);if(!isset($children[$path]))continue;$item['link']['url']=get_permalink($children[$path]);$out[]=$item;unset($children[$path]);}
+  foreach($children as$p)$out[]=['title'=>get_the_title($p),'body'=>get_the_excerpt($p),'image'=>(int)(get_field('axis_suite_hero_image',$p->ID)?:get_post_thumbnail_id($p)),'link'=>['url'=>get_permalink($p),'title'=>'View material']];return$out;
+ }
+ return array_values(array_filter((array)($s['items']??[]),static fn($i)=>is_array($i)&&valid($i['title']??'')));
+}
 function section_valid(array $s):bool{
  if(!valid($s['heading']??''))return false;
  $type=$s['acf_fc_layout']??'';

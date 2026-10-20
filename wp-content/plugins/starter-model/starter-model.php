@@ -20,6 +20,7 @@ require_once __DIR__ . '/includes/home-content.php';
 require_once __DIR__ . '/includes/axis-template-suite.php';
 require_once __DIR__ . '/includes/axis-suite-extra.php';
 require_once __DIR__ . '/includes/approved-design.php';
+require_once __DIR__ . '/includes/axis-content-types.php';
 require_once __DIR__ . '/includes/industry-fields.php';
 require_once __DIR__ . '/includes/acf-rest-revisions.php';
 AcfRestRevisions::boot();

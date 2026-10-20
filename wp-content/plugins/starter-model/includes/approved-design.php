@@ -21,6 +21,7 @@ add_action('acf/init',static function():void{
   $uses=['cards'=>['columns','items'],'strip'=>['image','caption','columns','items'],'split'=>['image','caption','image_side','body','items','link'],'split_table'=>['image','table_headings','table_rows'],'profile'=>['table_headings','table_rows','items'],'table'=>['table_headings','table_rows'],'tabs'=>['image_side','items'],'editorial'=>['body','link'],'deliverables'=>['items'],'inquiry'=>['form_id','caption','items'],'band'=>['link'],'steps'=>['columns','items'],'comparison'=>['items']];
   $uses['inspection']=['image','caption','columns','items','table_headings','table_rows'];
   $keep=array_merge(['eyebrow','heading','intro','tone'],$uses[$type]);$common=array_values(array_filter($common,static fn($v)=>in_array($v['name'],$keep,true)));
+  if($type==='cards')$common[]=f($s,'axis_auto_children','自动列出下级材料 / List child material records','true_false',['ui'=>1,'instructions'=>'材料聚合页可启用：自动显示已发布的下级牌号；新增、草稿和回收站状态同步前台。']);
   if($type==='split'){$common[]=f($s,'heading_above','标题独立在上方 / Heading above both columns','true_false',['ui'=>1]);$common[]=f($s,'contained','深色区块外侧保留白边 / Contained dark panel','true_false',['ui'=>1]);}
   foreach($common as&$control)if($control['name']==='items'){$itemKeep=['title','body'];if(in_array($type,['cards','tabs'],true))$itemKeep=array_merge($itemKeep,['image','link']);if($type==='cards')$itemKeep[]='tag';$control['sub_fields']=array_values(array_filter($control['sub_fields'],static fn($v)=>in_array($v['name'],$itemKeep,true)));}unset($control);
   $layouts['layout_axis_design_'.$type]=['key'=>'layout_axis_design_'.$type,'name'=>$type,'label'=>$label,'display'=>'block','sub_fields'=>$common];
@@ -48,9 +49,9 @@ add_action('acf/init',static function():void{
  f('seo','rank_math_description','搜索摘要 / Meta description','textarea',['rows'=>3,'instructions'=>'保存到Rank Math原生描述字段。留空沿用默认摘要；搜索结果展示由搜索引擎决定。'])
  ],'location'=>[[['param'=>'post_type','operator'=>'==','value'=>'page']]],'menu_order'=>20]);
 },60);
-add_action('add_meta_boxes',static function($type):void{if($type!=='page'||!get_theme_mod('axis_suite_enabled'))return;foreach(['normal','advanced','side']as$context)remove_meta_box('rank_math_metabox','page',$context);},100);
+add_action('add_meta_boxes',static function($type):void{if(!in_array($type,array_merge(['page'],\AxisCNC\ContentTypes\types()),true)||!get_theme_mod('axis_suite_enabled'))return;foreach(['normal','advanced','side']as$context)remove_meta_box('rank_math_metabox',$type,$context);},100);
 add_action('admin_enqueue_scripts',static function():void{
- $screen=get_current_screen();if(!$screen||$screen->base!=='post'||$screen->post_type!=='page'||!get_theme_mod('axis_suite_enabled'))return;
+ $screen=get_current_screen();if(!$screen||$screen->base!=='post'||!in_array($screen->post_type,array_merge(['page'],\AxisCNC\ContentTypes\types()),true)||!get_theme_mod('axis_suite_enabled'))return;
  $scripts=wp_scripts();$depends=function($handle,$seen=[])use(&$depends,$scripts):bool{if($handle==='rank-math-editor')return true;if(isset($seen[$handle]))return false;$seen[$handle]=true;foreach($scripts->registered[$handle]->deps??[]as$d)if($depends($d,$seen))return true;return false;};
  foreach($scripts->queue as$handle)if($depends($handle))wp_dequeue_script($handle);wp_dequeue_style('rank-math-metabox');
 },1000);
