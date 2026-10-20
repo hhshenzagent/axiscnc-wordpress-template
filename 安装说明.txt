@@ -1,0 +1,16 @@
+AXISCNC WordPress 网站模板
+
+安装目标：全新 WordPress 测试站；已有业务站不得直接运行导入。
+1. 安装 WordPress、PHP 8.3+，安装并启用合法授权的 ACF PRO、Fluent Forms、Rank Math SEO、Classic Editor。第三方插件不在本包内。
+2. 将 wp-content 下的主题与业务插件复制到对应目录，启用 starter-model 和 b2b-starter-theme。
+3. 将本包置于网站公开目录之外，再指定路径运行：wp --path=<WordPress目录> eval-file <解压目录>/import.php
+4. 导入完成后到设置→固定链接保存；首页、菜单、页脚、原生字段与图片会自动映射。
+5. 初始为演示模式、禁止索引、邮件通知关闭。邮箱 sales@example.com；没有真实 WhatsApp。
+6. 正式营业前：Business Profile/页面联系方式改为接收方资料，Fluent Forms→Settings→Email Notifications 配置收件人，FluentSMTP 配置接收方自己的发信身份并测试；确认真实通知可用后，运行 wp --path=<WordPress目录> option update axis_demo_mode 0 关闭演示提示，再开启索引。
+7. 图片在媒体库、页面内容在 Pages→对应页面→AXISCNC编辑区。文章使用 Posts 原生正文。
+
+本包只有网站运行代码、公开内容、WebP素材及安装器。不含建站执行工具、私人运行环境、账号密码、SMTP连接、原始询盘或用户数据库。AI示意图片不能作为工厂、认证或客户实证。
+
+版本：2026-10-20。页面内容 89 条，媒体 70 张，原生表单 3 份。
+
+导航多语言：如需语言入口，安装并启用官方 GTranslate 插件，在设置→GTranslate 选择语言；主题将插件的原生切换器显示在主导航右侧，自动移除浮动入口。演示站使用 English、简体中文、Deutsch、Français、日本語、Italiano、Español。翻译账户和商业密钥不随模板分发。

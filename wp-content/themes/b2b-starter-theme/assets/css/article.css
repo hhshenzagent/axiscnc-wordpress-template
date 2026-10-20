@@ -1,0 +1,132 @@
+/* Single posts only. Native content and the shared inquiry component keep their owners. */
+.article-page{padding-bottom:96px;background:#fff}
+.article-page>.breadcrumbs{margin:30px 0 38px}
+.article-reading-grid{display:grid;grid-template-columns:minmax(0,1fr) 340px;column-gap:clamp(36px,5vw,76px);row-gap:88px;align-items:start}
+.article-main,.article-sidebar{min-width:0}
+.article-intro h1{font-size:clamp(2rem,3.2vw,3rem);line-height:1.16;letter-spacing:-.035em;margin:0;overflow-wrap:anywhere}
+.article-category-link{display:inline-block;margin-bottom:16px;font-size:.85rem;color:var(--accent);font-weight:550}
+.article-summary{margin:22px 0 0;color:var(--muted);font-size:1.05rem;line-height:1.75}
+.article-meta{display:flex;align-items:flex-start;gap:16px;margin-top:26px;font-size:.8rem;line-height:1.5;color:var(--muted)}
+.article-meta-avatar{flex:none;width:44px;height:44px;border-radius:50%;object-fit:cover}
+.article-meta-author{min-width:0;overflow-wrap:anywhere}
+.article-meta-author>a,.article-meta-author>span{font-weight:550;color:var(--ink)}
+.article-meta-dates{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:4px}
+.article-meta-dates time{white-space:nowrap}
+.article-cover{margin:30px 0 38px}
+.article-cover>img{display:block;width:100%;height:auto;border-radius:var(--radius-s)}
+.article-cover figcaption,.article-content figcaption,.article-content .wp-caption-text{font-size:.8rem;line-height:1.6;color:var(--muted);margin-top:10px}
+.article-content{font-size:1rem;line-height:1.85;overflow-wrap:anywhere}
+.article-content>:first-child{margin-top:0}
+.article-content p{margin:0 0 22px}
+.article-content h2{font-size:clamp(1.5rem,2vw,1.85rem);line-height:1.3;letter-spacing:-.025em;margin:46px 0 20px;scroll-margin-top:var(--article-anchor-offset,144px)}
+.article-content h3{font-size:1.2rem;line-height:1.4;margin:32px 0 16px;scroll-margin-top:var(--article-anchor-offset,144px)}
+.article-content :is(ul,ol){padding-left:24px;margin:0 0 26px}
+.article-content li{margin:8px 0;padding-left:2px}
+.article-content li::marker{color:var(--accent)}
+.article-content a{text-decoration:underline;text-underline-offset:3px;color:var(--accent);overflow-wrap:anywhere}
+.article-page :is(a,summary,[tabindex]):focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+.article-content :is(img,video,iframe){max-width:100%}
+.article-content img{height:auto}
+.article-content :is(figure,.wp-caption){max-width:100%;margin:30px 0}
+.article-content iframe{display:block;width:100%;aspect-ratio:16/9;height:auto}
+.article-content video{display:block;width:100%;height:auto}
+.article-content blockquote{margin:30px 0;padding:4px 0 4px 22px;border:0;border-left:2px solid var(--line-strong);background:transparent;color:var(--muted);font-size:1.05rem}
+.article-content blockquote p:last-child{margin-bottom:0}
+.article-table-scroll{max-width:100%;overflow-x:auto;margin:26px 0;overscroll-behavior-x:contain}
+.article-table-scroll table{display:table;overflow:visible;width:100%;border-collapse:collapse;font-size:.9rem;line-height:1.6;margin:0}
+.article-table-scroll :is(th,td){padding:14px 16px;border:1px solid var(--line);text-align:left;min-width:120px;vertical-align:top}
+.article-table-scroll th{background:#f5f5f5;color:var(--ink);font-weight:550}
+.article-content pre{max-width:100%;overflow-x:auto;padding:20px;background:#f5f5f5;border-radius:var(--radius-s);font-size:.85rem;white-space:pre}
+.article-content :not(pre)>code{background:#f5f5f5;padding:2px 5px;border-radius:3px;font-size:.9em}
+.article-mobile-toc{display:none}
+.article-sidebar{display:flex;flex-direction:column;gap:36px;align-self:stretch}
+.article-desktop-toc{flex:none;font-size:1rem;line-height:1.6;background:transparent;border:0;padding:0}
+.article-contents summary{display:flex;align-items:center;justify-content:space-between;gap:20px;list-style:none;cursor:pointer;font-size:1.25rem;font-weight:650;line-height:1.4;color:var(--ink)}
+.article-contents summary::-webkit-details-marker{display:none}
+.article-contents-chevron{width:11px;height:11px;margin-right:4px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);flex:none}
+.article-contents[open] .article-contents-chevron{transform:rotate(225deg)}
+.article-desktop-toc nav{margin-top:20px}
+.article-desktop-toc ol,.article-mobile-toc ol{list-style:none;margin:0;padding:0}
+.article-desktop-toc li,.article-mobile-toc li{margin:0;padding:0}
+.article-contents li+li{margin-top:10px}
+.article-desktop-toc a,.article-mobile-toc nav a{display:block;padding:4px 0;color:#555;text-decoration:none;overflow-wrap:anywhere;line-height:1.55}
+.article-contents a[aria-current="location"]{color:var(--accent)}
+.article-contents a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+.article-desktop-toc .toc-level-3,.article-mobile-toc .toc-level-3{padding-left:16px!important}
+/* Share the exact product/category form skin; only placement changes here. */
+.article-page .product-inquiry{position:sticky;top:var(--article-sticky-top,136px);flex:none;max-height:calc(100dvh - var(--article-sticky-top,136px) - 16px);overflow-y:auto;overscroll-behavior:contain;margin:0;width:100%;visibility:visible;opacity:1;pointer-events:auto}
+.article-page .product-inquiry-card.form-panel{background:#fff;box-shadow:none}
+/* One shared author profile; white card and optional wrapping links. */
+.article-author{display:grid;grid-template-columns:88px minmax(0,1fr);column-gap:26px;row-gap:16px;margin-top:64px;padding:30px;border:1px solid #ddd;border-radius:8px;background:#fff;box-shadow:none}
+.article-author-avatar{grid-column:1;grid-row:1/4;width:88px;height:88px;max-width:100%;border-radius:50%;object-fit:cover}
+.article-author-heading,.article-author-bio,.article-author-socials{grid-column:2;min-width:0}
+.article-author-label{font-size:.7rem;line-height:1.5;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.article-author h2.article-author-name{font-size:1.4rem;font-weight:650;line-height:1.3;letter-spacing:-.02em;color:var(--ink);margin:0}
+.article-author-title{color:var(--muted);font-size:.9rem;line-height:1.6;margin:6px 0 0}
+.article-author-bio{color:var(--ink);font-size:.9rem;line-height:1.8;overflow-wrap:anywhere}
+.article-author-bio p{margin:0 0 12px}
+.article-author-bio p:last-child{margin-bottom:0}
+.article-author-socials{display:flex;flex-wrap:wrap;gap:10px 20px;list-style:none;padding:0;margin:4px 0 0;font-size:.8rem;line-height:1.5}
+.article-author-socials li{margin:0;padding:0}
+.article-author-socials a{display:inline-flex;align-items:center;gap:7px;min-height:32px;color:var(--muted);text-decoration:none}
+.article-author-socials svg{flex:none}
+.article-author-socials a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+.article-author.has-no-photo{grid-template-columns:minmax(0,1fr)}
+.article-author.has-no-photo :is(.article-author-heading,.article-author-bio,.article-author-socials){grid-column:1}
+.article-neighbors{display:flex;justify-content:space-between;gap:36px;margin-top:56px;font-size:.9rem;line-height:1.6}
+.article-neighbors>a{display:block;max-width:46%;overflow-wrap:anywhere}
+.article-neighbors span{display:block}
+.article-neighbor-label{font-size:.8rem;color:var(--accent);margin-bottom:10px}
+.article-neighbors .article-next{text-align:right;margin-left:auto}
+.article-related{grid-column:1/-1;min-width:0}
+.article-related>h2{font-size:1.7rem;margin:0 0 30px;letter-spacing:-.02em}
+.article-related .blog-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:32px;margin:0}
+.article-related .blog-media{display:block;aspect-ratio:16/10;overflow:hidden;border-radius:var(--radius-s)}
+.article-related .blog-media img{height:100%;object-fit:cover}
+.article-related .blog-body{padding-top:18px}
+.article-related .blog-title{font-size:1.15rem;line-height:1.45;margin:0}
+.article-related .blog-meta{font-size:.75rem;gap:8px 12px;line-height:1.6}
+.article-related .blog-excerpt{font-size:.875rem;line-height:1.7;margin:14px 0}
+.article-related .more{font-size:.8rem;color:var(--accent)}
+@media(max-width:1100px){.article-reading-grid{grid-template-columns:minmax(0,1fr) 310px;column-gap:32px}.article-intro h1{font-size:2.25rem}}
+@media(max-width:900px){
+ .article-reading-grid{grid-template-columns:minmax(0,1fr);row-gap:64px}
+ .article-main{grid-column:1;grid-row:1}
+ .article-sidebar{display:contents}
+ .article-desktop-toc{display:none}
+ .article-page .product-inquiry{position:static;top:auto;max-height:none;overflow:visible;grid-column:1;grid-row:3;max-width:640px;justify-self:center}
+ .article-related{grid-column:1;grid-row:2}
+ .article-mobile-toc{display:block;margin:0 0 30px;border:1px solid var(--line);border-radius:var(--radius-s);background:#fff}
+ .article-mobile-toc summary{padding:14px 16px;cursor:pointer;font-size:.9rem;font-weight:550;color:var(--ink)}
+ .article-mobile-toc nav{padding:0 16px 14px;font-size:.875rem;line-height:1.6}
+ .article-related .blog-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 24px}
+}
+@media(max-width:640px){
+ .article-page{padding-bottom:64px}
+ .article-page>.breadcrumbs{margin:22px 0 28px;font-size:.75rem}
+ .article-intro h1{font-size:1.85rem;line-height:1.23}
+ .article-summary{font-size:1rem;margin-top:18px}
+ .article-meta{margin-top:22px}
+ .article-meta-dates{flex-direction:column;align-items:flex-start;gap:3px}
+ .article-category-link{margin-bottom:12px}
+ .article-cover{margin:26px 0 28px}
+ .article-content{font-size:1rem;line-height:1.85}
+ .article-content h2{font-size:1.45rem;margin-top:38px}
+ .article-content h3{font-size:1.15rem}
+ .article-content :is(.alignleft,.alignright){float:none;display:block;margin:24px 0}
+ .article-table-scroll :is(th,td){padding:12px;font-size:.85rem}
+ .article-author{margin-top:48px;padding:22px;grid-template-columns:64px minmax(0,1fr);column-gap:16px;row-gap:20px}
+ .article-author-avatar{grid-row:1;width:64px;height:64px}
+ .article-author-heading{align-self:center}
+ .article-author-bio,.article-author-socials{grid-column:1/-1}
+ .article-author h2.article-author-name{font-size:1.2rem}
+ .article-author-label{font-size:.65rem;margin-bottom:5px}
+ .article-author-title{font-size:.8rem}
+ .article-author-socials{column-gap:20px}
+ .article-neighbors{margin-top:44px;gap:24px;font-size:.85rem}
+ .article-reading-grid{row-gap:56px}
+ .article-related>h2{font-size:1.5rem;margin-bottom:24px}
+ .article-related .blog-grid{grid-template-columns:minmax(0,1fr);gap:40px}
+ .article-related .blog-title{font-size:1.2rem}
+}
+

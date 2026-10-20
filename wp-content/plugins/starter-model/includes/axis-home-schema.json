@@ -1,0 +1,4038 @@
+[
+  {
+    "key": "layout_axis_home_hero",
+    "name": "hero",
+    "label": "Hero",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_hero_content_001",
+        "name": "content_001",
+        "label": "Image · AI-generated CNC-machined housing concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_hero_content_002",
+        "name": "content_002",
+        "label": "Text · CUSTOM CNC MACHINING SOLUTIONS",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_hero_content_003",
+        "name": "content_003",
+        "label": "Heading · Your design.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_hero_content_004",
+        "name": "content_004",
+        "label": "Text · Precisely made.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_hero_content_005",
+        "name": "content_005",
+        "label": "Text · CNC machining solutions shaped around your application, engineeri",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_hero_content_006",
+        "name": "content_006",
+        "label": "Link destination · Start your project ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_hero_content_007",
+        "name": "content_007",
+        "label": "Text · Start your project ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_hero_content_008",
+        "name": "content_008",
+        "label": "Link destination · Explore solutions →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_hero_content_009",
+        "name": "content_009",
+        "label": "Text · Explore solutions →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_hero_content_010",
+        "name": "content_010",
+        "label": "Text · AI-generated component concept · Quoted to your drawing",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_003",
+    "axis_anchor": ""
+  },
+  {
+    "key": "layout_axis_home_value_strip",
+    "name": "value_strip",
+    "label": "Project principles",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_value_strip_content_001",
+        "name": "content_001",
+        "label": "Text · DRAWING-LED",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_value_strip_content_002",
+        "name": "content_002",
+        "label": "Text · Your geometry. Your requirements.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_value_strip_content_003",
+        "name": "content_003",
+        "label": "Text · PROCESS-FOCUSED",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_value_strip_content_004",
+        "name": "content_004",
+        "label": "Text · Milling · Turning · Multi-axis",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_value_strip_content_005",
+        "name": "content_005",
+        "label": "Text · MATERIAL-DRIVEN",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_value_strip_content_006",
+        "name": "content_006",
+        "label": "Text · Match the grade to the application.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_value_strip_content_007",
+        "name": "content_007",
+        "label": "Text · PROJECT-SPECIFIC",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_value_strip_content_008",
+        "name": "content_008",
+        "label": "Text · Clarify the scope before machining.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_001",
+    "axis_anchor": ""
+  },
+  {
+    "key": "layout_axis_home_machining_capabilities",
+    "name": "machining_capabilities",
+    "label": "Capability selector",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_machining_capabilities_content_001",
+        "name": "content_001",
+        "label": "Text · 01 / FIND YOUR PROCESS",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_002",
+        "name": "content_002",
+        "label": "Heading · The right process. A clearer path to your part.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_003",
+        "name": "content_003",
+        "label": "Text · Select a capability to explore the part, the requirements and the",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_004",
+        "name": "content_004",
+        "label": "Text · 01",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_005",
+        "name": "content_005",
+        "label": "Text · CNC Milling",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_006",
+        "name": "content_006",
+        "label": "Text · Housings, pockets & complex profiles",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_007",
+        "name": "content_007",
+        "label": "Text · 02",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_008",
+        "name": "content_008",
+        "label": "Text · CNC Turning",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_009",
+        "name": "content_009",
+        "label": "Text · Shafts, bushings & rotational parts",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_010",
+        "name": "content_010",
+        "label": "Text · 03",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_011",
+        "name": "content_011",
+        "label": "Text · 5-Axis Machining",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_012",
+        "name": "content_012",
+        "label": "Text · Multi-face geometries & complex access",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_013",
+        "name": "content_013",
+        "label": "Text · 04",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_014",
+        "name": "content_014",
+        "label": "Text · Process Planning",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_015",
+        "name": "content_015",
+        "label": "Text · Samples, revisions & repeat requirements",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_016",
+        "name": "content_016",
+        "label": "Text · YOUR GEOMETRY. YOUR REQUIREMENTS.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_017",
+        "name": "content_017",
+        "label": "Heading · From your drawing to a precisely machined housing.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_018",
+        "name": "content_018",
+        "label": "Text · Bring together pockets, mounting faces and interfaces in a compon",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_019",
+        "name": "content_019",
+        "label": "Text · Identify functional surfaces and datum references",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_020",
+        "name": "content_020",
+        "label": "Text · Clarify pockets, wall thickness and internal corners",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_021",
+        "name": "content_021",
+        "label": "Text · Specify the material, finish and inspection needs",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_022",
+        "name": "content_022",
+        "label": "Link destination · Explore CNC milling ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_023",
+        "name": "content_023",
+        "label": "Text · Explore CNC milling",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_024",
+        "name": "content_024",
+        "label": "Image · Milled housing · AI concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_025",
+        "name": "content_025",
+        "label": "Text · Milled housing · AI concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_026",
+        "name": "content_026",
+        "label": "Text · YOUR GEOMETRY. YOUR REQUIREMENTS.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_027",
+        "name": "content_027",
+        "label": "Heading · Rotational components. Made around your requirements.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_028",
+        "name": "content_028",
+        "label": "Text · Define the fits, concentric features and surfaces that matter for",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_029",
+        "name": "content_029",
+        "label": "Text · Mark mating diameters, bearing fits and runout",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_030",
+        "name": "content_030",
+        "label": "Text · Define threads and secondary milled features",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_031",
+        "name": "content_031",
+        "label": "Text · Review material condition and final surface requirements",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_032",
+        "name": "content_032",
+        "label": "Link destination · Explore CNC turning ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_033",
+        "name": "content_033",
+        "label": "Text · Explore CNC turning",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_034",
+        "name": "content_034",
+        "label": "Image · Turned shaft · AI concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_035",
+        "name": "content_035",
+        "label": "Text · Turned shaft · AI concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_036",
+        "name": "content_036",
+        "label": "Text · YOUR GEOMETRY. YOUR REQUIREMENTS.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_037",
+        "name": "content_037",
+        "label": "Heading · Complex geometry starts with a clear machining plan.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_038",
+        "name": "content_038",
+        "label": "Text · Discuss multi-face features, tool access and assembly constraints",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_039",
+        "name": "content_039",
+        "label": "Text · Discuss angled faces, undercuts and tool access",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_040",
+        "name": "content_040",
+        "label": "Text · Identify features that need controlled alignment",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_041",
+        "name": "content_041",
+        "label": "Text · Agree the workholding and inspection approach",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_042",
+        "name": "content_042",
+        "label": "Link destination · Explore 5-axis machining ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_043",
+        "name": "content_043",
+        "label": "Text · Explore 5-axis machining",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_044",
+        "name": "content_044",
+        "label": "Image · Multi-face bracket · AI concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_045",
+        "name": "content_045",
+        "label": "Text · Multi-face bracket · AI concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_046",
+        "name": "content_046",
+        "label": "Text · YOUR GEOMETRY. YOUR REQUIREMENTS.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_047",
+        "name": "content_047",
+        "label": "Heading · Define what the next project stage needs to prove.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_048",
+        "name": "content_048",
+        "label": "Text · Connect sample objectives, approved revisions and acceptance requ",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_049",
+        "name": "content_049",
+        "label": "Text · Share matching revisions of the model and drawing",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_050",
+        "name": "content_050",
+        "label": "Text · Mark assembly interfaces and critical dimensions",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_051",
+        "name": "content_051",
+        "label": "Text · Include quantity, material, finish and delivery needs",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_052",
+        "name": "content_052",
+        "label": "Link destination · Explore prototype planning ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_053",
+        "name": "content_053",
+        "label": "Text · Explore prototype planning",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_054",
+        "name": "content_054",
+        "label": "Image · Disassembled component set · AI concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_055",
+        "name": "content_055",
+        "label": "Text · Disassembled component set · AI concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_056",
+        "name": "content_056",
+        "label": "Text · Not sure which process fits?",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_057",
+        "name": "content_057",
+        "label": "Text · Start with your drawing, part function and the features that matt",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_058",
+        "name": "content_058",
+        "label": "Link destination · Ask about your drawing ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_content_059",
+        "name": "content_059",
+        "label": "Text · Ask about your drawing",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_capabilities_navigation",
+        "name": "navigation_label",
+        "label": "Homepage quick navigation label",
+        "type": "text",
+        "show_in_rest": true,
+        "instructions": "This section must contain its main heading to appear in the quick navigation."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_002",
+    "axis_anchor": "machining-capabilities"
+  },
+  {
+    "key": "layout_axis_home_machining_solutions",
+    "name": "machining_solutions",
+    "label": "Machining solutions",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_machining_solutions_content_001",
+        "name": "content_001",
+        "label": "Text · 02 / MACHINING SOLUTIONS",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_002",
+        "name": "content_002",
+        "label": "Heading · Start with the challenge.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_003",
+        "name": "content_003",
+        "label": "Heading · Build the right machining brief.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_004",
+        "name": "content_004",
+        "label": "Text · Explore the application, constraints and acceptance requirements ",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_005",
+        "name": "content_005",
+        "label": "Link destination · Explore all solutions ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_006",
+        "name": "content_006",
+        "label": "Text · Explore all solutions ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_007",
+        "name": "content_007",
+        "label": "Link destination · HOUSINGS & ENCLOSURES Precision housings & enclosure",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_008",
+        "name": "content_008",
+        "label": "Image · AI concept illustrating Precision housings & enclosures",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_009",
+        "name": "content_009",
+        "label": "Text · HOUSINGS & ENCLOSURES",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_010",
+        "name": "content_010",
+        "label": "Heading · Precision housings & enclosures",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_011",
+        "name": "content_011",
+        "label": "Text · Plan pockets, locating faces and assembly interfaces as one machi",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_012",
+        "name": "content_012",
+        "label": "Text · Explore the solution",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_013",
+        "name": "content_013",
+        "label": "Link destination · MOTION & MATING FITS Shafts & bearing interfaces Con",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_014",
+        "name": "content_014",
+        "label": "Image · AI concept illustrating Shafts & bearing interfaces",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_015",
+        "name": "content_015",
+        "label": "Text · MOTION & MATING FITS",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_016",
+        "name": "content_016",
+        "label": "Heading · Shafts & bearing interfaces",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_017",
+        "name": "content_017",
+        "label": "Text · Connect bearing fits, concentric features and the inspection datu",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_018",
+        "name": "content_018",
+        "label": "Text · Explore the solution",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_019",
+        "name": "content_019",
+        "label": "Link destination · COMPLEX GEOMETRY & ALIGNMENT Complex mounting & mult",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_020",
+        "name": "content_020",
+        "label": "Image · AI concept illustrating Complex mounting & multi-axis parts",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_021",
+        "name": "content_021",
+        "label": "Text · COMPLEX GEOMETRY & ALIGNMENT",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_022",
+        "name": "content_022",
+        "label": "Heading · Complex mounting & multi-axis parts",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_023",
+        "name": "content_023",
+        "label": "Text · Bring angled faces, alignment features and machining access into ",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_024",
+        "name": "content_024",
+        "label": "Text · Explore the solution",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_025",
+        "name": "content_025",
+        "label": "Link destination · PORTS, PASSAGES & SEALING Fluid-system machining int",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_026",
+        "name": "content_026",
+        "label": "Image · AI concept illustrating Fluid-system machining interfaces",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_027",
+        "name": "content_027",
+        "label": "Text · PORTS, PASSAGES & SEALING",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_028",
+        "name": "content_028",
+        "label": "Heading · Fluid-system machining interfaces",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_029",
+        "name": "content_029",
+        "label": "Text · Review passages, ports, sealing faces and cleanliness requirement",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_030",
+        "name": "content_030",
+        "label": "Text · Explore the solution",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_031",
+        "name": "content_031",
+        "label": "Link destination · FLANGES, ADAPTERS & CONNECTIONS Custom equipment int",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_032",
+        "name": "content_032",
+        "label": "Image · AI concept illustrating Custom equipment interfaces",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_033",
+        "name": "content_033",
+        "label": "Text · FLANGES, ADAPTERS & CONNECTIONS",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_034",
+        "name": "content_034",
+        "label": "Heading · Custom equipment interfaces",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_035",
+        "name": "content_035",
+        "label": "Text · Clarify bolt patterns, locating features and the connection betwe",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_036",
+        "name": "content_036",
+        "label": "Text · Explore the solution",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_037",
+        "name": "content_037",
+        "label": "Link destination · SAMPLES, VALIDATION & REPEAT ORDERS Prototype-to-rep",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_038",
+        "name": "content_038",
+        "label": "Image · AI concept illustrating Prototype-to-repeat machining planning",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_039",
+        "name": "content_039",
+        "label": "Text · SAMPLES, VALIDATION & REPEAT ORDERS",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_040",
+        "name": "content_040",
+        "label": "Heading · Prototype-to-repeat machining planning",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_041",
+        "name": "content_041",
+        "label": "Text · Keep sample goals, approved revisions and repeat-order requiremen",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_042",
+        "name": "content_042",
+        "label": "Text · Explore the solution",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_043",
+        "name": "content_043",
+        "label": "Text · Have a different machining challenge?",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_044",
+        "name": "content_044",
+        "label": "Text · Describe the application and share your drawing. The scope is def",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_045",
+        "name": "content_045",
+        "label": "Link destination · Discuss your application ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_content_046",
+        "name": "content_046",
+        "label": "Text · Discuss your application ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_solutions_navigation",
+        "name": "navigation_label",
+        "label": "Homepage quick navigation label",
+        "type": "text",
+        "show_in_rest": true,
+        "instructions": "This section must contain its main heading to appear in the quick navigation."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_002",
+    "axis_anchor": "machining-solutions"
+  },
+  {
+    "key": "layout_axis_home_our_approach",
+    "name": "our_approach",
+    "label": "Our approach",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_our_approach_content_001",
+        "name": "content_001",
+        "label": "Image · AI-generated CNC workshop concept — not a photograph of an AXISCN",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_our_approach_content_002",
+        "name": "content_002",
+        "label": "Text · AI-generated workshop concept · Facility details to be confirmed",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_003",
+        "name": "content_003",
+        "label": "Text · 03 / THE AXISCNC APPROACH",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_004",
+        "name": "content_004",
+        "label": "Heading · Precision starts",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_005",
+        "name": "content_005",
+        "label": "Heading · with understanding.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_006",
+        "name": "content_006",
+        "label": "Text · A machined part is more than a shape. It has a place in your asse",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_our_approach_content_007",
+        "name": "content_007",
+        "label": "Text · Bring us the drawing revision, the material and the surfaces that",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_our_approach_content_008",
+        "name": "content_008",
+        "label": "Text · 01",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_009",
+        "name": "content_009",
+        "label": "Text · Understand the part",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_010",
+        "name": "content_010",
+        "label": "Text · Function, geometry and mating interfaces.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_011",
+        "name": "content_011",
+        "label": "Text · 02",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_012",
+        "name": "content_012",
+        "label": "Text · Clarify the requirements",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_013",
+        "name": "content_013",
+        "label": "Text · Material, finish and acceptance criteria.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_014",
+        "name": "content_014",
+        "label": "Text · 03",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_015",
+        "name": "content_015",
+        "label": "Text · Agree the next step",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_016",
+        "name": "content_016",
+        "label": "Text · Quotation, sample and project requirements.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_017",
+        "name": "content_017",
+        "label": "Link destination · About AXISCNC ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_our_approach_content_018",
+        "name": "content_018",
+        "label": "Text · About AXISCNC",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_004",
+    "axis_anchor": "our-approach"
+  },
+  {
+    "key": "layout_axis_home_materials",
+    "name": "materials",
+    "label": "Materials selector",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_materials_content_001",
+        "name": "content_001",
+        "label": "Text · 04 / MATERIALS & FINISHES",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_002",
+        "name": "content_002",
+        "label": "Heading · Choose the material.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_003",
+        "name": "content_003",
+        "label": "Heading · Understand the trade-offs.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_004",
+        "name": "content_004",
+        "label": "Text · Explore the application, the limits and the questions to resolve ",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_005",
+        "name": "content_005",
+        "label": "Accessible label",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_006",
+        "name": "content_006",
+        "label": "Text · Aluminum",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_007",
+        "name": "content_007",
+        "label": "Text · Stainless steel",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_008",
+        "name": "content_008",
+        "label": "Text · Brass & copper",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_009",
+        "name": "content_009",
+        "label": "Text · Engineering plastics",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_010",
+        "name": "content_010",
+        "label": "Image · Aluminum housing · AI component concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_materials_content_011",
+        "name": "content_011",
+        "label": "Text · Aluminum housing · AI component concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_012",
+        "name": "content_012",
+        "label": "Text · LIGHTWEIGHT HOUSINGS & BRACKETS",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_013",
+        "name": "content_013",
+        "label": "Heading · Start with the function.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_014",
+        "name": "content_014",
+        "label": "Heading · Then choose the alloy.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_015",
+        "name": "content_015",
+        "label": "Text · A starting point for lightweight housings, mounting parts and com",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_016",
+        "name": "content_016",
+        "label": "Text · When to consider it",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_017",
+        "name": "content_017",
+        "label": "Text · Weight-sensitive assemblies, housings and mounting components.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_018",
+        "name": "content_018",
+        "label": "Text · What to confirm",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_019",
+        "name": "content_019",
+        "label": "Text · Alloy, temper, wall thickness and final surface requirements need",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_020",
+        "name": "content_020",
+        "label": "Text · Cost & timing considerations",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_021",
+        "name": "content_021",
+        "label": "Text · Deep pockets, thin walls, tight fits and cosmetic finishing can a",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_022",
+        "name": "content_022",
+        "label": "Link destination · Discuss an aluminum part ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_023",
+        "name": "content_023",
+        "label": "Selected material",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_024",
+        "name": "content_024",
+        "label": "Text · Discuss an aluminum part",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_025",
+        "name": "content_025",
+        "label": "Link destination · Help me choose →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_026",
+        "name": "content_026",
+        "label": "Selected material",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_027",
+        "name": "content_027",
+        "label": "Text · Help me choose →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_028",
+        "name": "content_028",
+        "label": "Image · Steel shaft · AI component concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_materials_content_029",
+        "name": "content_029",
+        "label": "Text · Steel shaft · AI component concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_030",
+        "name": "content_030",
+        "label": "Text · MATERIAL CONDITION & OPERATING ENVIRONMENT",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_031",
+        "name": "content_031",
+        "label": "Heading · Match the grade",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_032",
+        "name": "content_032",
+        "label": "Heading · to the environment.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_033",
+        "name": "content_033",
+        "label": "Text · Discuss the operating conditions, strength and corrosion requirem",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_034",
+        "name": "content_034",
+        "label": "Text · When to consider it",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_035",
+        "name": "content_035",
+        "label": "Text · Shafts, interfaces and components with specific durability or env",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_036",
+        "name": "content_036",
+        "label": "Text · What to confirm",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_037",
+        "name": "content_037",
+        "label": "Text · “Stainless steel” alone does not identify the alloy, condition or",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_038",
+        "name": "content_038",
+        "label": "Text · Cost & timing considerations",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_039",
+        "name": "content_039",
+        "label": "Text · Material condition, tool access and inspection requirements can a",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_040",
+        "name": "content_040",
+        "label": "Link destination · Discuss a stainless steel part ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_041",
+        "name": "content_041",
+        "label": "Selected material",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_042",
+        "name": "content_042",
+        "label": "Text · Discuss a stainless steel part",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_043",
+        "name": "content_043",
+        "label": "Link destination · Help me choose →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_044",
+        "name": "content_044",
+        "label": "Selected material",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_045",
+        "name": "content_045",
+        "label": "Text · Help me choose →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_046",
+        "name": "content_046",
+        "label": "Image · Brass bushing · AI component concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_materials_content_047",
+        "name": "content_047",
+        "label": "Text · Brass bushing · AI component concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_048",
+        "name": "content_048",
+        "label": "Text · ALLOY & FUNCTIONAL INTERFACES",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_049",
+        "name": "content_049",
+        "label": "Heading · Give the interface",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_050",
+        "name": "content_050",
+        "label": "Heading · the right material.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_051",
+        "name": "content_051",
+        "label": "Text · Communicate conductivity, sliding, sealing or appearance requirem",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_052",
+        "name": "content_052",
+        "label": "Text · When to consider it",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_053",
+        "name": "content_053",
+        "label": "Text · Bushings, fittings and functional interfaces where the selected a",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_054",
+        "name": "content_054",
+        "label": "Text · What to confirm",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_055",
+        "name": "content_055",
+        "label": "Text · Brass and copper grades are not interchangeable. Confirm composit",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_056",
+        "name": "content_056",
+        "label": "Text · Cost & timing considerations",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_057",
+        "name": "content_057",
+        "label": "Text · Alloy choice, stock form, finish and material-document requiremen",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_058",
+        "name": "content_058",
+        "label": "Link destination · Discuss a brass or copper part ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_059",
+        "name": "content_059",
+        "label": "Selected material",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_060",
+        "name": "content_060",
+        "label": "Text · Discuss a brass or copper part",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_061",
+        "name": "content_061",
+        "label": "Link destination · Help me choose →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_062",
+        "name": "content_062",
+        "label": "Selected material",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_063",
+        "name": "content_063",
+        "label": "Text · Help me choose →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_064",
+        "name": "content_064",
+        "label": "Image · Machined polymer components · AI concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_materials_content_065",
+        "name": "content_065",
+        "label": "Text · Machined polymer components · AI concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_066",
+        "name": "content_066",
+        "label": "Text · DIMENSIONAL STABILITY & FUNCTION",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_067",
+        "name": "content_067",
+        "label": "Heading · Plan for how",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_068",
+        "name": "content_068",
+        "label": "Heading · the polymer behaves.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_069",
+        "name": "content_069",
+        "label": "Text · Include temperature, load and dimensional requirements when discu",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_070",
+        "name": "content_070",
+        "label": "Text · When to consider it",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_071",
+        "name": "content_071",
+        "label": "Text · Bushings, spacers, isolation features and lightweight component c",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_072",
+        "name": "content_072",
+        "label": "Text · What to confirm",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_073",
+        "name": "content_073",
+        "label": "Text · Polymer grade, temperature, moisture and clamping can influence d",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_074",
+        "name": "content_074",
+        "label": "Text · Cost & timing considerations",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_075",
+        "name": "content_075",
+        "label": "Text · Tight fits, thin sections and material conditioning can change pr",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_076",
+        "name": "content_076",
+        "label": "Link destination · Discuss a plastic component ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_077",
+        "name": "content_077",
+        "label": "Selected material",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_078",
+        "name": "content_078",
+        "label": "Text · Discuss a plastic component",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_079",
+        "name": "content_079",
+        "label": "Link destination · Help me choose →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_080",
+        "name": "content_080",
+        "label": "Selected material",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_081",
+        "name": "content_081",
+        "label": "Text · Help me choose →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_materials_content_082",
+        "name": "content_082",
+        "label": "Text · Illustrative material guidance. Exact grades, availability, finis",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_materials_navigation",
+        "name": "navigation_label",
+        "label": "Homepage quick navigation label",
+        "type": "text",
+        "show_in_rest": true,
+        "instructions": "This section must contain its main heading to appear in the quick navigation."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_002",
+    "axis_anchor": "materials"
+  },
+  {
+    "key": "layout_axis_home_applications",
+    "name": "applications",
+    "label": "Application selector",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_applications_content_001",
+        "name": "content_001",
+        "label": "Text · 05 / APPLICATION CONTEXT",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_002",
+        "name": "content_002",
+        "label": "Heading · A part of your design.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_003",
+        "name": "content_003",
+        "label": "Heading · A fit for your system.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_004",
+        "name": "content_004",
+        "label": "Text · Choose the application context to see which interfaces, constrain",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_applications_content_005",
+        "name": "content_005",
+        "label": "Accessible label",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_006",
+        "name": "content_006",
+        "label": "Text · Automation & equipment",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_007",
+        "name": "content_007",
+        "label": "Text · Fluid & mechanical systems",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_008",
+        "name": "content_008",
+        "label": "Text · Product development",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_009",
+        "name": "content_009",
+        "label": "Text · APPLICATION EXAMPLE",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_010",
+        "name": "content_010",
+        "label": "Heading · Every mounting point",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_011",
+        "name": "content_011",
+        "label": "Heading · has a job to do.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_012",
+        "name": "content_012",
+        "label": "Text · Bring the assembly context into the machining discussion, from lo",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_013",
+        "name": "content_013",
+        "label": "Text · Locate the component against its mating parts.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_014",
+        "name": "content_014",
+        "label": "Text · Mark the faces and holes that control alignment.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_015",
+        "name": "content_015",
+        "label": "Text · Include loads, access and assembly requirements.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_016",
+        "name": "content_016",
+        "label": "Link destination · Discuss your automation component ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_017",
+        "name": "content_017",
+        "label": "Text · Discuss your automation component",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_018",
+        "name": "content_018",
+        "label": "Link destination · Explore this application →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_019",
+        "name": "content_019",
+        "label": "Text · Explore this application →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_020",
+        "name": "content_020",
+        "label": "Image · Automation application · AI concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_applications_content_021",
+        "name": "content_021",
+        "label": "Text · Automation application · AI concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_022",
+        "name": "content_022",
+        "label": "Text · APPLICATION EXAMPLE",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_023",
+        "name": "content_023",
+        "label": "Heading · Connect the passages.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_024",
+        "name": "content_024",
+        "label": "Heading · Clarify the interfaces.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_025",
+        "name": "content_025",
+        "label": "Text · Explain the connection standards, sealing surfaces and working co",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_026",
+        "name": "content_026",
+        "label": "Text · Identify ports, threads and sealing interfaces.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_027",
+        "name": "content_027",
+        "label": "Text · Include passage geometry and cleanliness needs.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_028",
+        "name": "content_028",
+        "label": "Text · Agree the inspection and acceptance requirements.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_029",
+        "name": "content_029",
+        "label": "Link destination · Discuss your fluid-system part ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_030",
+        "name": "content_030",
+        "label": "Text · Discuss your fluid-system part",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_031",
+        "name": "content_031",
+        "label": "Link destination · Explore this application →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_032",
+        "name": "content_032",
+        "label": "Text · Explore this application →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_033",
+        "name": "content_033",
+        "label": "Image · Manifold block · AI component concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_applications_content_034",
+        "name": "content_034",
+        "label": "Text · Manifold block · AI component concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_035",
+        "name": "content_035",
+        "label": "Text · APPLICATION EXAMPLE",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_036",
+        "name": "content_036",
+        "label": "Heading · A clearer brief",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_037",
+        "name": "content_037",
+        "label": "Heading · for the next iteration.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_038",
+        "name": "content_038",
+        "label": "Text · Use component concepts to explain the intended function, then def",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_039",
+        "name": "content_039",
+        "label": "Text · Share matching model and drawing revisions.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_040",
+        "name": "content_040",
+        "label": "Text · Distinguish sample goals from production needs.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_041",
+        "name": "content_041",
+        "label": "Text · Specify the review and approval criteria.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_042",
+        "name": "content_042",
+        "label": "Link destination · Discuss a prototype project ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_043",
+        "name": "content_043",
+        "label": "Text · Discuss a prototype project",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_044",
+        "name": "content_044",
+        "label": "Link destination · Explore this application →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_045",
+        "name": "content_045",
+        "label": "Text · Explore this application →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_content_046",
+        "name": "content_046",
+        "label": "Image · Exploded assembly · AI concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_applications_content_047",
+        "name": "content_047",
+        "label": "Text · Exploded assembly · AI concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_applications_navigation",
+        "name": "navigation_label",
+        "label": "Homepage quick navigation label",
+        "type": "text",
+        "show_in_rest": true,
+        "instructions": "This section must contain its main heading to appear in the quick navigation."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_002",
+    "axis_anchor": "applications"
+  },
+  {
+    "key": "layout_axis_home_workflow",
+    "name": "workflow",
+    "label": "Project workflow",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_workflow_content_001",
+        "name": "content_001",
+        "label": "Text · 06 / HOW WE WORK",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_002",
+        "name": "content_002",
+        "label": "Heading · A clearer path from drawing",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_003",
+        "name": "content_003",
+        "label": "Heading · to the next project milestone.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_004",
+        "name": "content_004",
+        "label": "Text · Keep the technical and commercial requirements together at every ",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_005",
+        "name": "content_005",
+        "label": "Text · 01",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_006",
+        "name": "content_006",
+        "label": "Heading · Share the brief",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_007",
+        "name": "content_007",
+        "label": "Text · Send the model, dimensioned drawing, material, finish and require",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_008",
+        "name": "content_008",
+        "label": "Text · 02",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_009",
+        "name": "content_009",
+        "label": "Heading · Clarify & agree",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_010",
+        "name": "content_010",
+        "label": "Text · Resolve revision, tolerance and inspection questions before confi",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_011",
+        "name": "content_011",
+        "label": "Text · 03",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_012",
+        "name": "content_012",
+        "label": "Heading · Review the sample plan",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_013",
+        "name": "content_013",
+        "label": "Text · Where needed, agree the sample, approval method and next producti",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_014",
+        "name": "content_014",
+        "label": "Text · 04",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_015",
+        "name": "content_015",
+        "label": "Heading · Prepare the handover",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_016",
+        "name": "content_016",
+        "label": "Text · Confirm the agreed documents, packing details and delivery arrang",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_017",
+        "name": "content_017",
+        "label": "Link destination · Prepare your project brief ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_content_018",
+        "name": "content_018",
+        "label": "Text · Prepare your project brief",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_workflow_navigation",
+        "name": "navigation_label",
+        "label": "Homepage quick navigation label",
+        "type": "text",
+        "show_in_rest": true,
+        "instructions": "This section must contain its main heading to appear in the quick navigation."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_002",
+    "axis_anchor": "workflow"
+  },
+  {
+    "key": "layout_axis_home_inspection",
+    "name": "inspection",
+    "label": "Quality selector",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_inspection_content_001",
+        "name": "content_001",
+        "label": "Text · 07 / INSPECTION & HANDOVER",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_002",
+        "name": "content_002",
+        "label": "Heading · Agree the checks.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_003",
+        "name": "content_003",
+        "label": "Heading · At every project stage.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_004",
+        "name": "content_004",
+        "label": "Text · Connect the part requirements to the review points and records th",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_005",
+        "name": "content_005",
+        "label": "Accessible label",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_006",
+        "name": "content_006",
+        "label": "Text · Before machining",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_007",
+        "name": "content_007",
+        "label": "Text · During the project",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_008",
+        "name": "content_008",
+        "label": "Text · Before dispatch",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_009",
+        "name": "content_009",
+        "label": "Image · Assembly planning · AI concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_inspection_content_010",
+        "name": "content_010",
+        "label": "Text · Before machining",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_011",
+        "name": "content_011",
+        "label": "Heading · Start with an agreed basis.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_012",
+        "name": "content_012",
+        "label": "Text · Drawing, material and acceptance requirements",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_013",
+        "name": "content_013",
+        "label": "Text · Assembly planning · AI concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_014",
+        "name": "content_014",
+        "label": "Heading · Drawing & revision",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_015",
+        "name": "content_015",
+        "label": "Text · Use matching revisions of the model and drawing. Identify datums ",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_016",
+        "name": "content_016",
+        "label": "Heading · Material & finish",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_017",
+        "name": "content_017",
+        "label": "Text · State the exact grade, material condition and finish, including d",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_018",
+        "name": "content_018",
+        "label": "Heading · Acceptance criteria",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_019",
+        "name": "content_019",
+        "label": "Text · Agree what needs to be measured, documented or approved before th",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_020",
+        "name": "content_020",
+        "label": "Link destination · Discuss pre-production requirements ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_021",
+        "name": "content_021",
+        "label": "Text · Discuss pre-production requirements",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_022",
+        "name": "content_022",
+        "label": "Image · AI-generated workshop concept · Not a facility photograph",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_inspection_content_023",
+        "name": "content_023",
+        "label": "Text · During the project",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_024",
+        "name": "content_024",
+        "label": "Heading · Keep decisions connected.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_025",
+        "name": "content_025",
+        "label": "Text · Revisions, open questions and agreed checks",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_026",
+        "name": "content_026",
+        "label": "Text · AI-generated workshop concept · Not a facility photograph",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_027",
+        "name": "content_027",
+        "label": "Heading · Revision control",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_028",
+        "name": "content_028",
+        "label": "Text · Keep the approved drawing revision visible and clarify changes be",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_029",
+        "name": "content_029",
+        "label": "Heading · Inspection scope",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_030",
+        "name": "content_030",
+        "label": "Text · Identify the features and project checkpoints that need measureme",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_031",
+        "name": "content_031",
+        "label": "Heading · Project questions",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_032",
+        "name": "content_032",
+        "label": "Text · Keep technical clarification and approved decisions in the projec",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_033",
+        "name": "content_033",
+        "label": "Link destination · Discuss inspection checkpoints ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_034",
+        "name": "content_034",
+        "label": "Text · Discuss inspection checkpoints",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_035",
+        "name": "content_035",
+        "label": "Image · Component handover · AI concept",
+        "type": "image",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "Replace through the WordPress Media Library. The selected native image is used on the website.",
+        "return_format": "id",
+        "preview_size": "medium"
+      },
+      {
+        "key": "field_axis_home_inspection_content_036",
+        "name": "content_036",
+        "label": "Text · Before dispatch",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_037",
+        "name": "content_037",
+        "label": "Heading · Make the handover clear.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_038",
+        "name": "content_038",
+        "label": "Text · Records, identification and packing requirements",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_039",
+        "name": "content_039",
+        "label": "Text · Component handover · AI concept",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_040",
+        "name": "content_040",
+        "label": "Heading · Inspection records",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_041",
+        "name": "content_041",
+        "label": "Text · Confirm the documents, dimensions and acceptance records agreed f",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_042",
+        "name": "content_042",
+        "label": "Heading · Part identification",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_043",
+        "name": "content_043",
+        "label": "Text · Clarify part numbers, drawing revision, quantity and any label or",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_044",
+        "name": "content_044",
+        "label": "Heading · Protection & delivery",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_045",
+        "name": "content_045",
+        "label": "Text · Specify packing preferences, contact information and shipment doc",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_046",
+        "name": "content_046",
+        "label": "Link destination · Discuss delivery documentation ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_047",
+        "name": "content_047",
+        "label": "Text · Discuss delivery documentation",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inspection_content_048",
+        "name": "content_048",
+        "label": "Text · These are project requirements to agree, not certification or ins",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_002",
+    "axis_anchor": "inspection"
+  },
+  {
+    "key": "layout_axis_home_customer_feedback",
+    "name": "customer_feedback",
+    "label": "Customer feedback",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_customer_feedback_content_001",
+        "name": "content_001",
+        "label": "Text · 08 / CUSTOMER FEEDBACK",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_002",
+        "name": "content_002",
+        "label": "Heading · The experience behind the part.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_003",
+        "name": "content_003",
+        "label": "Text · A place for verified customer voices, with the project context th",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_004",
+        "name": "content_004",
+        "label": "Text · Customer rating — awaiting verified reviews",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_005",
+        "name": "content_005",
+        "label": "Text · Design preview only. No customer score, review count or endorseme",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_006",
+        "name": "content_006",
+        "label": "Text · LAYOUT PREVIEW",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_007",
+        "name": "content_007",
+        "label": "Text · LAYOUT SAMPLE · NOT A CUSTOMER REVIEW",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_008",
+        "name": "content_008",
+        "label": "Heading · Technical communication",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_009",
+        "name": "content_009",
+        "label": "Text · A concise comment about drawing revisions, questions raised and h",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_010",
+        "name": "content_010",
+        "label": "Text · RFQ",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_011",
+        "name": "content_011",
+        "label": "Text · Verified buyer profile pending",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_012",
+        "name": "content_012",
+        "label": "Text · DRAWING REVIEW · NO RATING PUBLISHED",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_013",
+        "name": "content_013",
+        "label": "Text · LAYOUT SAMPLE · NOT A CUSTOMER REVIEW",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_014",
+        "name": "content_014",
+        "label": "Heading · Quality & documentation",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_015",
+        "name": "content_015",
+        "label": "Text · An approved buyer comment about the agreed inspection records, sa",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_016",
+        "name": "content_016",
+        "label": "Text · QA",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_017",
+        "name": "content_017",
+        "label": "Text · Verified buyer profile pending",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_018",
+        "name": "content_018",
+        "label": "Text · PART ACCEPTANCE · NO RATING PUBLISHED",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_019",
+        "name": "content_019",
+        "label": "Text · LAYOUT SAMPLE · NOT A CUSTOMER REVIEW",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_020",
+        "name": "content_020",
+        "label": "Heading · Delivery & follow-up",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_021",
+        "name": "content_021",
+        "label": "Text · A verified comment about project updates, packaging or the handov",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_022",
+        "name": "content_022",
+        "label": "Text · DEL",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_023",
+        "name": "content_023",
+        "label": "Text · Verified buyer profile pending",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_customer_feedback_content_024",
+        "name": "content_024",
+        "label": "Text · PROJECT COORDINATION · NO RATING PUBLISHED",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_002",
+    "axis_anchor": "customer-feedback"
+  },
+  {
+    "key": "layout_axis_home_buyer_resources",
+    "name": "buyer_resources",
+    "label": "Buyer resources",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_buyer_resources_content_001",
+        "name": "content_001",
+        "label": "Text · 09 / BUYER RESOURCES",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_002",
+        "name": "content_002",
+        "label": "Heading · A little preparation.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_003",
+        "name": "content_003",
+        "label": "Heading · A more useful conversation.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_004",
+        "name": "content_004",
+        "label": "Text · Practical reading for your next machining inquiry.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_005",
+        "name": "content_005",
+        "label": "Text · GUIDE / 01",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_006",
+        "name": "content_006",
+        "label": "Heading · A quote-ready drawing checklist",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_007",
+        "name": "content_007",
+        "label": "Text · Before sending a file",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_008",
+        "name": "content_008",
+        "label": "Text · Read the checklist",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_009",
+        "name": "content_009",
+        "label": "Text · Use the same revision for your STEP model and dimensioned PDF.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_010",
+        "name": "content_010",
+        "label": "Text · Include material grade, quantity, finish and delivery destination",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_011",
+        "name": "content_011",
+        "label": "Text · Mark the critical dimensions and required inspection records.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_012",
+        "name": "content_012",
+        "label": "Text · GUIDE / 02",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_013",
+        "name": "content_013",
+        "label": "Heading · Plan the functional interfaces",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_014",
+        "name": "content_014",
+        "label": "Text · Before agreeing the scope",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_015",
+        "name": "content_015",
+        "label": "Text · Read the checklist",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_016",
+        "name": "content_016",
+        "label": "Text · Identify mating parts and the surfaces used to locate the compone",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_017",
+        "name": "content_017",
+        "label": "Text · Separate functional fits from general clearance dimensions.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_018",
+        "name": "content_018",
+        "label": "Text · Clarify whether final dimensions apply before or after coating.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_019",
+        "name": "content_019",
+        "label": "Text · GUIDE / 03",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_020",
+        "name": "content_020",
+        "label": "Heading · Keep repeat orders in context",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_021",
+        "name": "content_021",
+        "label": "Text · Before the next batch",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_022",
+        "name": "content_022",
+        "label": "Text · Read the checklist",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_023",
+        "name": "content_023",
+        "label": "Text · Identify the approved drawing revision and sample reference.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_024",
+        "name": "content_024",
+        "label": "Text · State any change in quantity, finish, inspection or packaging.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_buyer_resources_content_025",
+        "name": "content_025",
+        "label": "Text · Confirm the delivery contacts and documentation requirements.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_002",
+    "axis_anchor": "buyer-resources"
+  },
+  {
+    "key": "layout_axis_home_machining_faqs",
+    "name": "machining_faqs",
+    "label": "Frequently asked questions",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_machining_faqs_content_001",
+        "name": "content_001",
+        "label": "Text · 10 / QUESTIONS BEFORE MACHINING",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_002",
+        "name": "content_002",
+        "label": "Heading · Good questions.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_003",
+        "name": "content_003",
+        "label": "Heading · Clearer decisions.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_004",
+        "name": "content_004",
+        "label": "Text · Start with the details that affect your part, your quotation and ",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_005",
+        "name": "content_005",
+        "label": "Link destination · Ask about your project ↗",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_006",
+        "name": "content_006",
+        "label": "Text · Ask about your project",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_007",
+        "name": "content_007",
+        "label": "Text · What should I include in a CNC machining inquiry?",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_008",
+        "name": "content_008",
+        "label": "Text · Share a STEP model and dimensioned PDF with the same revision, ma",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_009",
+        "name": "content_009",
+        "label": "Text · Are these stock products or custom machining solutions?",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_010",
+        "name": "content_010",
+        "label": "Text · These images illustrate machining applications. The proposed solu",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_011",
+        "name": "content_011",
+        "label": "Text · Can I discuss a prototype before a production batch?",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_012",
+        "name": "content_012",
+        "label": "Text · Include your sample quantity, approval requirements and expected ",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_013",
+        "name": "content_013",
+        "label": "Text · What tolerance can my part achieve?",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_014",
+        "name": "content_014",
+        "label": "Text · Feasibility depends on geometry, size, material and inspection ne",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_015",
+        "name": "content_015",
+        "label": "Text · Can I request material or inspection documents?",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_016",
+        "name": "content_016",
+        "label": "Text · Specify the documents, dimensions, sampling requirements and acce",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_017",
+        "name": "content_017",
+        "label": "Text · How do I send drawings and ask follow-up questions?",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_machining_faqs_content_018",
+        "name": "content_018",
+        "label": "Text · Use the live website inquiry page for your project submission, or",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_002",
+    "axis_anchor": "machining-faqs"
+  },
+  {
+    "key": "layout_axis_home_product_inquiry",
+    "name": "product_inquiry",
+    "label": "Project inquiry",
+    "display": "block",
+    "sub_fields": [
+      {
+        "key": "field_axis_home_product_inquiry_content_001",
+        "name": "content_001",
+        "label": "Text · 11 / LET’S TALK ABOUT YOUR PART",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_002",
+        "name": "content_002",
+        "label": "Heading · Bring your drawing.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_003",
+        "name": "content_003",
+        "label": "Heading · We’ll start with",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_004",
+        "name": "content_004",
+        "label": "Heading · the right questions.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_005",
+        "name": "content_005",
+        "label": "Text · Send your drawings and project requirements through the secure in",
+        "type": "textarea",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section.",
+        "rows": 3,
+        "new_lines": ""
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_006",
+        "name": "content_006",
+        "label": "Link destination · Open contact page →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_007",
+        "name": "content_007",
+        "label": "Text · Open contact page →",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_008",
+        "name": "content_008",
+        "label": "Email link destination",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_009",
+        "name": "content_009",
+        "label": "Email address",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_010",
+        "name": "content_010",
+        "label": "Link destination · WhatsApp (example)",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_011",
+        "name": "content_011",
+        "label": "Text · WhatsApp (example)",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_012",
+        "name": "content_012",
+        "label": "Text · Pricing, feasibility and delivery are confirmed after reviewing y",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_013",
+        "name": "content_013",
+        "label": "Text · REQUEST A QUOTATION",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_product_inquiry_content_014",
+        "name": "content_014",
+        "label": "Heading · Make your first message count.",
+        "type": "text",
+        "required": 0,
+        "show_in_rest": true,
+        "instructions": "This module only. Edit the saved value; remove the module row to hide this section."
+      },
+      {
+        "key": "field_axis_home_inquiry_form",
+        "name": "form_id",
+        "label": "Existing inquiry form ID",
+        "type": "number",
+        "min": 0,
+        "instructions": "Existing Fluent Forms identity. 0 hides this entire inquiry section. Email recipients and attachments remain in Fluent Forms.",
+        "show_in_rest": true
+      },
+      {
+        "key": "field_axis_home_product_inquiry_navigation",
+        "name": "navigation_label",
+        "label": "Homepage quick navigation label",
+        "type": "text",
+        "show_in_rest": true,
+        "instructions": "This section must contain its main heading to appear in the quick navigation."
+      }
+    ],
+    "min": 0,
+    "max": 1,
+    "axis_visibility_field": "content_002",
+    "axis_anchor": "product-inquiry"
+  }
+]

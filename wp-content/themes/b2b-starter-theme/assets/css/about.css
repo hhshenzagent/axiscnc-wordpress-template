@@ -1,0 +1,40 @@
+/* About composes the shared media/text rows with a company photo wall. */
+.about-page .about-photo{margin-top:32px}
+.about-page .about-hero{max-width:860px;padding-top:0;margin:32px auto 0}
+.about-page .about-hero h1{font-size:clamp(2rem,3.4vw,3rem);line-height:1.15;margin:0}
+.about-page .about-story{margin-top:28px}
+.about-page .about-modules .category-section-media img{object-fit:cover}
+.about-page .about-modules .category-content-sections{margin-top:56px}
+.about-page .about-gallery,.about-page .about-faq{margin-top:56px;padding-top:40px;border-top:1px solid var(--line)}
+.about-page .about-gallery{max-width:1120px;margin-inline:auto}
+.about-page .about-gallery>h2,.about-page .about-faq>h2{font-size:clamp(1.55rem,2.2vw,2rem);margin-bottom:24px}
+.about-page .about-gallery>h2{max-width:860px;margin-inline:auto}
+.about-page .about-gallery-intro{max-width:860px;margin:-8px auto 28px;line-height:1.7}
+.about-gallery-grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:12px}
+.about-gallery-grid figure{min-width:0;margin:0;grid-column:span 4}
+.about-gallery-grid.has-two{max-width:860px;margin-inline:auto}
+.about-gallery-grid.has-two figure{grid-column:span 6}
+.about-gallery-grid.is-single{grid-template-columns:minmax(0,1fr);max-width:480px;margin-inline:auto}
+.about-gallery-grid.is-single figure{grid-column:auto}
+.about-gallery-grid.has-six figure{grid-column:span 3}
+.about-gallery-grid.has-six figure:nth-child(-n+2),.about-gallery-grid.has-five figure:nth-child(-n+2){grid-column:span 6}
+.about-gallery-link{display:block;border-radius:6px;overflow:hidden;cursor:zoom-in;background:var(--surface)}
+.about-gallery-link img{display:block;width:100%;aspect-ratio:4/3;height:auto;object-fit:cover;transition:transform .2s ease}
+.about-gallery-grid.has-six figure:nth-child(-n+2) img,.about-gallery-grid.has-five figure:nth-child(-n+2) img{aspect-ratio:16/9}
+.about-gallery-link:hover img{transform:scale(1.025)}
+.about-gallery-grid figcaption{margin-top:10px;font-size:.8125rem;line-height:1.6;color:var(--muted);overflow-wrap:anywhere}
+.about-page .about-faq{max-width:860px;margin-inline:auto}
+.about-gallery-dialog{width:min(1040px,calc(100% - 32px));max-width:none;max-height:calc(100dvh - 32px);border:0;border-radius:var(--radius);padding:28px;background:var(--paper,#fff);color:var(--ink);overflow:auto}
+.about-gallery-dialog::backdrop{background:rgba(0,0,0,.72)}
+.about-gallery-close{position:absolute;right:12px;top:8px;width:44px;height:44px;border:0;background:transparent;color:var(--ink);font-size:28px}
+.about-gallery-count{font-size:.8125rem;margin:0 48px 16px 0;color:var(--muted)}
+.about-gallery-stage{display:grid;grid-template-columns:44px minmax(0,1fr) 44px;align-items:center;gap:12px}
+.about-gallery-viewer-image{display:block;width:100%;height:min(65dvh,640px);object-fit:contain}
+.about-gallery-prev,.about-gallery-next{width:44px;height:44px;padding:0;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);color:var(--ink);font-size:28px;line-height:1}
+.about-gallery-stage.is-single{grid-template-columns:minmax(0,1fr)}
+.about-gallery-caption{font-size:.875rem;line-height:1.6;margin:16px 0 0;overflow-wrap:anywhere}
+html.about-gallery-open{overflow:hidden}
+@media(max-width:900px){.about-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-gallery-grid figure,.about-gallery-grid.has-two figure,.about-gallery-grid.has-six figure,.about-gallery-grid.has-six figure:nth-child(-n+2),.about-gallery-grid.has-five figure:nth-child(-n+2){grid-column:auto}.about-gallery-grid.is-single{grid-template-columns:minmax(0,1fr)}.about-gallery-grid.has-six figure:nth-child(-n+2) img,.about-gallery-grid.has-five figure:nth-child(-n+2) img{aspect-ratio:4/3}}
+@media(max-width:640px){.about-page .about-photo,.about-page .about-hero{margin-top:24px}.about-page .about-story{margin-top:24px}.about-page .about-modules .category-content-sections{margin-top:40px}.about-page .about-gallery,.about-page .about-faq{margin-top:40px;padding-top:28px}.about-gallery-grid{gap:8px}.about-gallery-dialog{padding:20px 12px}.about-gallery-stage{grid-template-columns:44px minmax(0,1fr) 44px;gap:4px}.about-gallery-viewer-image{height:55dvh}}
+@media(prefers-reduced-motion:reduce){.about-gallery-link img{transition:none}}
+

@@ -1,0 +1,17 @@
+# Local configuration and private runtime data
+.env
+.env.*
+!.env.example
+wp-config.php
+*.sql
+*.sql.gz
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+.backups/
+backups/
+node_modules/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+(() => {
+ const input=document.querySelector('[data-material-search]');
+ if(input)input.addEventListener('input',()=>{const term=input.value.trim().toLowerCase();let count=0;document.querySelectorAll('[data-material-group]').forEach(group=>{let visible=0;group.querySelectorAll('[data-material-row]').forEach(row=>{row.hidden=!!term&&!row.textContent.toLowerCase().includes(term);if(!row.hidden){visible++;count++}});group.hidden=!visible;const nav=document.querySelector('.suite-material-nav a[href="#'+group.id+'"]');if(nav)nav.hidden=!visible});const empty=document.querySelector('[data-material-empty]');if(empty)empty.hidden=count>0});
+ // Material choices on the approved homepage are carried into the real inquiry.
+ document.querySelectorAll('[data-brief-material]').forEach(link=>link.addEventListener('click',()=>{const field=document.querySelector('#product-inquiry .fluentform textarea[name="message"]');if(!field)return;const material=link.dataset.briefMaterial;if(material&&material!=='Not sure yet'){const line='Material to discuss: '+material;field.value=field.value.replace(/^Material to discuss:.*\n?/m,'');field.value=line+'\n'+field.value;field.dispatchEvent(new Event('input',{bubbles:true}));field.dispatchEvent(new Event('change',{bubbles:true}))}}));
+})();

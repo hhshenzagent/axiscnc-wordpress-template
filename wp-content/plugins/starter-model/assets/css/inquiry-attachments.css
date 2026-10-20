@@ -1,0 +1,15 @@
+.wb-inquiry-files {min-width:0;grid-column:1/-1;}
+.wb-inquiry-files .wb-file-control {position:relative;display:flex;align-items:center;gap:12px;width:100%;max-width:100%;margin:0;padding:10px;border:1px solid #d4ddda;border-radius:4px;box-sizing:border-box;background:#fff;font:inherit;cursor:pointer;}
+.wb-file-control:focus-within {outline:2px solid #245d4f;outline-offset:3px;}
+.wb-file-choose {flex:none;padding:8px 12px;border-radius:3px;background:#eef3f1;color:#234f43;}
+.wb-file-selection {min-width:0;font-size:14px;line-height:1.5;color:#59665f;overflow-wrap:anywhere;}
+.wb-inquiry-files .wb-file-control input.wb-inquiry-file-picker {position:absolute;inset:0;display:block;width:100%;height:100%;max-width:100%;margin:0;padding:0;border:0;opacity:0;cursor:pointer;}
+.wb-inquiry-files .wb-file-status {font-size:13px;line-height:1.5;margin:6px 0;color:#59665f;}
+.wb-inquiry-files .wb-file-list {padding:0;margin:8px 0;list-style:none;}
+.wb-file-list li {display:flex;gap:12px;justify-content:space-between;align-items:center;min-width:0;}
+.wb-file-list span {overflow-wrap:anywhere;min-width:0;}
+.wb-inquiry-files .wb-file-list button,.wb-inquiry-files .wb-file-clear {font:inherit;font-size:13px;padding:4px 0;border:0;background:transparent;color:#245d4f;text-decoration:underline;cursor:pointer;}
+.wb-inquiry-files .wb-file-clear {margin-top:4px;}
+.wb-inquiry-files .wb-file-clear[hidden] {display:none;}
+.wb-inquiry-files .wb-file-status:empty,.wb-inquiry-files .wb-file-list:empty {display:none;}
+

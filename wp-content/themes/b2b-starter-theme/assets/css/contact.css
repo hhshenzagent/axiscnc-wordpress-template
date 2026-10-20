@@ -1,0 +1,36 @@
+/* One editable narrative and FAQ beside the shared inquiry component. */
+.contact-page{padding-bottom:88px;--product-inquiry-top:120px}
+.contact-page .contact-layout{grid-template-columns:minmax(0,1fr) 360px;gap:clamp(36px,5vw,76px);margin-top:48px;align-items:start}
+.contact-reading{min-width:0}
+.contact-copy{font-size:1rem;line-height:1.8;overflow-wrap:anywhere}
+.contact-copy>:first-child{margin-top:0}
+.contact-copy>:last-child{margin-bottom:0}
+.contact-copy h2,.contact-faq>h2{font-size:1.5rem;line-height:1.35;letter-spacing:-.02em;margin:36px 0 18px}
+.contact-copy h3{font-size:1.15rem;margin:28px 0 14px}
+.contact-copy img,.contact-copy video,.contact-copy iframe{max-width:100%}
+.contact-copy img{height:auto}
+.contact-copy :is(.alignleft,.alignright){max-width:100%}
+.contact-copy a{text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.contact-faq{margin-top:48px}
+.contact-faq:first-child{margin-top:0}
+.contact-faq>h2{margin-top:0}
+.contact-faq .faq{border-top:1px solid var(--line)}
+.contact-faq summary{padding:20px 0;font-size:1rem;line-height:1.5}
+.contact-faq summary::after{flex:none}
+.contact-faq .faq-content{font-size:.95rem;line-height:1.8;overflow-wrap:anywhere}
+.contact-page .product-inquiry{position:sticky;top:var(--product-inquiry-top);margin:0;min-width:0;visibility:visible;opacity:1;pointer-events:auto}
+.contact-page .product-inquiry.is-tall{position:static}
+.contact-page .product-inquiry-card.form-panel{padding:22px}
+.contact-page .product-inquiry-card h2{font-size:1.35rem;line-height:1.35}
+.contact-page .conversion-note{color:var(--neutral-muted);font-size:.8rem;line-height:1.6;margin:18px 0 0}
+.contact-page .is-form-only{grid-template-columns:minmax(0,1fr)}
+.contact-page .is-form-only .product-inquiry{position:static;width:100%;max-width:360px;justify-self:center}
+.contact-page :is(a,summary):focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+@media(max-width:900px){
+ .contact-page .contact-layout{grid-template-columns:minmax(0,1fr);gap:40px;margin-top:32px}
+ .contact-page .product-inquiry{position:static;grid-row:1;width:100%;max-width:640px;justify-self:center}
+ .contact-reading{grid-row:2}
+ .contact-page .product-inquiry-card.form-panel{padding:24px}
+ .contact-faq{margin-top:36px}
+}
+
