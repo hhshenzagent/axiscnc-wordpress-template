@@ -7,11 +7,11 @@
 .axis-suite .axis-compact-form .ff-el-input--label{margin-bottom:6px!important}
 .axis-suite .axis-compact-form label{margin:0!important}
 .axis-suite .axis-compact-form p{font-size:11px!important;line-height:1.5!important;margin:0!important}
-.axis-suite .axis-compact-form .ff-el-input--label label{font-size:12px!important;line-height:1.4!important;font-weight:600;color:var(--ink)}
-.axis-suite .axis-compact-form .ff-el-form-control{height:42px!important;min-height:42px!important;padding:9px 12px!important;border:1px solid #d3dce5!important;border-radius:6px!important;background:white!important;font-size:14px!important;line-height:1.5!important;color:var(--ink)!important}
-.axis-suite .axis-compact-form textarea.ff-el-form-control{height:78px!important;min-height:78px!important;resize:vertical}
+.axis-suite .axis-compact-form .ff-el-input--label label{font-size:var(--axis-label-size,12px)!important;line-height:1.4!important;font-weight:600;color:var(--ink)}
+.axis-suite .axis-compact-form .ff-el-form-control{height:var(--axis-control-height,42px)!important;min-height:var(--axis-control-height,42px)!important;padding:var(--axis-control-padding,9px 12px)!important;border:1px solid #d3dce5!important;border-radius:6px!important;background:white!important;font-size:14px!important;line-height:1.5!important;color:var(--ink)!important}
+.axis-suite .axis-compact-form textarea.ff-el-form-control{height:var(--axis-message-height,78px)!important;min-height:var(--axis-message-height,78px)!important;resize:vertical}
 .axis-suite .axis-compact-form .ff-el-form-check-label,.axis-suite .axis-compact-form .ff-el-form-check-label span,.axis-suite .axis-compact-form .ff-el-input--content>p{font-size:11px!important;line-height:1.5!important;color:#617083}
-.axis-suite .axis-compact-form .ff-btn-submit{min-height:44px!important;padding:11px 22px!important;line-height:1.4!important;font-size:14px!important;background:var(--orange)!important;color:#fff!important;border-radius:6px!important}
+.axis-suite .axis-compact-form .ff-btn-submit{min-height:var(--axis-submit-height,44px)!important;padding:11px 22px!important;line-height:1.4!important;font-size:14px!important;background:var(--orange)!important;color:#fff!important;border-radius:6px!important}
 .axis-suite .axis-compact-form .starter-inquiry-attachments{margin:0!important;padding:9px 12px!important}
 .axis-suite .axis-compact-form .starter-inquiry-attachments summary{font-size:12px;line-height:1.5}
 .axis-suite .axis-compact-form .error{font-size:11px;line-height:1.4}
@@ -28,7 +28,7 @@
 .axis-suite .suite-inquiry>.shell{grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);gap:48px;align-items:center}
 .axis-suite .suite-inquiry>.shell>div:first-child{max-width:440px}
 .axis-suite .suite-inquiry h2{font-size:clamp(29px,3vw,40px);line-height:1.2;margin-bottom:18px}
-.axis-suite .suite-native-form{padding:24px!important;max-width:660px;width:100%;box-sizing:border-box}
+.axis-suite .suite-native-form{padding:var(--axis-form-padding,24px)!important;max-width:660px;width:100%;box-sizing:border-box}
 .axis-suite .suite-contact-controls button{border:0;width:52px;height:52px;border-radius:50%;color:#fff;background:var(--orange);box-shadow:0 9px 25px #0b192a26;font:27px/1 Inter,Arial;cursor:pointer}
 .axis-rfq-dialog{width:min(700px,calc(100vw - 32px));max-height:calc(100dvh - 32px);margin:auto;padding:26px 30px 24px;border:0;border-radius:18px;background:#fff;color:#0b192a;box-sizing:border-box;overflow:auto;box-shadow:0 30px 90px #0004;font-family:Inter,Arial,sans-serif;overscroll-behavior:contain}
 .axis-rfq-dialog::backdrop{background:#0713229c;backdrop-filter:blur(3px)}

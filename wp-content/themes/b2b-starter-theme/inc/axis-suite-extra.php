@@ -71,7 +71,7 @@ function render_about():void{
     $checks=rows('quality_checks',['title','body']);if($checks||has_text(value('quality_body'))){echo '<section class="suite-section shell">';heading('quality_heading');rich(value('quality_body'));table($checks);echo '</section>';}related();inquiry();end();
 }
 function render_contact():void{
-    start();hero();inquiry();$channels=rows('contact_channels',['title','body']);if($channels){echo '<section class="suite-section shell">';cards($channels);echo '</section>';}
+    start();hero();inquiry(rows('contact_channels',['title','body']));
     $checklist=rows('contact_checklist',['title','body']);if($checklist){echo '<section class="suite-section light-band"><div class="shell"><h2>Prepare a useful first conversation.</h2>';table($checklist);echo '</div></section>';}faq(rows('faq',['title','body']));end();
 }
 function article_card(\WP_Post $p,string $heading='h3'):void{

@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-21T02:44:51.432Z",
+  "at": "2026-10-21T03:42:21.193Z",
   "files": [
     {
       "file": ".gitignore",
@@ -568,8 +568,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/assets/css/axis-suite-extra.css",
-      "bytes": 18930,
-      "sha256": "752a369292d77d8eca4c374266a8f41c85db77d4ac3ebf5b7326afa136fbb6e2"
+      "bytes": 21940,
+      "sha256": "f2600150a9b45fbd939001ff1b1d3312277a64a103f575e8fe2f25625001a33a"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/assets/css/axis-suite-home-explorers.css",
@@ -628,8 +628,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/assets/css/quote-experience.css",
-      "bytes": 9985,
-      "sha256": "452e00bc7691ab35d5f60f7a74bbc8ce9c1496165ac09dfc02e284ce28f5ee3e"
+      "bytes": 10195,
+      "sha256": "5406b440b76890ff9632afd746f67406710952b5d06e6449813643bd0328338b"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/assets/favicon.svg",
@@ -783,13 +783,13 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/axis-suite-extra.php",
-      "bytes": 17470,
-      "sha256": "baeb88e93bf4f07e65e1d6dfa5d747b6ec960fcdb8676d9a66d3314e52354ef8"
+      "bytes": 17364,
+      "sha256": "8e128adffcf536fe4860bedafdb21ab0bceab8c163c6b002a412b9d4ae684911"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/axis-template-suite.php",
-      "bytes": 19579,
-      "sha256": "9bf89026b73234fd3f17075e0b8c3eab642a7eed82a1965aab7376435c18a330"
+      "bytes": 20263,
+      "sha256": "a1c5b424dcaa3035f1d9d6a9670efddc075d313d46080b01e283596eea733c2c"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/blog.php",
@@ -1212,7 +1212,7 @@
       "sha256": "3e4a25b5332695b6db1ff345364cd5d2b141fe14b07935ded531c140aef0d488"
     }
   ],
-  "totalBytes": 8721395,
+  "totalBytes": 8725193,
   "records": 90,
   "images": 71,
   "privacyScan": "pending-independent-history-audit"
