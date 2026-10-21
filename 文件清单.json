@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-21T02:07:03.151Z",
+  "at": "2026-10-21T02:44:51.432Z",
   "files": [
     {
       "file": ".gitignore",
@@ -8,8 +8,8 @@
     },
     {
       "file": "content.json",
-      "bytes": 1449648,
-      "sha256": "0944b8ca7c30f339166b49318319bb20410dfaea03f6a4d22e8832357044bc93"
+      "bytes": 1473722,
+      "sha256": "99538fd348aacf8c4ea22c443b88e37e7eb9504a5bbd9f837cbe05b4de1edefb"
     },
     {
       "file": "images/10-axis-image-10.webp",
@@ -285,6 +285,11 @@
       "file": "images/293-axis-design-plastic-finish-strip.webp",
       "bytes": 76720,
       "sha256": "ad8774d64073bb2e3d7c00279ced6e63043f05609ffd81219733701ee43ff5d6"
+    },
+    {
+      "file": "images/441-robotics-cnc-components.webp",
+      "bytes": 110634,
+      "sha256": "9d6ad62be3f7746ef7ee12402a5d393eba3f43d692cd085fe9753acf2d11d800"
     },
     {
       "file": "images/45-axis-image-45.webp",
@@ -1204,11 +1209,11 @@
     {
       "file": "安装说明.txt",
       "bytes": 2109,
-      "sha256": "b9c840b673f08a4b85cd5d27eaf1b795efa47da751ab8d9aa57d772779582b2b"
+      "sha256": "3e4a25b5332695b6db1ff345364cd5d2b141fe14b07935ded531c140aef0d488"
     }
   ],
-  "totalBytes": 8586687,
-  "records": 89,
-  "images": 70,
+  "totalBytes": 8721395,
+  "records": 90,
+  "images": 71,
   "privacyScan": "pending-independent-history-audit"
 }

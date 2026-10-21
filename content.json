@@ -2,6 +2,557 @@
   "schema": "axiscnc-public-template-v1",
   "records": [
     {
+      "id": 442,
+      "type": "starter_industry",
+      "title": "Robotics",
+      "slug": "robotics",
+      "parent": 0,
+      "content": "",
+      "excerpt": "Drawing-defined parts for robot tooling, joint housings, sensor mounts and automation fixtures, with interfaces and acceptance requirements reviewed together.",
+      "date": "2026-10-21 10:42:27",
+      "date_gmt": "2026-10-21 02:42:27",
+      "path": "/industries/robotics/",
+      "meta": {
+        "_wp_page_template": [
+          "page-templates/axis-industry.php"
+        ],
+        "axis_show_in_navigation": [
+          "1"
+        ],
+        "axis_suite_industry_variant": [
+          "development"
+        ],
+        "_axis_suite_industry_variant": [
+          "field_axis_suite_axis_suite_industry_variant"
+        ],
+        "axis_suite_kicker": [
+          "INDUSTRIES / ROBOTICS & AUTOMATION"
+        ],
+        "_axis_suite_kicker": [
+          "field_axis_suite_axis_suite_kicker"
+        ],
+        "axis_suite_headline": [
+          "Precision parts.\r\nBuilt around your robot."
+        ],
+        "_axis_suite_headline": [
+          "field_axis_suite_axis_suite_headline"
+        ],
+        "axis_suite_intro": [
+          "Custom machined components for end-of-arm tooling, robot joints, sensor mounts and automation fixtures. Bring the drawing, mating interfaces and operating conditions together to define the next prototype or repeat build."
+        ],
+        "_axis_suite_intro": [
+          "field_axis_suite_axis_suite_intro"
+        ],
+        "axis_suite_hero_image": [
+          "441"
+        ],
+        "_axis_suite_hero_image": [
+          "field_axis_suite_axis_suite_hero_image"
+        ],
+        "axis_suite_caption": [
+          ""
+        ],
+        "_axis_suite_caption": [
+          "field_axis_suite_axis_suite_caption"
+        ],
+        "axis_suite_cta": [
+          {
+            "title": "Discuss your robotics part",
+            "url": "{{SITE_URL}}/contact/?context=Robotics",
+            "target": ""
+          }
+        ],
+        "_axis_suite_cta": [
+          "field_axis_suite_axis_suite_cta"
+        ],
+        "axis_suite_highlights_0_title": [
+          "INTERFACE FIRST"
+        ],
+        "_axis_suite_highlights_0_title": [
+          "field_axis_suite_axis_suite_highlights_title"
+        ],
+        "axis_suite_highlights_0_body": [
+          "Locate the part against the real mating assembly."
+        ],
+        "_axis_suite_highlights_0_body": [
+          "field_axis_suite_axis_suite_highlights_body"
+        ],
+        "axis_suite_highlights_1_title": [
+          "MASS & MOTION"
+        ],
+        "_axis_suite_highlights_1_title": [
+          "field_axis_suite_axis_suite_highlights_title"
+        ],
+        "axis_suite_highlights_1_body": [
+          "Share the load case, envelope and weight target."
+        ],
+        "_axis_suite_highlights_1_body": [
+          "field_axis_suite_axis_suite_highlights_body"
+        ],
+        "axis_suite_highlights_2_title": [
+          "RELEASE READY"
+        ],
+        "_axis_suite_highlights_2_title": [
+          "field_axis_suite_axis_suite_highlights_title"
+        ],
+        "axis_suite_highlights_2_body": [
+          "Agree inspection and revision records before manufacture."
+        ],
+        "_axis_suite_highlights_2_body": [
+          "field_axis_suite_axis_suite_highlights_body"
+        ],
+        "axis_suite_highlights": [
+          "3"
+        ],
+        "_axis_suite_highlights": [
+          "field_axis_suite_axis_suite_highlights"
+        ],
+        "axis_suite_highlights_industry_0_title": [
+          "Engineering fit"
+        ],
+        "_axis_suite_highlights_industry_0_title": [
+          "field_axis_suite_axis_suite_highlights_industry_title"
+        ],
+        "axis_suite_highlights_industry_0_body": [
+          "Define bearing seats, locating faces and fastener patterns against a clear datum scheme."
+        ],
+        "_axis_suite_highlights_industry_0_body": [
+          "field_axis_suite_axis_suite_highlights_industry_body"
+        ],
+        "axis_suite_highlights_industry_1_title": [
+          "Practical purchasing"
+        ],
+        "_axis_suite_highlights_industry_1_title": [
+          "field_axis_suite_axis_suite_highlights_industry_title"
+        ],
+        "axis_suite_highlights_industry_1_body": [
+          "Separate prototype quantity, repeat demand and material or finishing alternatives in the RFQ."
+        ],
+        "_axis_suite_highlights_industry_1_body": [
+          "field_axis_suite_axis_suite_highlights_industry_body"
+        ],
+        "axis_suite_highlights_industry_2_title": [
+          "Measurable acceptance"
+        ],
+        "_axis_suite_highlights_industry_2_title": [
+          "field_axis_suite_axis_suite_highlights_industry_title"
+        ],
+        "axis_suite_highlights_industry_2_body": [
+          "Identify the features and records needed for assembly approval, rather than relying on appearance."
+        ],
+        "_axis_suite_highlights_industry_2_body": [
+          "field_axis_suite_axis_suite_highlights_industry_body"
+        ],
+        "axis_suite_highlights_industry": [
+          "3"
+        ],
+        "_axis_suite_highlights_industry": [
+          "field_axis_suite_axis_suite_highlights_industry"
+        ],
+        "axis_suite_scope_heading": [
+          "Start with the interface. Then choose the material."
+        ],
+        "_axis_suite_scope_heading": [
+          "field_axis_suite_axis_suite_scope_heading"
+        ],
+        "axis_suite_scope_intro": [
+          "<p>A robotics component works within a larger assembly. A gripper adapter connects the robot wrist to the tool; a joint housing locates bearings and drive components; a camera bracket holds a sensor in a defined position. For mobile robots, chassis interfaces and mounting plates also need to suit the equipment and environment around them.</p><p>Share the mounting drawing, datum references, operating loads and available envelope. For end-of-arm parts, include the tool and workpiece mass information needed by your robot integrator. Component manufacture follows the approved drawing; robot payload verification, controls and system safety remain part of the integration scope.</p><h3>Material choices to review</h3><p>Use the following as a starting point. Exact grade, condition, stock availability and finishing compatibility are confirmed for the individual drawing.</p><div class=\"suite-table-scroll\"><table><thead><tr><th>Material family</th><th>Where it may fit</th><th>What to confirm</th></tr></thead><tbody><tr><th>Aluminum alloys</th><td>Lightweight brackets, adapter plates and housings.</td><td>Stiffness, thread engagement, wear interfaces and dimensions after anodizing.</td></tr><tr><th>Steel or stainless steel</th><td>Shafts, locating features and components needing wear or environmental resistance.</td><td>Mass, exact alloy, heat treatment, corrosion exposure and final surface condition.</td></tr><tr><th>Engineering plastics</th><td>POM or other specified polymers for guides, spacers and contact parts.</td><td>Load, temperature, moisture, creep and any chemical or cleaning exposure.</td></tr></tbody></table></div><p>Reducing weight can change wall thickness, workholding and inspection access. A lower-cost stock choice may also change the amount of machining or finishing required. Keep these trade-offs visible before approving a design change. <a href=\"{{SITE_URL}}/materials/\">Explore the material library</a>.</p>"
+        ],
+        "_axis_suite_scope_intro": [
+          "field_axis_suite_axis_suite_scope_intro"
+        ],
+        "axis_suite_services_heading": [
+          "Choose a process for the component and development stage."
+        ],
+        "_axis_suite_services_heading": [
+          "field_axis_suite_axis_suite_services_heading"
+        ],
+        "axis_suite_service_pages": [
+          [
+            "102",
+            "101",
+            "107"
+          ]
+        ],
+        "_axis_suite_service_pages": [
+          "field_axis_suite_axis_suite_service_pages"
+        ],
+        "axis_suite_use_cases_0_title": [
+          "End-of-arm tooling & adapters"
+        ],
+        "_axis_suite_use_cases_0_title": [
+          "field_axis_suite_use_cases_title"
+        ],
+        "axis_suite_use_cases_0_image": [
+          "13"
+        ],
+        "_axis_suite_use_cases_0_image": [
+          "field_axis_suite_use_cases_image"
+        ],
+        "axis_suite_use_cases_0_body": [
+          "Adapter flanges, gripper fingers and mounting plates connect the tool to the wrist. Define the locating register, hole pattern, fastener access and part-contact surfaces. Verify the exact robot and tool interface drawing; a general robot family name is insufficient."
+        ],
+        "_axis_suite_use_cases_0_body": [
+          "field_axis_suite_use_cases_body"
+        ],
+        "axis_suite_use_cases_1_title": [
+          "Joint & drive housings"
+        ],
+        "_axis_suite_use_cases_1_title": [
+          "field_axis_suite_use_cases_title"
+        ],
+        "axis_suite_use_cases_1_image": [
+          "14"
+        ],
+        "_axis_suite_use_cases_1_image": [
+          "field_axis_suite_use_cases_image"
+        ],
+        "axis_suite_use_cases_1_body": [
+          "Housings, bearing carriers, spacers and shaft interfaces support the drive assembly. Identify critical bores, shoulders, datum relationships and required surface condition. State which dimensions apply after coating or heat treatment, and how the mating parts will be checked."
+        ],
+        "_axis_suite_use_cases_1_body": [
+          "field_axis_suite_use_cases_body"
+        ],
+        "axis_suite_use_cases_2_title": [
+          "Sensors, structures & fixtures"
+        ],
+        "_axis_suite_use_cases_2_title": [
+          "field_axis_suite_use_cases_title"
+        ],
+        "axis_suite_use_cases_2_image": [
+          "8"
+        ],
+        "_axis_suite_use_cases_2_image": [
+          "field_axis_suite_use_cases_image"
+        ],
+        "axis_suite_use_cases_2_body": [
+          "Camera mounts, sensor brackets, mobile-base interfaces and assembly fixtures need controlled location and practical access. Include adjustment travel, cable clearance, mounting orientation and environmental exposure. Mark contact or locating surfaces separately from cosmetic faces."
+        ],
+        "_axis_suite_use_cases_2_body": [
+          "field_axis_suite_use_cases_body"
+        ],
+        "axis_suite_use_cases": [
+          "3"
+        ],
+        "_axis_suite_use_cases": [
+          "field_axis_suite_axis_suite_use_cases"
+        ],
+        "axis_suite_stages_heading": [
+          "Move from one test objective to a controlled repeat build."
+        ],
+        "_axis_suite_stages_heading": [
+          "field_axis_suite_axis_suite_stages_heading"
+        ],
+        "axis_suite_stages_0_title": [
+          "Define the component"
+        ],
+        "_axis_suite_stages_0_title": [
+          "field_axis_suite_stages_title"
+        ],
+        "axis_suite_stages_0_body": [
+          "Provide a 3D model, matching dimensioned drawing, material, quantity and application context. Mark functional interfaces and any unresolved design choices."
+        ],
+        "_axis_suite_stages_0_body": [
+          "field_axis_suite_stages_body"
+        ],
+        "axis_suite_stages_0_output": [
+          "A clear drawing revision and RFQ scope."
+        ],
+        "_axis_suite_stages_0_output": [
+          "field_axis_suite_stages_output"
+        ],
+        "axis_suite_stages_1_title": [
+          "Review the manufacturing route"
+        ],
+        "_axis_suite_stages_1_title": [
+          "field_axis_suite_stages_title"
+        ],
+        "axis_suite_stages_1_body": [
+          "Discuss tool access, holding, thin sections, finish allowance and inspection access. Confirm proposed alternatives and any geometry changes with the design owner."
+        ],
+        "_axis_suite_stages_1_body": [
+          "field_axis_suite_stages_body"
+        ],
+        "axis_suite_stages_1_output": [
+          "An agreed scope for quotation and manufacture."
+        ],
+        "_axis_suite_stages_1_output": [
+          "field_axis_suite_stages_output"
+        ],
+        "axis_suite_stages_2_title": [
+          "Evaluate the sample"
+        ],
+        "_axis_suite_stages_2_title": [
+          "field_axis_suite_stages_title"
+        ],
+        "axis_suite_stages_2_body": [
+          "Use the sample for the defined fit or functional review. Record assembly findings against the drawing; identify changes explicitly instead of carrying them in informal messages."
+        ],
+        "_axis_suite_stages_2_body": [
+          "field_axis_suite_stages_body"
+        ],
+        "axis_suite_stages_2_output": [
+          "Documented acceptance or a controlled revision."
+        ],
+        "_axis_suite_stages_2_output": [
+          "field_axis_suite_stages_output"
+        ],
+        "axis_suite_stages_3_title": [
+          "Release the next quantity"
+        ],
+        "_axis_suite_stages_3_title": [
+          "field_axis_suite_stages_title"
+        ],
+        "axis_suite_stages_3_body": [
+          "Confirm the approved files, material condition, finish, inspection scope and packing requirements for the repeat order. Recheck the scope if quantity or operating conditions change."
+        ],
+        "_axis_suite_stages_3_body": [
+          "field_axis_suite_stages_body"
+        ],
+        "axis_suite_stages_3_output": [
+          "A repeat-build package with agreed delivery requirements."
+        ],
+        "_axis_suite_stages_3_output": [
+          "field_axis_suite_stages_output"
+        ],
+        "axis_suite_stages": [
+          "4"
+        ],
+        "_axis_suite_stages": [
+          "field_axis_suite_axis_suite_stages"
+        ],
+        "axis_suite_quality_heading": [
+          "Check what makes the assembly work."
+        ],
+        "_axis_suite_quality_heading": [
+          "field_axis_suite_axis_suite_quality_heading"
+        ],
+        "axis_suite_quality_body": [
+          "<p>Choose inspection requirements from the function of the part. The drawing should distinguish critical fits from general clearance features and identify whether acceptance applies before or after finishing. Any report, material record, sampling plan or special test must be agreed in the quotation.</p><p>For end-of-arm tooling, the robot manufacturer’s documentation treats mounting, mass distribution and integration as system-level considerations. Machined part inspection alone does not establish robot positioning accuracy, payload capability or application safety. The robot builder or integrator remains responsible for validating the complete system.</p>"
+        ],
+        "_axis_suite_quality_body": [
+          "field_axis_suite_axis_suite_quality_body"
+        ],
+        "axis_suite_quality_checks_0_title": [
+          "Location & mating fits"
+        ],
+        "_axis_suite_quality_checks_0_title": [
+          "field_axis_suite_axis_suite_quality_checks_title"
+        ],
+        "axis_suite_quality_checks_0_body": [
+          "Datum references, bearing or register diameters, locating faces, hole positions and the defined mating condition."
+        ],
+        "_axis_suite_quality_checks_0_body": [
+          "field_axis_suite_axis_suite_quality_checks_body"
+        ],
+        "axis_suite_quality_checks_1_title": [
+          "Finish & treatment"
+        ],
+        "_axis_suite_quality_checks_1_title": [
+          "field_axis_suite_axis_suite_quality_checks_title"
+        ],
+        "axis_suite_quality_checks_1_body": [
+          "Surface requirements, deburring, protected contact faces, masking and dimensions in the final treated condition."
+        ],
+        "_axis_suite_quality_checks_1_body": [
+          "field_axis_suite_axis_suite_quality_checks_body"
+        ],
+        "axis_suite_quality_checks_2_title": [
+          "Sample approval & records"
+        ],
+        "_axis_suite_quality_checks_2_title": [
+          "field_axis_suite_axis_suite_quality_checks_title"
+        ],
+        "axis_suite_quality_checks_2_body": [
+          "Features to report, sample quantity, inspection method and any requested material or treatment documentation."
+        ],
+        "_axis_suite_quality_checks_2_body": [
+          "field_axis_suite_axis_suite_quality_checks_body"
+        ],
+        "axis_suite_quality_checks_3_title": [
+          "Identification & protection"
+        ],
+        "_axis_suite_quality_checks_3_title": [
+          "field_axis_suite_axis_suite_quality_checks_title"
+        ],
+        "axis_suite_quality_checks_3_body": [
+          "Part number, drawing revision and quantity; protect locating faces, bores and threads during packing and transport."
+        ],
+        "_axis_suite_quality_checks_3_body": [
+          "field_axis_suite_axis_suite_quality_checks_body"
+        ],
+        "axis_suite_quality_checks": [
+          "4"
+        ],
+        "_axis_suite_quality_checks": [
+          "field_axis_suite_axis_suite_quality_checks"
+        ],
+        "axis_suite_faq_0_title": [
+          "Which robotics parts can I submit for review?"
+        ],
+        "_axis_suite_faq_0_title": [
+          "field_axis_suite_axis_suite_faq_title"
+        ],
+        "axis_suite_faq_0_body": [
+          "Submit drawings for custom adapter flanges, gripper fingers, joint or drive housings, shafts, sensor brackets and fixtures. Feasibility depends on the geometry, material, finish and acceptance requirements. These examples are component applications, not a catalog of complete robots."
+        ],
+        "_axis_suite_faq_0_body": [
+          "field_axis_suite_axis_suite_faq_body"
+        ],
+        "axis_suite_faq_1_title": [
+          "Will an adapter fit a particular robot brand?"
+        ],
+        "_axis_suite_faq_1_title": [
+          "field_axis_suite_axis_suite_faq_title"
+        ],
+        "axis_suite_faq_1_body": [
+          "Provide the exact robot model, the current wrist or tool interface drawing and the mating tool details. Hole patterns, locating features, fasteners and available clearance must be checked against those documents. Compatibility is confirmed for the specific design, not inferred from a robot brand name."
+        ],
+        "_axis_suite_faq_1_body": [
+          "field_axis_suite_axis_suite_faq_body"
+        ],
+        "axis_suite_faq_2_title": [
+          "Can I use the same part for a prototype and production?"
+        ],
+        "_axis_suite_faq_2_title": [
+          "field_axis_suite_axis_suite_faq_title"
+        ],
+        "axis_suite_faq_2_body": [
+          "A prototype can answer a fit, assembly or functional question. Before a repeat order, confirm which material, finish, inspection and documentation requirements represent the intended production condition. Any drawing change needs a controlled revision and renewed approval where appropriate."
+        ],
+        "_axis_suite_faq_2_body": [
+          "field_axis_suite_axis_suite_faq_body"
+        ],
+        "axis_suite_faq_3_title": [
+          "How should I specify tight fits and surface finishes?"
+        ],
+        "_axis_suite_faq_3_title": [
+          "field_axis_suite_axis_suite_faq_title"
+        ],
+        "axis_suite_faq_3_body": [
+          "Identify the functional relationship on the drawing, with datums, tolerance and required finish. State whether the requirement applies after coating or heat treatment. Avoid applying a tight tolerance to every feature when only a few interfaces control the assembly."
+        ],
+        "_axis_suite_faq_3_body": [
+          "field_axis_suite_axis_suite_faq_body"
+        ],
+        "axis_suite_faq_4_title": [
+          "What should I include in the first inquiry?"
+        ],
+        "_axis_suite_faq_4_title": [
+          "field_axis_suite_axis_suite_faq_title"
+        ],
+        "axis_suite_faq_4_body": [
+          "Include the current STEP file and drawing, material and condition, sample or batch quantity, finish, critical dimensions and delivery needs. Add the mating interface, operating environment and inspection requirements. If some details are undecided, identify them as review questions."
+        ],
+        "_axis_suite_faq_4_body": [
+          "field_axis_suite_axis_suite_faq_body"
+        ],
+        "axis_suite_faq": [
+          "5"
+        ],
+        "_axis_suite_faq": [
+          "field_axis_suite_axis_suite_faq"
+        ],
+        "axis_suite_related": [
+          [
+            "127",
+            "129",
+            "124"
+          ]
+        ],
+        "_axis_suite_related": [
+          "field_axis_suite_axis_suite_related"
+        ],
+        "axis_suite_inquiry_form": [
+          "3"
+        ],
+        "_axis_suite_inquiry_form": [
+          "field_axis_suite_axis_suite_inquiry_form"
+        ],
+        "axis_suite_inquiry_title": [
+          "Bring your robotics component into the conversation."
+        ],
+        "_axis_suite_inquiry_title": [
+          "field_axis_suite_axis_suite_inquiry_title"
+        ],
+        "axis_suite_inquiry_intro": [
+          "Share the drawing revision, robot or tool interface, material, quantity and critical fits. Include the operating environment and the records needed for approval."
+        ],
+        "_axis_suite_inquiry_intro": [
+          "field_axis_suite_axis_suite_inquiry_intro"
+        ],
+        "axis_suite_context": [
+          "Robotics"
+        ],
+        "_axis_suite_context": [
+          "field_axis_suite_axis_suite_context"
+        ],
+        "rank_math_title": [
+          "CNC Machining for Robotics & Automation | AXISCNC"
+        ],
+        "rank_math_description": [
+          "Plan custom robot grippers, joint housings, adapter flanges and sensor mounts. Review materials, functional fits, finishing and inspection for your robotics parts."
+        ],
+        "rank_math_focus_keyword": [
+          "CNC machining for robotics"
+        ],
+        "_thumbnail_id": [
+          "441"
+        ],
+        "clone_industry_hero": [
+          ""
+        ],
+        "_clone_industry_hero": [
+          "field_axis_suite_clone_industry_hero"
+        ],
+        "clone_industry_shared": [
+          ""
+        ],
+        "_clone_industry_shared": [
+          "field_axis_suite_clone_industry_shared"
+        ],
+        "clone_industry_inquiry": [
+          ""
+        ],
+        "_clone_industry_inquiry": [
+          "field_axis_suite_clone_industry_inquiry"
+        ],
+        "_rank_math_title": [
+          "field_axis_design_seo_rank_math_title"
+        ],
+        "_rank_math_description": [
+          "field_axis_design_seo_rank_math_description"
+        ]
+      },
+      "refs": {
+        "axis_suite_hero_image": {
+          "type": "image",
+          "taxonomy": ""
+        },
+        "axis_suite_service_pages": {
+          "type": "relationship",
+          "taxonomy": []
+        },
+        "axis_suite_use_cases_0_image": {
+          "type": "image",
+          "taxonomy": ""
+        },
+        "axis_suite_use_cases_1_image": {
+          "type": "image",
+          "taxonomy": ""
+        },
+        "axis_suite_use_cases_2_image": {
+          "type": "image",
+          "taxonomy": ""
+        },
+        "axis_suite_related": {
+          "type": "relationship",
+          "taxonomy": []
+        }
+      },
+      "terms": []
+    },
+    {
       "id": 367,
       "type": "post",
       "title": "Choosing the right aluminum alloy for your part",
@@ -37860,6 +38411,13 @@
   },
   "media": [
     {
+      "id": 441,
+      "title": "Robotics component application concept",
+      "alt": "Concept illustration of a robotic gripper, machined adapter flange, joint housing and lightweight mounting bracket",
+      "mime": "image/webp",
+      "file": "robotics-cnc-components.webp"
+    },
+    {
       "id": 293,
       "title": "AI illustrative concept: plastic-finish-strip",
       "alt": "AI-generated illustrative plastic finish strip",
@@ -39991,6 +40549,23 @@
           ],
           "target": "",
           "order": 69,
+          "family": "",
+          "inheritTitle": true
+        },
+        {
+          "id": 444,
+          "parent": "194",
+          "title": "Robotics",
+          "url": "{{SITE_URL}}/industries/robotics/",
+          "object": "starter_industry",
+          "object_id": "442",
+          "type": "post_type",
+          "description": "",
+          "classes": [
+            ""
+          ],
+          "target": "",
+          "order": 70,
           "family": "",
           "inheritTitle": true
         }
