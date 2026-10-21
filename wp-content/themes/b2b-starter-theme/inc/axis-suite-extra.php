@@ -2,6 +2,12 @@
 namespace AxisCNC\SuiteTheme;
 defined('ABSPATH') || exit;
 
+// Contact contains a live form and must not retain a week-old HTML document.
+// Versioned CSS and WebP assets keep their existing browser cache policy.
+add_action('template_redirect',static function():void{
+    if(is_page_template('page-templates/axis-contact.php'))nocache_headers();
+},0);
+
 function local_url(string $url):string{
     if(!$url)return '';
     if(str_starts_with($url,'#'))return $url;

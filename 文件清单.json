@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-21T03:42:21.193Z",
+  "at": "2026-10-21T06:20:22.781Z",
   "files": [
     {
       "file": ".gitignore",
@@ -783,8 +783,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/axis-suite-extra.php",
-      "bytes": 17364,
-      "sha256": "8e128adffcf536fe4860bedafdb21ab0bceab8c163c6b002a412b9d4ae684911"
+      "bytes": 17657,
+      "sha256": "32ab64fa19eeda86b1b71221e991c5b1e184b098c3b346630b3226950c2457a8"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/axis-template-suite.php",
@@ -1212,7 +1212,7 @@
       "sha256": "3e4a25b5332695b6db1ff345364cd5d2b141fe14b07935ded531c140aef0d488"
     }
   ],
-  "totalBytes": 8725193,
+  "totalBytes": 8725486,
   "records": 90,
   "images": 71,
   "privacyScan": "pending-independent-history-audit"
