@@ -22,14 +22,12 @@ function render_home():void{
     foreach($definitions as$definition){$visibility[$definition['name']]=$definition['axis_visibility_field'];$anchors[$definition['name']]=$definition['axis_anchor'];}
     $all=get_field('axis_home_modules');$jump=[];$visible=[];foreach(is_array($all)?$all:[]as$module){$layout=$module['acf_fc_layout'];if($layout==='product_inquiry'&&(int)($module['form_id']??0)<=0)continue;if(trim((string)($module[$visibility[$layout]??'']??''))!==''&&!empty($anchors[$layout])){$visible[]=$anchors[$layout];if(!empty($module['navigation_label']))$jump[$anchors[$layout]]=$module['navigation_label'];}}
     $GLOBALS['axis_home_known_anchors']=array_values(array_filter($anchors));$GLOBALS['axis_home_visible_anchors']=$visible;
-    $jumpShown=false;
+    
     if(have_rows('axis_home_modules'))while(have_rows('axis_home_modules')){the_row();$layout=get_row_layout();
         $path=get_theme_file_path('parts/axis-home/'.$layout.'.php');
         if(!preg_match('/^[a-z_]+$/',$layout)||!is_file($path))continue;
         if(trim((string)get_sub_field($visibility[$layout]??''))==='')continue;
-        if($layout==='product_inquiry'&&(int)get_sub_field('form_id')<=0)continue;
-        if(!$jumpShown&&!in_array($layout,['hero','value_strip'],true)){$jumpShown=true;if($jump){echo '<nav class="home-jump" aria-label="Explore this homepage"><div class="shell">';foreach($jump as$anchor=>$label)echo '<a href="#'.esc_attr($anchor).'">'.esc_html($label).'</a>';echo '</div></nav>';}}
-        include $path;
+        if($layout==='product_inquiry'&&(int)get_sub_field('form_id')<=0)continue;        include $path;
     }
     end();
 }
@@ -43,7 +41,7 @@ function record_cards(array $ids):void{
     echo '<div class="suite-cards">';foreach($ids as$id){echo '<article><a href="'.esc_url(get_permalink($id)).'">';$img=metadata_exists('post',$id,'axis_suite_hero_image')?get_field('axis_suite_hero_image',$id):get_post_thumbnail_id($id);if(has_image($img)){echo '<figure>';image($img);echo '</figure>';}echo '<div><h3>'.esc_html(get_the_title($id)).' ↗</h3><p>'.esc_html(get_the_excerpt($id)).'</p></div></a></article>';}echo '</div>';
 }
 function render_solution():void{
-    start();hero();$stages=rows('program_stages',['title','body']);$packages=rows('packages',['title','body']);$links=[];foreach($stages as$i=>$s)$links['phase-'.($i+1)]=$s['title'];if($packages)$links['packages']='Service packages';nav($links);
+    start();hero();$stages=rows('program_stages',['title','body']);$packages=rows('packages',['title','body']);
     if(has_text(value('program_intro'))){echo '<section class="suite-section shell suite-reading">';rich(value('program_intro'));echo '</section>';}
     foreach($stages as$i=>$s){echo '<section id="phase-'.($i+1).'" class="suite-section '.($i%2?'light-band':'').'"><div class="shell suite-phase'.(!has_image($s['image']??0)?' is-text-only':'').'">';if(has_image($s['image']??0)){echo '<figure>';image($s['image']);echo '</figure>';}echo '<div><p class="eyebrow">PHASE '.esc_html(str_pad((string)($i+1),2,'0',STR_PAD_LEFT)).'</p><h2>';text($s['title']);echo '</h2><p>';text($s['body']);echo '</p><dl class="suite-definition">';foreach(['inputs'=>'Inputs','work'=>'Work & decisions','output'=>'Release gate','boundary'=>'Scope & responsibility']as$key=>$label)if(!empty($s[$key])){echo '<div><dt>'.$label.'</dt><dd>';text($s[$key]);echo '</dd></div>';}echo '</dl><a class="button" href="'.esc_url(add_query_arg('phase',rawurlencode($s['title']),inquiry_url())).'">Discuss this phase ↗</a></div></div></section>';}
     if($packages){echo '<section id="packages" class="suite-section shell"><p class="eyebrow">SERVICE PACKAGE</p><h2>Choose the next useful commitment.</h2><div class="suite-cards">';foreach($packages as$p){echo '<article><div><h3>';text($p['title']);echo '</h3><p>';text($p['body']);echo '</p>';foreach(['scope'=>'Scope','gate'=>'Before release']as$key=>$label)if(has_text($p[$key]??'')){echo '<h4>'.$label.'</h4><p>';text($p[$key]);echo '</p>';}echo '</div></article>';}echo '</div></section>';}
@@ -56,7 +54,7 @@ function render_materials():void{
     if($images){echo '<figure class="suite-material-collage count-'.count($images).'">';foreach(array_slice($images,0,3)as$id)image($id,'large');if(public_caption(value('caption'))){echo '<figcaption>';text(value('caption'));echo '</figcaption>';}echo '</figure>';}
     echo '</div></section>';$groups=rows('material_groups',['title']); // Nested row validity is evaluated below.
     $groups=array_values(array_filter($groups,static fn($g)=>!empty(array_filter((array)$g['items'],static fn($r)=>has_text($r['name']??'')&&has_text($r['body']??'')))));
-    if($groups){echo '<div class="shell suite-material-layout"><aside><nav class="suite-material-nav" aria-label="Material families">';foreach($groups as$i=>$g)echo '<a href="#material-group-'.$i.'">'.esc_html($g['title']).'</a>';echo '</nav></aside><div class="suite-material-catalog">';}
+    if($groups){echo '<div class="shell suite-material-layout suite-material-layout--full"><div class="suite-material-catalog">';}
     if($groups)echo '<div class="suite-material-tools"><label for="material-search">Find a material</label><input id="material-search" type="search" placeholder="Search material, grade or application" data-material-search><p data-material-empty hidden>No matching materials. Try another term or ask about your requirements.</p></div>';
     foreach($groups as$i=>$g){echo '<section class="suite-section" id="material-group-'.$i.'" data-material-group><div class="suite-section-heading"><div><h2>';text($g['title']);echo '</h2><p>';text($g['intro']??'');echo '</p></div>';if(!empty($g['capability'])&&get_post_status((int)$g['capability'])==='publish')echo '<a class="text-link" href="'.esc_url(get_permalink($g['capability'])).'">Explore this process ↗</a>';echo '</div><div class="suite-table-scroll"><table class="suite-material-table"><thead><tr><th scope="col">Material</th><th scope="col">Description</th><th scope="col">Cost & quotation</th></tr></thead><tbody>';foreach((array)$g['items']as$r){if(!has_text($r['name']??'')||!has_text($r['body']??''))continue;echo '<tr data-material-row><th scope="row">';image($r['image']??0,'medium');text($r['name']);echo '</th><td><p>';text($r['body']);echo '</p>';if(!empty($r['grades'])){echo '<small>';text($r['grades']);echo '</small>';}if(!empty($r['limits'])){echo '<p class="suite-material-limit"><strong>Confirm: </strong>';text($r['limits']);echo '</p>';}echo '</td><td><p>';text($r['cost']??'');echo '</p><a class="text-link" href="'.esc_url(add_query_arg('material',rawurlencode($r['name']),inquiry_url())).'">Discuss material ↗</a></td></tr>';}echo '</tbody></table></div></section>';}
     if($groups)echo '</div></div>';faq(rows('faq',['title','body']));inquiry();end();

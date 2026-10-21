@@ -1,5 +1,5 @@
 {
-  "at": "2026-10-20T18:11:37.439Z",
+  "at": "2026-10-21T02:07:03.151Z",
   "files": [
     {
       "file": ".gitignore",
@@ -8,8 +8,8 @@
     },
     {
       "file": "content.json",
-      "bytes": 1445377,
-      "sha256": "b0f46ccbfd4e4135c21acbcd0a2b3fa8e09f0c44fc284c155296bbe472beade0"
+      "bytes": 1449648,
+      "sha256": "0944b8ca7c30f339166b49318319bb20410dfaea03f6a4d22e8832357044bc93"
     },
     {
       "file": "images/10-axis-image-10.webp",
@@ -363,8 +363,8 @@
     },
     {
       "file": "import.php",
-      "bytes": 8122,
-      "sha256": "9b86b798b4c4ef60f6ffb6e981f5f53d329f2cb596371dc63c955bcf714efd28"
+      "bytes": 8152,
+      "sha256": "b58ad7ee3ccdeddaa316bc967b69617e8185c8a5274eb1d4b5e2ee68d20b3dc6"
     },
     {
       "file": "README.md",
@@ -408,8 +408,8 @@
     },
     {
       "file": "wp-content/plugins/starter-model/includes/axis-content-types.php",
-      "bytes": 12499,
-      "sha256": "04baf37424afe6000031ded865a44d5c236b274e461b756c99e51f87006c8c22"
+      "bytes": 12705,
+      "sha256": "37e37a04b9f1d595fd86f3d5d8dd8a52fc10bce289899ff7bce934c82d419ccd"
     },
     {
       "file": "wp-content/plugins/starter-model/includes/axis-home-schema.json",
@@ -563,8 +563,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/assets/css/axis-suite-extra.css",
-      "bytes": 18863,
-      "sha256": "80f2caf0747f8b5348a259baa2e66a82275bd0249648c8b9c79bde111ca21497"
+      "bytes": 18930,
+      "sha256": "752a369292d77d8eca4c374266a8f41c85db77d4ac3ebf5b7326afa136fbb6e2"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/assets/css/axis-suite-home-explorers.css",
@@ -778,13 +778,13 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/axis-suite-extra.php",
-      "bytes": 18083,
-      "sha256": "e90c912801638611f8399d675e219aefaff6313397da1ddbac65bc70416f4c4c"
+      "bytes": 17470,
+      "sha256": "baeb88e93bf4f07e65e1d6dfa5d747b6ec960fcdb8676d9a66d3314e52354ef8"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/axis-template-suite.php",
-      "bytes": 20692,
-      "sha256": "e7219d0f29b9a303dbd57f8ec439f70b91c5156876cd57b307c9d93ee99a0128"
+      "bytes": 19579,
+      "sha256": "9bf89026b73234fd3f17075e0b8c3eab642a7eed82a1965aab7376435c18a330"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/blog.php",
@@ -798,8 +798,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/components.php",
-      "bytes": 35115,
-      "sha256": "3130b4a5e0f3f24b6c8bdff735da8234382ccda60eddcef635fabc47c02481c6"
+      "bytes": 34721,
+      "sha256": "4df24483d8f74f89c209a492490cae79d5dadf7d1f63ebf62c76879f4e87690f"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/inc/footer.php",
@@ -1093,8 +1093,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/parts/product-reading.php",
-      "bytes": 3336,
-      "sha256": "da10de79dc4cda62b7c1f8bf8c7d80da50aa7fba45b24324916735349a36523d"
+      "bytes": 2749,
+      "sha256": "60218fe2a8e9fc29f62d8efecf0117ffddf8a38af27c0908f5087baf6a50eba8"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/parts/single-post.php",
@@ -1168,8 +1168,8 @@
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/templates/categories/standard.php",
-      "bytes": 4231,
-      "sha256": "bbb06615aa7291c60a98c4f20842b2d5db4fefaf1f82b3d9d3da44e569dc4005"
+      "bytes": 3977,
+      "sha256": "fe63d12b7d3512329d15a396d03b0e33e25164797f7f72acc8bf978887890483"
     },
     {
       "file": "wp-content/themes/b2b-starter-theme/templates/home/conversion.php",
@@ -1207,7 +1207,7 @@
       "sha256": "b9c840b673f08a4b85cd5d27eaf1b795efa47da751ab8d9aa57d772779582b2b"
     }
   ],
-  "totalBytes": 8585074,
+  "totalBytes": 8586687,
   "records": 89,
   "images": 70,
   "privacyScan": "pending-independent-history-audit"

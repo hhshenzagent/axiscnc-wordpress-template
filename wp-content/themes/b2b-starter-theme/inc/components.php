@@ -508,11 +508,7 @@ function component_category_sections(array $sections): void {
 
 /** Section anchor navigation for long commercial landing pages. */
 function component_anchor_nav(array $props = []): void {
-	$links = array_values(array_filter((array) ($props['links'] ?? []), static fn ($link): bool => trim((string) ($link['url'] ?? '')) !== '' && trim((string) ($link['label'] ?? '')) !== ''));
-	if (count($links) < 2) return;
-	echo '<nav class="anchor-nav" aria-label="Section navigation"><div class="anchor-track">';
-	foreach ($links as $link) printf('<a href="%s">%s</a>', esc_url((string) $link['url']), esc_html((string) $link['label']));
-	echo '</div></nav>';
+	// Commercial pages no longer render section shortcut navigation.
 }
 
 /** Compact label/value fact grid used by category ranges. */

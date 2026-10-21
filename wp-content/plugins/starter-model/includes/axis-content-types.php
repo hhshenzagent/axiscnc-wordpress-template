@@ -67,7 +67,7 @@ function sync_navigation(int $id):void{
  $items=wp_get_nav_menu_items($menu)?:[];$existing=null;foreach($items as$item)if($item->type==='post_type'&&(int)$item->object_id===$id){$existing=$item;break;}
  $base=home_url('/'.$d['base'].'/');$parent=0;$group=(string)get_post_meta($id,family_key($post->post_type),true);
  foreach($items as$item)if(untrailingslashit($item->url)===untrailingslashit($base)){$parent=(int)$item->ID;break;}
- if($post->post_type==='axis_capability'&&$group){foreach($items as$item)if((int)$item->menu_item_parent===$parent&&html_entity_decode($item->title,ENT_QUOTES,'UTF-8')===($d['groups'][$group]??'')){$parent=(int)$item->ID;break;}}
+ if($post->post_type==='axis_capability'&&$group){foreach($items as$item)if((int)$item->menu_item_parent===$parent&&(get_post_meta($item->ID,'_axis_menu_family',true)===$group||html_entity_decode($item->title,ENT_QUOTES,'UTF-8')===($d['groups'][$group]??''))){$parent=(int)$item->ID;break;}}
  elseif($post->post_type==='axis_material'){
   foreach($items as$item)if((int)$item->object_id!==$id&&(($post->post_parent&&(int)$item->object_id===(int)$post->post_parent)||(!$post->post_parent&&$group&&trim($item->description)==='material-group:'.$group))){$parent=(int)$item->ID;break;}
  }
@@ -80,7 +80,7 @@ add_action('wp_after_insert_post',static fn($id)=>sync_navigation((int)$id),100)
 add_action('acf/save_post',static function($id):void{if(is_numeric($id))sync_navigation((int)$id);},100);
 add_filter('wp_get_nav_menu_items',static function($items){
  if(is_admin())return$items;$byParent=[];foreach($items as$i)$byParent[(int)$i->menu_item_parent][]=$i;
- foreach($items as$item)if(get_post_meta($item->ID,'_axis_menu_family',true))foreach($byParent[$item->ID]??[]as$child)if(get_post_status((int)$child->object_id)==='publish'&&get_post_meta((int)$child->object_id,'axis_show_in_navigation',true)!=='0'){$item->axis_content_object_id=(int)$child->object_id;$item->url=$child->url;break;}
+ foreach($items as$item){$family=(string)get_post_meta($item->ID,'_axis_menu_family',true);if(!$family)continue;$labels=definitions()['axis_capability']['groups'];if(isset($labels[$family]))$item->title=$labels[$family];foreach($byParent[$item->ID]??[]as$child)if(get_post_status((int)$child->object_id)==='publish'&&get_post_meta((int)$child->object_id,'axis_show_in_navigation',true)!=='0'){$item->axis_content_object_id=(int)$child->object_id;$item->url=$child->url;break;}}
  return array_values(array_filter($items,static function($item)use($byParent):bool{
   if($item->type!=='post_type')return true;$id=(int)$item->object_id;$visible=get_post_status($id)==='publish'&&get_post_meta($id,'axis_show_in_navigation',true)!=='0';if($visible)return true;
   foreach($byParent[$item->ID]??[]as$child)if($child->type==='post_type'&&get_post_status((int)$child->object_id)==='publish'&&get_post_meta((int)$child->object_id,'axis_show_in_navigation',true)!=='0'){$item->object=$child->object;$item->object_id=$child->object_id;$item->url=$child->url;return true;}

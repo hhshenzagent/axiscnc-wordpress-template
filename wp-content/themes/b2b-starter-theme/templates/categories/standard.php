@@ -25,9 +25,6 @@ $hero_cta = array_merge($category['cta'], ['url' => '#product-inquiry']);
 <div class="product-reading-layout<?php echo !$has_guide ? ' no-guide' : ''; ?>">
 <?php if ($has_guide) : ?>
 <div class="product-reading">
-<nav class="product-section-nav" aria-label="Category information"><div class="anchor-track">
-<?php foreach ($links as $link) : ?><a href="<?php echo esc_url($link['url']); ?>"><?php echo esc_html($link['label']); ?></a><?php endforeach; ?>
-</div></nav>
 <?php if ($category['long_description']) : ?>
 <section id="buying-guide" class="product-block buying-guide">
 <?php Starter\Theme\component_section_heading(['title' => $category['guide_title']]); ?>

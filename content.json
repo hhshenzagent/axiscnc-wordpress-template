@@ -1360,7 +1360,7 @@
     {
       "id": 322,
       "type": "axis_material",
-      "title": "PBT · Injection molding",
+      "title": "PA / PBT · Injection molding",
       "slug": "molding-pa-pbt",
       "parent": 0,
       "content": "",
@@ -1573,7 +1573,7 @@
     {
       "id": 323,
       "type": "axis_material",
-      "title": "PE · Injection molding",
+      "title": "PP / PE · Injection molding",
       "slug": "molding-pp-pe",
       "parent": 0,
       "content": "",
@@ -11022,7 +11022,7 @@
     {
       "id": 315,
       "type": "axis_material",
-      "title": "ABS · 3D printing",
+      "title": "PLA / ABS · 3D printing",
       "slug": "printing-pla-abs",
       "parent": 0,
       "content": "",
@@ -28615,7 +28615,7 @@
     {
       "id": 121,
       "type": "axis_resource",
-      "title": "Keep the function. Make the requirements clear.",
+      "title": "Design guidelines",
       "slug": "design-guidelines",
       "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#guide-0\">Show what controls the function</a><a href=\"#guide-1\">Review access and holding</a><a href=\"#guide-2\">Specify only what is required</a><a href=\"#comparison\">Review table</a><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"guide-0\"><h2>Show what controls the function</h2><ul><li>Mark the surfaces that locate, seal, support or move against another component.</li><li>Build the datum scheme around those relationships and explain any unusual mating condition.</li></ul></section><section id=\"guide-1\"><h2>Review access and holding</h2><ul><li>Highlight deep pockets, narrow slots, undercuts and internal corners that may restrict the tool.</li><li>Consider how a part can be held without damaging thin sections or cosmetic surfaces.</li></ul></section><section id=\"guide-2\"><h2>Specify only what is required</h2><ul><li>Use tight tolerances where the function needs them. Unnecessary blanket control can increase machining and inspection work.</li><li>Separate general edge treatment and surface requirements from individual critical features.</li></ul></section><section id=\"comparison\"><p>KEEP THE SCOPE CLEAR</p><h2>A practical review table.</h2><table><thead><tr><th>Feature</th><th>Review question</th><th>Useful information</th></tr></thead><tbody><tr><th>Internal corners</th><td>Does the function need a sharp corner?</td><td>Mating geometry and permitted corner relief or radius.</td></tr><tr><th>Deep pockets &amp; holes</th><td>Can the feature be reached and checked?</td><td>Section view, depth, diameter and access direction.</td></tr><tr><th>Thin sections</th><td>How will the part behave during holding and machining?</td><td>Material, wall geometry, functional purpose and allowable changes.</td></tr><tr><th>Threads</th><td>Is the definition complete?</td><td>Thread standard, pitch, depth, entry and relief requirements.</td></tr><tr><th>Critical fits</th><td>Which relationship controls the assembly?</td><td>Datum references, mating part and final-condition tolerances.</td></tr></tbody></table></section><section id=\"questions\"><h2>Questions to clarify.</h2><details><summary>Why does this guide avoid a single minimum wall or maximum depth?<span>+</span></summary><p>Such limits depend on material, geometry, tools, holding and acceptance requirements. The actual drawing is the basis for a useful review.</p></details><details><summary>Can manufacturing suggestions change the function?<span>+</span></summary><p>Any proposed change should be identified explicitly and approved by the design authority. Keep the accepted change in a controlled drawing revision.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/capabilities/cnc-milling/\"><strong>CNC Milling <span>↗</span></strong><p>Housings, pockets, mounting plates and machined interfaces.</p></a><a href=\"{{SITE_URL}}/capabilities/cnc-machining/\"><strong>5-Axis Machining <span>↗</span></strong><p>Multi-face geometry, angled features and difficult tool access.</p></a><a href=\"{{SITE_URL}}/resources/rfq-checklist/\"><strong>Drawing &amp; RFQ Checklist <span>↗</span></strong><p>Files, specifications and commercial inputs for a useful first review.</p></a>",
@@ -28711,7 +28711,7 @@
     {
       "id": 122,
       "type": "axis_resource",
-      "title": "Agree what will be checked. Know what will arrive.",
+      "title": "Inspection & handover",
       "slug": "inspection-handover",
       "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#guide-0\">Before machining</a><a href=\"#guide-1\">During the project</a><a href=\"#guide-2\">Before dispatch</a><a href=\"#comparison\">Review table</a><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"guide-0\"><h2>Before machining</h2><ul><li>Confirm the controlling revision, datum scheme and features that affect fit or function.</li><li>Agree material records, measurement scope, sampling and any special test method.</li></ul></section><section id=\"guide-1\"><h2>During the project</h2><ul><li>Identify the checkpoints or sample approvals needed for this order.</li><li>Record changes and resolve discrepancies against the agreed drawing rather than informal messages.</li></ul></section><section id=\"guide-2\"><h2>Before dispatch</h2><ul><li>Match the release records to part number, revision, quantity and any agreed batch identifier.</li><li>Protect sensitive surfaces and include the agreed packing list and inspection documentation.</li></ul></section><section id=\"comparison\"><p>KEEP THE SCOPE CLEAR</p><h2>A practical review table.</h2><table><thead><tr><th>Handover item</th><th>Define in the inquiry</th><th>Purpose</th></tr></thead><tbody><tr><th>Dimensional records</th><td>Features, reference system, sample size and report format</td><td>Connect measured results to the actual drawing and revision.</td></tr><tr><th>Material documents</th><td>Document type, grade and identification required</td><td>Clarify the requested link between material and supplied parts.</td></tr><tr><th>Part identification</th><td>Part number, revision, quantity and batch information where agreed</td><td>Support receiving, storage and repeat-order reference.</td></tr><tr><th>Protection &amp; packing</th><td>Sensitive faces, corrosion or contamination concerns, separate packing</td><td>Reduce handling and transport risks specific to these parts.</td></tr><tr><th>Special tests</th><td>Method, conditions, acceptance criteria and responsible party</td><td>Confirm availability and scope before treating a test as included.</td></tr></tbody></table></section><section id=\"questions\"><h2>Questions to clarify.</h2><details><summary>Does this page establish an accredited inspection capability?<span>+</span></summary><p>No. It describes requirements to agree. Equipment, methods, certification scope and any independent verification must be confirmed for the actual order.</p></details><details><summary>What should I report if receiving finds a problem?<span>+</span></summary><p>Keep the part identification, drawing revision, photographs, measured results and relevant conditions together. Contact the project team so the discrepancy can be assessed against the agreed requirements.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/resources/rfq-checklist/\"><strong>Drawing &amp; RFQ Checklist <span>↗</span></strong><p>Files, specifications and commercial inputs for a useful first review.</p></a><a href=\"{{SITE_URL}}/resources/workflow/\"><strong>How We Work <span>↗</span></strong><p>Responsibilities, approval points, changes and delivery planning.</p></a><a href=\"{{SITE_URL}}/resources/surface-finishes/\"><strong>Surface Finish Planning <span>↗</span></strong><p>Finishing choices, masked interfaces and final-condition inspection.</p></a>",
@@ -28807,7 +28807,7 @@
     {
       "id": 123,
       "type": "axis_resource",
-      "title": "Answers that move a machining decision forward.",
+      "title": "Machining FAQs",
       "slug": "machining-faqs",
       "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"questions\"><h2>Questions before machining.</h2><details><summary>Are these stock products?<span>+</span></summary><p>No. AXISCNC is presented here around custom machining solutions. Component images illustrate possible geometry; your drawing defines the requested part.</p></details><details><summary>What should my first inquiry include?<span>+</span></summary><p>Start with the application, current model and drawing, revision, material, quantity and required finish. Include critical fits, inspection records and your desired milestone.</p></details><details><summary>Can I start if the material is undecided?<span>+</span></summary><p>Yes. Describe operating conditions and what is fixed. Candidate materials and availability need review before a manufacturing scope is confirmed.</p></details><details><summary>What tolerance is achievable?<span>+</span></summary><p>It depends on the feature, geometry, material, process and final condition. Identify the functional tolerances and datums instead of assuming one blanket capability.</p></details><details><summary>Can I request a prototype first?<span>+</span></summary><p>State the sample quantity, purpose, test conditions and approval criteria. Note any differences from the intended production material or finish.</p></details><details><summary>How is a price established?<span>+</span></summary><p>Geometry, stock, quantity, setups, finishing, inspection and delivery scope affect the quotation. A concept image or material family is insufficient for a confirmed price.</p></details><details><summary>Are certificates and special tests included?<span>+</span></summary><p>List the exact document or test required, the acceptance criteria and the expected relationship to supplied parts. Availability and scope need explicit agreement.</p></details><details><summary>Can I change the drawing after quotation?<span>+</span></summary><p>Share the changed revision before release. Changes may require a revised price, process, inspection plan or schedule.</p></details><details><summary>How should repeat orders be identified?<span>+</span></summary><p>Provide the earlier reference, approved drawing revision and declared changes. Reconfirm quantity, material, finish and handover needs.</p></details><details><summary>How can I send a confidential drawing?<span>+</span></summary><p>First discuss the handling method and any NDA requirement through the contact channel. This local design preview does not accept file uploads.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/resources/rfq-checklist/\"><strong>Drawing &amp; RFQ Checklist <span>↗</span></strong><p>Files, specifications and commercial inputs for a useful first review.</p></a><a href=\"{{SITE_URL}}/materials/\"><strong>CNC Material Selection <span>↗</span></strong><p>Compare suitability, constraints and cost or lead-time drivers.</p></a><a href=\"{{SITE_URL}}/resources/workflow/\"><strong>How We Work <span>↗</span></strong><p>Responsibilities, approval points, changes and delivery planning.</p></a>",
@@ -28903,7 +28903,7 @@
     {
       "id": 124,
       "type": "axis_resource",
-      "title": "A clearer brief starts a better quotation.",
+      "title": "RFQ checklist",
       "slug": "rfq-checklist",
       "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#guide-0\">01 / Geometry &amp; version</a><a href=\"#guide-1\">02 / Material &amp; final condition</a><a href=\"#guide-2\">03 / Quantity &amp; acceptance</a><a href=\"#guide-3\">04 / Commercial &amp; handover</a><a href=\"#comparison\">Review table</a><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"guide-0\"><h2>01 / Geometry &amp; version</h2><ul><li>Include a matching solid model and dimensioned drawing; state units and revision.</li><li>Identify critical dimensions, datums, threads, fits and surfaces.</li><li>Show mating components or an assembly view when a relationship is difficult to explain.</li></ul></section><section id=\"guide-1\"><h2>02 / Material &amp; final condition</h2><ul><li>State the exact grade, condition and any approved alternatives.</li><li>Include finish, cosmetic faces, masked areas and dimensions that apply after finishing.</li><li>Specify special cleaning, marking or edge requirements.</li></ul></section><section id=\"guide-2\"><h2>03 / Quantity &amp; acceptance</h2><ul><li>Separate sample quantity, first batch and expected repeat quantities.</li><li>Describe the sample purpose and approval criteria.</li><li>Request inspection and material records by type and scope.</li></ul></section><section id=\"guide-3\"><h2>04 / Commercial &amp; handover</h2><ul><li>Give the desired date and destination; distinguish a target from a confirmed schedule.</li><li>List packaging, identification and delivery-document requirements.</li><li>Flag confidential material before sending files; agree the handling method first.</li></ul></section><section id=\"comparison\"><p>KEEP THE SCOPE CLEAR</p><h2>A practical review table.</h2><table><thead><tr><th>If this is missing</th><th>You can still provide</th><th>What remains open</th></tr></thead><tbody><tr><th>Final material</th><td>Operating environment and the reason for selection</td><td>Grade, availability and compatibility require confirmation.</td></tr><tr><th>Complete drawing</th><td>Current model and marked critical interfaces</td><td>The manufacturing release needs an agreed specification.</td></tr><tr><th>Firm quantity</th><td>Sample need and expected quantity range</td><td>Pricing and schedule depend on the final scope.</td></tr></tbody></table></section><section id=\"questions\"><h2>Questions to clarify.</h2><details><summary>Can I start without a finished CAD file?<span>+</span></summary><p>Start with the application and available geometry. Explain what is incomplete. A preliminary discussion is different from a confirmed manufacturing quotation.</p></details><details><summary>Should I put different revisions in one archive?<span>+</span></summary><p>Identify the controlling version explicitly. Keep superseded files clearly separated to avoid quoting or making the wrong revision.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/resources/design-guidelines/\"><strong>CNC Design Guidelines <span>↗</span></strong><p>Tool access, internal corners, thin walls, tolerances and drawing clarity.</p></a><a href=\"{{SITE_URL}}/materials/\"><strong>CNC Material Selection <span>↗</span></strong><p>Compare suitability, constraints and cost or lead-time drivers.</p></a><a href=\"{{SITE_URL}}/resources/inspection-handover/\"><strong>Inspection &amp; Handover <span>↗</span></strong><p>Plan acceptance records, part identification and protective packaging.</p></a>",
@@ -28999,7 +28999,7 @@
     {
       "id": 125,
       "type": "axis_resource",
-      "title": "Define the finished surface before machining.",
+      "title": "Surface finishes",
       "slug": "surface-finishes",
       "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#guide-0\">Separate function from appearance</a><a href=\"#guide-1\">Describe the finish scope</a><a href=\"#guide-2\">Approve the final condition</a><a href=\"#comparison\">Review table</a><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"guide-0\"><h2>Separate function from appearance</h2><ul><li>Mark sealing, sliding, bearing and electrical contact surfaces separately from visible cosmetic faces.</li><li>Specify roughness or another measurable requirement where the function needs it; avoid relying on a photograph alone.</li></ul></section><section id=\"guide-1\"><h2>Describe the finish scope</h2><ul><li>State the requested coating or treatment, standard, color and acceptance reference where applicable.</li><li>Identify masking, threads, bores, contact faces and locations where coating is not permitted.</li></ul></section><section id=\"guide-2\"><h2>Approve the final condition</h2><ul><li>Clarify whether the dimension applies before or after treatment.</li><li>For cosmetic work, agree a sample or objective acceptance reference, inspection conditions and any allowed variation.</li></ul></section><section id=\"comparison\"><p>KEEP THE SCOPE CLEAR</p><h2>A practical review table.</h2><table><thead><tr><th>Option to discuss</th><th>Potential purpose</th><th>Confirm before selection</th></tr></thead><tbody><tr><th>As-machined surface</th><td>Functional components where tool marks may be acceptable</td><td>Roughness, edge treatment and visible-tool-mark expectations.</td></tr><tr><th>Bead blasting</th><td>A more uniform texture before final finishing</td><td>Media, geometry, protected interfaces and cosmetic acceptance.</td></tr><tr><th>Anodizing for suitable aluminum grades</th><td>A specified protective or cosmetic finish</td><td>Alloy, coating specification, color, masking and dimensional allowance.</td></tr><tr><th>Coating, passivation or other treatment</th><td>Application-specific appearance or surface condition</td><td>Material compatibility, specification, supplier scope and required records.</td></tr></tbody></table></section><section id=\"questions\"><h2>Questions to clarify.</h2><details><summary>Are all finishing methods available for every part?<span>+</span></summary><p>No. Material, geometry, functional requirements and the available process route must be reviewed. The quotation confirms the agreed method.</p></details><details><summary>Will coating leave a precision fit unchanged?<span>+</span></summary><p>Do not assume so. Define the final dimensions, allowance and masking so the fit can be assessed after the specified treatment.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/materials/\"><strong>CNC Material Selection <span>↗</span></strong><p>Compare suitability, constraints and cost or lead-time drivers.</p></a><a href=\"{{SITE_URL}}/resources/inspection-handover/\"><strong>Inspection &amp; Handover <span>↗</span></strong><p>Plan acceptance records, part identification and protective packaging.</p></a><a href=\"{{SITE_URL}}/resources/rfq-checklist/\"><strong>Drawing &amp; RFQ Checklist <span>↗</span></strong><p>Files, specifications and commercial inputs for a useful first review.</p></a>",
@@ -29095,7 +29095,7 @@
     {
       "id": 126,
       "type": "axis_resource",
-      "title": "A defined next step, at every stage.",
+      "title": "Project workflow",
       "slug": "workflow",
       "parent": 0,
       "content": "<aside><p>IN THIS GUIDE</p><a href=\"#guide-0\">01 / Share the requirement</a><a href=\"#guide-1\">02 / Review &amp; confirm</a><a href=\"#guide-2\">03 / Sample or manufacturing stage</a><a href=\"#guide-3\">04 / Handover &amp; follow-up</a><a href=\"#comparison\">Review table</a><a href=\"#questions\">Questions &amp; answers</a></aside><section id=\"guide-0\"><h2>01 / Share the requirement</h2><ul><li>Provide the application, current files, material, quantity and desired date.</li><li>Mark what is final and what still needs discussion; identify the people approving technical and commercial scope.</li></ul></section><section id=\"guide-1\"><h2>02 / Review &amp; confirm</h2><ul><li>Resolve geometry, finish, inspection and packing questions.</li><li>Confirm the quotation, drawing revision, included services and delivery conditions before release.</li></ul></section><section id=\"guide-2\"><h2>03 / Sample or manufacturing stage</h2><ul><li>If a sample is needed, agree its purpose and how feedback will be approved.</li><li>Record changes explicitly; review their effect on work already planned or completed.</li></ul></section><section id=\"guide-3\"><h2>04 / Handover &amp; follow-up</h2><ul><li>Confirm the agreed inspection records, identification, packaging and delivery arrangements.</li><li>Use the approved revision and declared changes as the starting point for repeat orders.</li></ul></section><section id=\"comparison\"><p>KEEP THE SCOPE CLEAR</p><h2>A practical review table.</h2><table><thead><tr><th>Decision</th><th>Buyer provides</th><th>To agree together</th></tr></thead><tbody><tr><th>Technical release</th><td>Current drawing and acceptance requirements</td><td>Resolved open items and controlling revision.</td></tr><tr><th>Sample approval</th><td>Test objective and feedback</td><td>What is approved, what changes and the next stage.</td></tr><tr><th>Schedule</th><td>Desired milestone and destination</td><td>Material, manufacture, inspection and transit conditions.</td></tr><tr><th>Repeat order</th><td>Prior reference and declared changes</td><td>Current revision, quantity, availability and release scope.</td></tr></tbody></table></section><section id=\"questions\"><h2>Questions to clarify.</h2><details><summary>Is the requested date automatically confirmed?<span>+</span></summary><p>No. Keep your desired milestone in the brief. A commitment depends on the reviewed specification, material, quantity, schedule and delivery arrangements.</p></details><details><summary>How are design changes handled?<span>+</span></summary><p>Identify the new revision and changed features. Confirm the impact on price, timing, inspection and any existing work before proceeding.</p></details></section><p>CONTINUE YOUR REVIEW</p><h2>Connect the next decision.</h2><a href=\"{{SITE_URL}}/solutions/\"><strong>Process Planning <span>↗</span></strong><p>Drawing review, sample planning and repeat-order requirements.</p></a><a href=\"{{SITE_URL}}/resources/rfq-checklist/\"><strong>Drawing &amp; RFQ Checklist <span>↗</span></strong><p>Files, specifications and commercial inputs for a useful first review.</p></a><a href=\"{{SITE_URL}}/resources/inspection-handover/\"><strong>Inspection &amp; Handover <span>↗</span></strong><p>Plan acceptance records, part identification and protective packaging.</p></a>",
@@ -29191,7 +29191,7 @@
     {
       "id": 127,
       "type": "axis_solution",
-      "title": "Connect the two sides of the design.",
+      "title": "Custom interfaces",
       "slug": "custom-interfaces",
       "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Bolt patterns and orientation can be ambiguous without mating context.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Locating fits and clearance holes serve different functions.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Material, finish and protection requirements need to reflect the operating environment.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Map both interfaces</h3><p>Provide the mating dimensions or models on each side of the connection.</p></li><li><span>02</span><h3>Separate function from clearance</h3><p>Identify locating features, load-bearing surfaces and noncritical clearance geometry.</p></li><li><span>03</span><h3>Agree the machining brief</h3><p>Bring material, finish, quantity and verification needs into one revision-controlled scope.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=custom-interfaces\">Prepare this solution brief ↗</a><dl><dt>Mating details</dt><dd>Models or drawings of the parts and equipment being connected.</dd><dt>Orientation</dt><dd>Bolt pattern, assembly direction and clocking requirements.</dd><dt>Functional fits</dt><dd>Locating diameters, faces and the dimensions that control alignment.</dd><dt>Material &amp; finish</dt><dd>Exact grade, environmental context and surface requirements.</dd><dt>Order &amp; handover</dt><dd>Quantity, identification, packing and inspection requirements.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Check the drawing basis for bolt patterns and locating features.</li><li><span>✓</span>Agree the final dimensions that control assembly fit.</li><li><span>✓</span>Define required records and delivery protection.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Can you quote from a sketch?<span>+</span></summary><p>A sketch can start the discussion. Dimensions, tolerances, material and acceptance requirements still need clarification before a manufacturing scope can be confirmed.</p></details><details><summary>Is the pictured flange the offered product?<span>+</span></summary><p>It is a concept used to explain interface questions. The proposed solution is reviewed around your equipment and engineering requirements.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=custom-interfaces\">Discuss custom equipment interfaces ↗</a></section>",
@@ -30320,7 +30320,7 @@
     {
       "id": 129,
       "type": "axis_solution",
-      "title": "Resolve the geometry before the setup.",
+      "title": "Multi-axis mounting",
       "slug": "multi-axis-mounting",
       "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Angled features can complicate tool access and workholding.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Several mounting faces may need controlled positional relationships.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Inspection requirements should reflect the functional datums rather than appearance alone.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Prioritize the relationships</h3><p>Identify the planes, holes and locating features that position the component in the assembly.</p></li><li><span>02</span><h3>Review access and fixturing</h3><p>Discuss angled faces, deep features and potential workholding restrictions.</p></li><li><span>03</span><h3>Define a reviewable outcome</h3><p>Agree the critical geometric requirements and the records needed for approval.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=multi-axis-mounting\">Prepare this solution brief ↗</a><dl><dt>Geometry</dt><dd>Complete model, face orientation and difficult-to-reach features.</dd><dt>Assembly datums</dt><dd>Locating surfaces, mounting points and alignment requirements.</dd><dt>Material &amp; section</dt><dd>Grade, condition, thin sections and relevant loading context.</dd><dt>Surface scope</dt><dd>Functional and cosmetic faces with their separate requirements.</dd><dt>Verification</dt><dd>Critical feature relationships and the required inspection scope.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Agree how the critical faces and holes relate to the datum scheme.</li><li><span>✓</span>Review any proposed design changes against the assembly function.</li><li><span>✓</span>Specify sample and inspection approval before the next production stage.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Does every complex bracket require five-axis machining?<span>+</span></summary><p>The process depends on geometry, access and the required relationships. The model and drawing are the basis for reviewing a suitable route.</p></details><details><summary>Which dimensions should be emphasized?<span>+</span></summary><p>Mark the features that locate the component and the relationships that affect alignment or assembly. Avoid leaving functional priorities to visual interpretation.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=multi-axis-mounting\">Discuss complex mounting &amp; multi-axis parts ↗</a></section>",
@@ -30416,7 +30416,7 @@
     {
       "id": 130,
       "type": "axis_solution",
-      "title": "Make the housing fit the assembly.",
+      "title": "Precision housings",
       "slug": "precision-housings",
       "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Deep pockets and small internal corners can constrain tool access.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Thin walls can influence workholding and dimensional behavior.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Sealing, mounting and locating faces may need different acceptance criteria.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Map the interfaces</h3><p>Identify the mating components, datums, mounting points and faces that control the assembly.</p></li><li><span>02</span><h3>Review the machining route</h3><p>Discuss pocket depth, corner radii, wall sections and access against the proposed material.</p></li><li><span>03</span><h3>Agree the acceptance scope</h3><p>State the functional dimensions, finish allowances and records needed for sample or order approval.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=precision-housings\">Prepare this solution brief ↗</a><dl><dt>Assembly context</dt><dd>Mating models, mounting locations and the surfaces that locate the housing.</dd><dt>Cavities &amp; openings</dt><dd>Internal corners, depths, wall sections and access restrictions.</dd><dt>Material &amp; finish</dt><dd>Exact grade and condition, cosmetic faces and coating allowances.</dd><dt>Critical features</dt><dd>Datum references, fits, sealing faces and applicable drawing notes.</dd><dt>Order context</dt><dd>Sample quantity, expected repeat volume and approval requirements.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Agree which interfaces need dimensional inspection.</li><li><span>✓</span>Clarify whether acceptance dimensions apply before or after finishing.</li><li><span>✓</span>Identify the report format, sample approval and packaging requirements.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Can an existing housing be used as the only specification?<span>+</span></summary><p>A reference part helps explain the application, but identify the engineering files, dimensions and material requirements needed for a comparable machining scope.</p></details><details><summary>What if the internal geometry is difficult to reach?<span>+</span></summary><p>Share the model and the functional requirements. Tool access, corner radii and possible design changes need review before feasibility is confirmed.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=precision-housings\">Discuss precision housings &amp; enclosures ↗</a></section>",
@@ -30512,7 +30512,7 @@
     {
       "id": 131,
       "type": "axis_solution",
-      "title": "Let the sample answer the right questions.",
+      "title": "Prototype to production",
       "slug": "prototype-to-production",
       "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Sample objectives and production requirements are not always the same.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Drawing changes can become unclear when several revisions circulate.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Inspection, packaging and documentation may need adjustment as quantity changes.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Define the sample objective</h3><p>Identify what must be demonstrated and which features control approval.</p></li><li><span>02</span><h3>Capture decisions and revisions</h3><p>Keep the model, drawing, material and acceptance notes aligned.</p></li><li><span>03</span><h3>Plan the next order</h3><p>State expected quantity, repeat requirements and any changes to verification or delivery.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=prototype-to-production\">Prepare this solution brief ↗</a><dl><dt>Sample purpose</dt><dd>Fit, function, appearance or another explicitly defined review objective.</dd><dt>Engineering files</dt><dd>Matching model and dimensioned drawing revisions.</dd><dt>Quantities</dt><dd>Sample quantity and an indication of future batch requirements.</dd><dt>Approval method</dt><dd>Critical features, acceptance criteria and the sample reference to retain.</dd><dt>Repeat scope</dt><dd>Changes in material, finish, inspection, packing or delivery needs.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Agree the sample approval criteria before machining starts.</li><li><span>✓</span>Identify the revision and sample reference for repeat inquiries.</li><li><span>✓</span>Confirm the scope again when quantity or requirements change.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Does a sample guarantee an unchanged production price or lead time?<span>+</span></summary><p>No. Quantity, scope, material and production conditions need to be reviewed for the repeat order.</p></details><details><summary>What if the drawing changes after the sample?<span>+</span></summary><p>Identify the new revision and the affected features. Review the change against the previously approved requirements before proceeding.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=prototype-to-production\">Discuss prototype-to-repeat machining planning ↗</a></section>",
@@ -30608,7 +30608,7 @@
     {
       "id": 132,
       "type": "axis_solution",
-      "title": "Treat the fit as part of the function.",
+      "title": "Shafts & bearing interfaces",
       "slug": "shafts-and-bearing-interfaces",
       "parent": 0,
       "content": "<section id=\"challenge\"><p>01 / THE APPLICATION &amp; CHALLENGE</p><h2>What needs to be resolved?</h2><article><span>01</span><h3>Geometry &amp; access</h3><p>Concentric features need a clear relationship to the drawing datums.</p></article><article><span>02</span><h3>Assembly relationships</h3><p>Long slender features and thin sleeves can require workholding review.</p></article><article><span>03</span><h3>Acceptance &amp; handover</h3><p>Finishing or heat-treatment requirements may affect the final mating dimensions.</p></article></section><section id=\"approach\"><p>02 / A PROPOSED REVIEW</p><h2>Define a solution around the function.</h2><ol><li><span>01</span><h3>Define the mating conditions</h3><p>Identify bearing seats, sliding interfaces, threads and the mating component requirements.</p></li><li><span>02</span><h3>Review the complete feature set</h3><p>Include grooves, cross holes, flats and any operations beyond the main turned geometry.</p></li><li><span>03</span><h3>Plan final acceptance</h3><p>Agree critical fits, runout references and when final measurements apply.</p></li></ol></section><section id=\"requirements\"><p>03 / ENGINEERING INPUTS</p><h2>Prepare a brief<br/>that can be reviewed.</h2><p>These inputs define the scope for discussion. Dimensions, material availability, price and lead time are confirmed after reviewing the actual project.</p><a href=\"{{SITE_URL}}/contact/?solution=shafts-and-bearing-interfaces\">Prepare this solution brief ↗</a><dl><dt>Fits &amp; interfaces</dt><dd>Mating diameters, bearing or sliding functions and datum references.</dd><dt>Secondary features</dt><dd>Threads, grooves, cross holes, flats and end-face relationships.</dd><dt>Material condition</dt><dd>Exact alloy, supplied condition and any treatment requirements.</dd><dt>Finish effects</dt><dd>Final mating sizes and surface requirements after the agreed finishing steps.</dd><dt>Inspection scope</dt><dd>Critical diameters, runout references and documentation needs.</dd></dl></section><section id=\"verification\"><p>04 / VERIFICATION &amp; HANDOVER</p><h2>Agree what will be checked and delivered.</h2><ul><li><span>✓</span>Mark functional fits separately from general clearance dimensions.</li><li><span>✓</span>Define the datum and measurement conditions for concentric features.</li><li><span>✓</span>Confirm sample acceptance and part-protection requirements.</li></ul><p>Inspection records, material documents, test methods and packaging are requirements to confirm in the quotation. This page does not establish certification, test capability or a guaranteed result.</p></section><section id=\"questions\"><p>05 / QUESTIONS FOR THIS SOLUTION</p><h2>Clarify the next decision.</h2><details><summary>Are the shaft and bushing images stock items?<span>+</span></summary><p>No. They illustrate geometry and interface questions. A project is reviewed against the customer's own drawing and agreed requirements.</p></details><details><summary>Can turned parts also have milled features?<span>+</span></summary><p>Include every secondary feature in the model and drawing so the process route and required setups can be reviewed together.</p></details><strong>Bring your application into the conversation.</strong><p>Include your drawing revision, material, quantity and the features that matter.</p><a href=\"{{SITE_URL}}/contact/?solution=shafts-and-bearing-interfaces\">Discuss shafts &amp; bearing interfaces ↗</a></section>",
@@ -38369,7 +38369,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 229,
@@ -38385,7 +38386,8 @@
           ],
           "target": "",
           "order": 2,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 230,
@@ -38401,7 +38403,8 @@
           ],
           "target": "",
           "order": 3,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 231,
@@ -38417,7 +38420,8 @@
           ],
           "target": "",
           "order": 4,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 232,
@@ -38433,7 +38437,8 @@
           ],
           "target": "",
           "order": 5,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         }
       ]
     },
@@ -38455,7 +38460,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 218,
@@ -38471,7 +38477,8 @@
           ],
           "target": "",
           "order": 2,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 219,
@@ -38487,7 +38494,8 @@
           ],
           "target": "",
           "order": 3,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 220,
@@ -38503,7 +38511,8 @@
           ],
           "target": "",
           "order": 4,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 221,
@@ -38519,7 +38528,8 @@
           ],
           "target": "",
           "order": 5,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 222,
@@ -38535,7 +38545,8 @@
           ],
           "target": "",
           "order": 6,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 223,
@@ -38551,7 +38562,8 @@
           ],
           "target": "",
           "order": 7,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 224,
@@ -38567,7 +38579,8 @@
           ],
           "target": "",
           "order": 8,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 225,
@@ -38583,7 +38596,8 @@
           ],
           "target": "",
           "order": 9,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 226,
@@ -38599,7 +38613,8 @@
           ],
           "target": "",
           "order": 10,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 227,
@@ -38615,7 +38630,8 @@
           ],
           "target": "",
           "order": 11,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         }
       ]
     },
@@ -38637,7 +38653,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 234,
@@ -38653,7 +38670,8 @@
           ],
           "target": "",
           "order": 2,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 235,
@@ -38669,7 +38687,8 @@
           ],
           "target": "",
           "order": 3,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 236,
@@ -38685,7 +38704,8 @@
           ],
           "target": "",
           "order": 4,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         }
       ]
     },
@@ -38707,7 +38727,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 238,
@@ -38723,7 +38744,8 @@
           ],
           "target": "",
           "order": 2,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 239,
@@ -38739,7 +38761,8 @@
           ],
           "target": "",
           "order": 3,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 240,
@@ -38755,7 +38778,8 @@
           ],
           "target": "",
           "order": 4,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 241,
@@ -38771,7 +38795,8 @@
           ],
           "target": "",
           "order": 5,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 242,
@@ -38787,7 +38812,8 @@
           ],
           "target": "",
           "order": 6,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         }
       ]
     },
@@ -38809,7 +38835,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 179,
@@ -38825,7 +38852,8 @@
           ],
           "target": "",
           "order": 2,
-          "family": "machining"
+          "family": "machining",
+          "inheritTitle": false
         },
         {
           "id": 180,
@@ -38841,7 +38869,8 @@
           ],
           "target": "",
           "order": 3,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 181,
@@ -38857,7 +38886,8 @@
           ],
           "target": "",
           "order": 4,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 182,
@@ -38873,7 +38903,8 @@
           ],
           "target": "",
           "order": 5,
-          "family": "molding"
+          "family": "molding",
+          "inheritTitle": false
         },
         {
           "id": 183,
@@ -38889,7 +38920,8 @@
           ],
           "target": "",
           "order": 6,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 184,
@@ -38905,7 +38937,8 @@
           ],
           "target": "",
           "order": 7,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 185,
@@ -38921,7 +38954,8 @@
           ],
           "target": "",
           "order": 8,
-          "family": "fabrication"
+          "family": "fabrication",
+          "inheritTitle": false
         },
         {
           "id": 186,
@@ -38937,7 +38971,8 @@
           ],
           "target": "",
           "order": 9,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 187,
@@ -38953,12 +38988,13 @@
           ],
           "target": "",
           "order": 10,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 188,
           "parent": "178",
-          "title": "Capabilities",
+          "title": "3D Printing",
           "url": "{{SITE_URL}}/capabilities/3d-printing/",
           "object": "page",
           "object_id": "111",
@@ -38969,7 +39005,8 @@
           ],
           "target": "",
           "order": 11,
-          "family": "printing"
+          "family": "printing",
+          "inheritTitle": false
         },
         {
           "id": 189,
@@ -38985,7 +39022,8 @@
           ],
           "target": "",
           "order": 12,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 190,
@@ -39001,7 +39039,8 @@
           ],
           "target": "",
           "order": 13,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 191,
@@ -39017,7 +39056,8 @@
           ],
           "target": "",
           "order": 14,
-          "family": "value-added"
+          "family": "value-added",
+          "inheritTitle": false
         },
         {
           "id": 192,
@@ -39033,7 +39073,8 @@
           ],
           "target": "",
           "order": 15,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 193,
@@ -39049,7 +39090,8 @@
           ],
           "target": "",
           "order": 16,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 194,
@@ -39065,7 +39107,8 @@
           ],
           "target": "",
           "order": 17,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 195,
@@ -39081,7 +39124,8 @@
           ],
           "target": "",
           "order": 18,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 196,
@@ -39097,7 +39141,8 @@
           ],
           "target": "",
           "order": 19,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 197,
@@ -39113,7 +39158,8 @@
           ],
           "target": "",
           "order": 20,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 198,
@@ -39129,7 +39175,8 @@
           ],
           "target": "",
           "order": 21,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 199,
@@ -39145,7 +39192,8 @@
           ],
           "target": "",
           "order": 22,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 200,
@@ -39161,7 +39209,8 @@
           ],
           "target": "",
           "order": 23,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 201,
@@ -39177,7 +39226,8 @@
           ],
           "target": "",
           "order": 24,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 202,
@@ -39193,7 +39243,8 @@
           ],
           "target": "",
           "order": 25,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 203,
@@ -39209,12 +39260,13 @@
           ],
           "target": "",
           "order": 26,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 204,
           "parent": "197",
-          "title": "Shafts & bearing interfaces",
+          "title": "Shafts &#038; bearing interfaces",
           "url": "{{SITE_URL}}/solutions/shafts-and-bearing-interfaces/",
           "object": "axis_solution",
           "object_id": "132",
@@ -39225,7 +39277,8 @@
           ],
           "target": "",
           "order": 27,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 205,
@@ -39241,7 +39294,8 @@
           ],
           "target": "",
           "order": 28,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 206,
@@ -39257,7 +39311,8 @@
           ],
           "target": "",
           "order": 29,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 207,
@@ -39273,7 +39328,8 @@
           ],
           "target": "",
           "order": 30,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 208,
@@ -39289,7 +39345,8 @@
           ],
           "target": "",
           "order": 31,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 209,
@@ -39305,12 +39362,13 @@
           ],
           "target": "",
           "order": 32,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 210,
           "parent": "208",
-          "title": "Inspection & handover",
+          "title": "Inspection &#038; handover",
           "url": "{{SITE_URL}}/resources/inspection-handover/",
           "object": "axis_resource",
           "object_id": "122",
@@ -39321,7 +39379,8 @@
           ],
           "target": "",
           "order": 33,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 211,
@@ -39337,7 +39396,8 @@
           ],
           "target": "",
           "order": 34,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 212,
@@ -39353,7 +39413,8 @@
           ],
           "target": "",
           "order": 35,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 213,
@@ -39369,7 +39430,8 @@
           ],
           "target": "",
           "order": 36,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 214,
@@ -39385,7 +39447,8 @@
           ],
           "target": "",
           "order": 37,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 215,
@@ -39401,7 +39464,8 @@
           ],
           "target": "",
           "order": 38,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 216,
@@ -39417,7 +39481,8 @@
           ],
           "target": "",
           "order": 39,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 372,
@@ -39433,7 +39498,8 @@
           ],
           "target": "",
           "order": 40,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 373,
@@ -39449,7 +39515,8 @@
           ],
           "target": "",
           "order": 41,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 374,
@@ -39465,7 +39532,8 @@
           ],
           "target": "",
           "order": 42,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 375,
@@ -39481,7 +39549,8 @@
           ],
           "target": "",
           "order": 43,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 376,
@@ -39497,7 +39566,8 @@
           ],
           "target": "",
           "order": 44,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 377,
@@ -39513,7 +39583,8 @@
           ],
           "target": "",
           "order": 45,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 378,
@@ -39529,7 +39600,8 @@
           ],
           "target": "",
           "order": 46,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 379,
@@ -39545,7 +39617,8 @@
           ],
           "target": "",
           "order": 47,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 380,
@@ -39561,7 +39634,8 @@
           ],
           "target": "",
           "order": 48,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 381,
@@ -39577,7 +39651,8 @@
           ],
           "target": "",
           "order": 49,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 382,
@@ -39593,7 +39668,8 @@
           ],
           "target": "",
           "order": 50,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 383,
@@ -39609,7 +39685,8 @@
           ],
           "target": "",
           "order": 51,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 384,
@@ -39625,7 +39702,8 @@
           ],
           "target": "",
           "order": 52,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 385,
@@ -39641,7 +39719,8 @@
           ],
           "target": "",
           "order": 53,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 386,
@@ -39657,7 +39736,8 @@
           ],
           "target": "",
           "order": 54,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 387,
@@ -39673,7 +39753,8 @@
           ],
           "target": "",
           "order": 55,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 388,
@@ -39689,7 +39770,8 @@
           ],
           "target": "",
           "order": 56,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 389,
@@ -39705,7 +39787,8 @@
           ],
           "target": "",
           "order": 57,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 390,
@@ -39721,7 +39804,8 @@
           ],
           "target": "",
           "order": 58,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 391,
@@ -39737,7 +39821,8 @@
           ],
           "target": "",
           "order": 59,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 392,
@@ -39753,7 +39838,8 @@
           ],
           "target": "",
           "order": 60,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 393,
@@ -39769,7 +39855,8 @@
           ],
           "target": "",
           "order": 61,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 394,
@@ -39785,7 +39872,8 @@
           ],
           "target": "",
           "order": 62,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 395,
@@ -39801,7 +39889,8 @@
           ],
           "target": "",
           "order": 63,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 396,
@@ -39817,7 +39906,8 @@
           ],
           "target": "",
           "order": 64,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 397,
@@ -39833,7 +39923,8 @@
           ],
           "target": "",
           "order": 65,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 398,
@@ -39849,7 +39940,8 @@
           ],
           "target": "",
           "order": 66,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 399,
@@ -39865,7 +39957,8 @@
           ],
           "target": "",
           "order": 67,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 400,
@@ -39881,7 +39974,8 @@
           ],
           "target": "",
           "order": 68,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 401,
@@ -39897,7 +39991,8 @@
           ],
           "target": "",
           "order": 69,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         }
       ]
     },
@@ -39919,7 +40014,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 76,
@@ -39935,7 +40031,8 @@
           ],
           "target": "",
           "order": 2,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 77,
@@ -39951,7 +40048,8 @@
           ],
           "target": "",
           "order": 3,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 78,
@@ -39967,7 +40065,8 @@
           ],
           "target": "",
           "order": 4,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 79,
@@ -39983,7 +40082,8 @@
           ],
           "target": "",
           "order": 5,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         }
       ]
     },
@@ -40005,7 +40105,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 87,
@@ -40021,7 +40122,8 @@
           ],
           "target": "",
           "order": 2,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 88,
@@ -40037,7 +40139,8 @@
           ],
           "target": "",
           "order": 3,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 89,
@@ -40053,7 +40156,8 @@
           ],
           "target": "",
           "order": 4,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 90,
@@ -40069,7 +40173,8 @@
           ],
           "target": "",
           "order": 5,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         }
       ]
     },
@@ -40091,7 +40196,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 81,
@@ -40107,7 +40213,8 @@
           ],
           "target": "",
           "order": 2,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 82,
@@ -40123,7 +40230,8 @@
           ],
           "target": "",
           "order": 3,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 83,
@@ -40139,7 +40247,8 @@
           ],
           "target": "",
           "order": 4,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 84,
@@ -40155,7 +40264,8 @@
           ],
           "target": "",
           "order": 5,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 85,
@@ -40171,7 +40281,8 @@
           ],
           "target": "",
           "order": 6,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         }
       ]
     },
@@ -40193,7 +40304,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         }
       ]
     },
@@ -40215,7 +40327,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 92,
@@ -40231,7 +40344,8 @@
           ],
           "target": "",
           "order": 2,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 93,
@@ -40247,7 +40361,8 @@
           ],
           "target": "",
           "order": 3,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 94,
@@ -40263,7 +40378,8 @@
           ],
           "target": "",
           "order": 4,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         }
       ]
     },
@@ -40285,7 +40401,8 @@
           ],
           "target": "",
           "order": 1,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 61,
@@ -40302,7 +40419,8 @@
           ],
           "target": "",
           "order": 2,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 38,
@@ -40318,7 +40436,8 @@
           ],
           "target": "",
           "order": 3,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 39,
@@ -40334,7 +40453,8 @@
           ],
           "target": "",
           "order": 4,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 40,
@@ -40350,7 +40470,8 @@
           ],
           "target": "",
           "order": 5,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 41,
@@ -40366,7 +40487,8 @@
           ],
           "target": "",
           "order": 6,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 37,
@@ -40383,7 +40505,8 @@
           ],
           "target": "",
           "order": 7,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 62,
@@ -40399,7 +40522,8 @@
           ],
           "target": "",
           "order": 8,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 63,
@@ -40415,7 +40539,8 @@
           ],
           "target": "",
           "order": 9,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 64,
@@ -40431,7 +40556,8 @@
           ],
           "target": "",
           "order": 10,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 65,
@@ -40447,7 +40573,8 @@
           ],
           "target": "",
           "order": 11,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 66,
@@ -40463,7 +40590,8 @@
           ],
           "target": "",
           "order": 12,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 67,
@@ -40479,7 +40607,8 @@
           ],
           "target": "",
           "order": 13,
-          "family": ""
+          "family": "",
+          "inheritTitle": true
         },
         {
           "id": 42,
@@ -40495,7 +40624,8 @@
           ],
           "target": "",
           "order": 14,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 68,
@@ -40511,7 +40641,8 @@
           ],
           "target": "",
           "order": 15,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 69,
@@ -40527,7 +40658,8 @@
           ],
           "target": "",
           "order": 16,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 70,
@@ -40543,7 +40675,8 @@
           ],
           "target": "",
           "order": 17,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 71,
@@ -40559,7 +40692,8 @@
           ],
           "target": "",
           "order": 18,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 72,
@@ -40575,7 +40709,8 @@
           ],
           "target": "",
           "order": 19,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 73,
@@ -40591,7 +40726,8 @@
           ],
           "target": "",
           "order": 20,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 74,
@@ -40607,7 +40743,8 @@
           ],
           "target": "",
           "order": 21,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         },
         {
           "id": 43,
@@ -40623,7 +40760,8 @@
           ],
           "target": "",
           "order": 22,
-          "family": ""
+          "family": "",
+          "inheritTitle": false
         }
       ]
     }

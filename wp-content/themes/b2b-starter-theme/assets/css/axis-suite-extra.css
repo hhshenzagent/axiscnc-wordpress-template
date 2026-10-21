@@ -77,3 +77,5 @@
 .suite-guide-body>aside:first-child:not(.suite-note)>p:last-child{display:flex;flex-direction:column;gap:10px;margin:0}
 .suite-guide-body>aside:first-child:not(.suite-note) a{font-size:14px;line-height:1.6;text-decoration:none}
 .suite-guide-body>aside:first-child:not(.suite-note) a:hover{text-decoration:underline}
+
+.suite-material-layout.suite-material-layout--full{display:block}

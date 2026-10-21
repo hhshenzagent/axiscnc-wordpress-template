@@ -5,18 +5,9 @@ $simple = ($args['layout'] ?? 'standard') === 'simple';
 $specifications = array_values(array_filter($product['specifications'], static fn (array $row): bool => trim($row['label']) !== '' && trim($row['value']) !== ''));
 $has_attributes = !$simple && ($specifications || $product['attribute_tables'] || $product['packaging_tables'] || $product['lead_times'] || $product['certificates']);
 $has_description = $product['details']['has_content'] || (!$simple && $product['faq']);
-$links = [];
-if (!$simple && $product['services']) $links[] = ['label' => 'Services', 'url' => '#product-services'];
-if ($has_attributes) $links[] = ['label' => 'Attributes', 'url' => '#product-attributes'];
-if ($has_description) $links[] = ['label' => 'Description', 'url' => '#product-details'];
 ?>
 <div class="product-reading-layout">
 <div class="product-reading">
-<?php if ($links) : ?>
-<nav class="product-section-nav" aria-label="Product sections"><div class="anchor-track">
-<?php foreach ($links as $link) : ?><a href="<?php echo esc_url($link['url']); ?>"><?php echo esc_html($link['label']); ?></a><?php endforeach; ?>
-</div></nav>
-<?php endif; ?>
 <?php if (!$simple && $product['services']) : ?>
 <section id="product-services" class="product-block"><h2>Services</h2>
 <?php Starter\Theme\component_faq(['rows' => $product['services']]); ?>
