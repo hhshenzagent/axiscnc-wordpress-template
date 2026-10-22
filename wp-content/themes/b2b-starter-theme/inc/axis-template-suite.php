@@ -11,10 +11,11 @@ function rows(string $name,array $required=['title']):array{
 }
 function text($v):void{echo esc_html((string)$v);}
 function public_caption($value):string{
-    $caption=(string)$value;
-    return preg_match('/\b(?:AI[\s\-–]+(?:generated|illustrative)|Illustrati(?:on|ve) only)/iu',wp_strip_all_tags($caption))?'':$caption;
+    // Visual captions are intentionally omitted; native media/ACF values remain editable.
+    return '';
 }
 function without_ai_notices(string $html):string{
+    $html=(string)preg_replace('/<figcaption\b[^>]*>.*?<\/figcaption>/isu','',$html);
     return (string)preg_replace_callback('/<(p|figcaption|small)\b[^>]*>(.*?)<\/\1>/isu',static function($match){
         $text=trim(wp_strip_all_tags($match[2]));
         $notice=preg_match('/(?:AI[\s\-–]+(?:generated|illustrative).*(?:concept|illustrat|photo|image)|(?:image|illustrat|views).{0,100}AI[\s\-–]+generated|Illustrative only)/iu',$text);

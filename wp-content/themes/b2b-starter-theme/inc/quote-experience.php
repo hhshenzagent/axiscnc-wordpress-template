@@ -27,5 +27,5 @@ add_action('wp_enqueue_scripts',static function():void{
     }
 },1005);
 
-add_filter('wp_get_attachment_caption',static fn($caption)=>\AxisCNC\SuiteTheme\public_caption($caption),99);
+add_filter('wp_get_attachment_caption',static fn($caption)=>is_admin()?$caption:\AxisCNC\SuiteTheme\public_caption($caption),99);
 add_filter('the_content',static function($content){return is_admin()?$content:\AxisCNC\SuiteTheme\without_ai_notices((string)$content);},25);
