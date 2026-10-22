@@ -95,3 +95,35 @@
 .suite-guide-body>aside:first-child:not(.suite-note) a:hover{text-decoration:underline}
 
 .suite-material-layout.suite-material-layout--full{display:block}
+
+/* Contact: balance the introduction against the image, with the action after the checklist. */
+.suite-contact-checks{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:14px}
+.suite-contact-checks li{display:flex;align-items:center;gap:12px;font-size:15px;line-height:1.6;color:var(--ink)}
+.suite-contact-checks li>span{display:flex;flex:none;align-items:center;justify-content:center;width:25px;height:25px;background:#fff0e8;border-radius:50%;color:var(--orange);font-weight:700}
+.suite-contact-guidance{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.suite-contact-guidance.is-single{grid-template-columns:1fr}
+.suite-contact-guidance>figure{margin:0;align-self:center;width:100%;min-width:0;aspect-ratio:4/3;min-height:0;border-radius:12px;overflow:hidden}
+.suite-contact-guidance>figure img{width:100%;height:100%;object-fit:cover;object-position:40% center;display:block}
+.suite-contact-guidance-items{display:grid;gap:22px}
+.suite-contact-guidance-items article{padding-bottom:20px;border-bottom:1px solid var(--line)}
+.suite-contact-guidance-items article:last-child{border-bottom:0;padding-bottom:0}
+.suite-contact-guidance-items h3{font-size:18px;margin-bottom:8px}
+.suite-contact-guidance-items p{margin:0}
+/* The timeline is content tabs, not an in-page jump navigation. */
+.suite-history-track{display:flex;overflow-x:auto;gap:0;margin-top:40px;padding-top:12px;padding-bottom:24px;scrollbar-width:thin}
+.suite-history-track button{flex:1 0 160px;position:relative;display:grid;gap:10px;text-align:left;border:0;border-top:2px solid var(--line);padding:26px 24px 0 0;background:transparent;color:var(--muted);font:inherit;cursor:pointer}
+.suite-history-dot{position:absolute;top:-7px;left:0;width:12px;height:12px;border-radius:50%;background:#b5c0ca;box-shadow:0 0 0 6px #fff}
+.suite-history-track strong{font-size:28px;line-height:1.2;font-weight:600;letter-spacing:-.7px;color:var(--ink)}
+.suite-history-track button>span:last-child{font-size:14px;line-height:1.5}
+.suite-history-track button[aria-selected=true]{border-color:var(--orange);color:var(--ink)}
+.suite-history-track button[aria-selected=true] strong{color:var(--orange)}
+.suite-history-track button[aria-selected=true] .suite-history-dot{background:var(--orange)}
+.suite-history-track button:focus-visible,.suite-history-panel:focus-visible{outline:2px solid var(--orange);outline-offset:5px}
+.suite-history-panel{display:grid;grid-template-columns:.35fr 1fr;align-items:center;gap:50px;padding:46px 52px;background:var(--light);border-radius:12px;margin-top:10px;min-height:220px}
+.suite-history-panel[hidden]{display:none}
+.suite-history-year{font-size:clamp(48px,6vw,82px);font-weight:650;letter-spacing:-3px;color:var(--orange);line-height:1}
+.suite-history-panel h3{font-size:28px}.suite-history-panel p{font-size:16px;max-width:760px;margin-bottom:0}
+.suite-component-examples .suite-reading{max-width:820px;margin-bottom:35px}
+@media(max-width:1100px){.suite-contact-guidance{gap:36px}.suite-history-panel{padding:35px;gap:30px}}
+@media(max-width:700px){.suite-contact-checks li{font-size:14px}.suite-contact-checks{gap:12px}.suite-contact-guidance{grid-template-columns:1fr;gap:32px}.suite-contact-guidance>figure{min-height:0;height:290px}.suite-contact-guidance h2{font-size:29px}.suite-history-track button{flex-basis:150px}.suite-history-panel{grid-template-columns:1fr;gap:20px;padding:28px}.suite-history-panel h3{font-size:24px}.suite-history-panel p{font-size:14px}.suite-history-track{margin-top:30px}}
+.suite-about-hero{overflow:clip}

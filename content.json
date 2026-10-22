@@ -169,8 +169,8 @@
         ],
         "axis_suite_service_pages": [
           [
-            "102",
             "101",
+            "105",
             "107"
           ]
         ],
@@ -178,25 +178,25 @@
           "field_axis_suite_axis_suite_service_pages"
         ],
         "axis_suite_use_cases_0_title": [
-          "End-of-arm tooling & adapters"
+          "End-of-arm tooling at the workstation"
         ],
         "_axis_suite_use_cases_0_title": [
           "field_axis_suite_use_cases_title"
         ],
         "axis_suite_use_cases_0_image": [
-          "13"
+          "446"
         ],
         "_axis_suite_use_cases_0_image": [
           "field_axis_suite_use_cases_image"
         ],
         "axis_suite_use_cases_0_body": [
-          "Adapter flanges, gripper fingers and mounting plates connect the tool to the wrist. Define the locating register, hole pattern, fastener access and part-contact surfaces. Verify the exact robot and tool interface drawing; a general robot family name is insufficient."
+          "Gripper fingers, tool adapters and fixture plates connect the robot to the task. Include the workpiece geometry, mating interface, tool mass and cable clearance in the component review."
         ],
         "_axis_suite_use_cases_0_body": [
           "field_axis_suite_use_cases_body"
         ],
         "axis_suite_use_cases_1_title": [
-          "Joint & drive housings"
+          "Joint and drive assemblies"
         ],
         "_axis_suite_use_cases_1_title": [
           "field_axis_suite_use_cases_title"
@@ -208,25 +208,25 @@
           "field_axis_suite_use_cases_image"
         ],
         "axis_suite_use_cases_1_body": [
-          "Housings, bearing carriers, spacers and shaft interfaces support the drive assembly. Identify critical bores, shoulders, datum relationships and required surface condition. State which dimensions apply after coating or heat treatment, and how the mating parts will be checked."
+          "Housings locate bearings, shafts and drive components. Define the datum relationship between bores, shoulders and cover faces, with inspection access and assembly sequence in mind."
         ],
         "_axis_suite_use_cases_1_body": [
           "field_axis_suite_use_cases_body"
         ],
         "axis_suite_use_cases_2_title": [
-          "Sensors, structures & fixtures"
+          "Mobile robots and sensor mounting"
         ],
         "_axis_suite_use_cases_2_title": [
           "field_axis_suite_use_cases_title"
         ],
         "axis_suite_use_cases_2_image": [
-          "8"
+          "447"
         ],
         "_axis_suite_use_cases_2_image": [
           "field_axis_suite_use_cases_image"
         ],
         "axis_suite_use_cases_2_body": [
-          "Camera mounts, sensor brackets, mobile-base interfaces and assembly fixtures need controlled location and practical access. Include adjustment travel, cable clearance, mounting orientation and environmental exposure. Mark contact or locating surfaces separately from cosmetic faces."
+          "Chassis plates, camera brackets and protective interfaces position equipment on a moving platform. Review mounting stability, service access, mass and the operating environment with the integrator."
         ],
         "_axis_suite_use_cases_2_body": [
           "field_axis_suite_use_cases_body"
@@ -522,6 +522,78 @@
         ],
         "_rank_math_description": [
           "field_axis_design_seo_rank_math_description"
+        ],
+        "axis_suite_component_examples_heading": [
+          "Small components. Critical interfaces."
+        ],
+        "_axis_suite_component_examples_heading": [
+          "field_axis_suite_axis_suite_component_examples_heading"
+        ],
+        "axis_suite_component_examples_intro": [
+          "Explore typical component functions before discussing the drawing. These visual examples help identify the mating details, fit requirements and finishing decisions that belong in your project brief."
+        ],
+        "_axis_suite_component_examples_intro": [
+          "field_axis_suite_axis_suite_component_examples_intro"
+        ],
+        "axis_suite_component_examples_0_title": [
+          "Tool adapter flanges"
+        ],
+        "_axis_suite_component_examples_0_title": [
+          "field_axis_suite_component_examples_title"
+        ],
+        "axis_suite_component_examples_0_image": [
+          "13"
+        ],
+        "_axis_suite_component_examples_0_image": [
+          "field_axis_suite_component_examples_image"
+        ],
+        "axis_suite_component_examples_0_body": [
+          "Connect a robot wrist to a tool or fixture. Review the locating diameter, bolt pattern, fastener access and the available operating envelope together."
+        ],
+        "_axis_suite_component_examples_0_body": [
+          "field_axis_suite_component_examples_body"
+        ],
+        "axis_suite_component_examples_1_title": [
+          "Bearing and guide interfaces"
+        ],
+        "_axis_suite_component_examples_1_title": [
+          "field_axis_suite_component_examples_title"
+        ],
+        "axis_suite_component_examples_1_image": [
+          "9"
+        ],
+        "_axis_suite_component_examples_1_image": [
+          "field_axis_suite_component_examples_image"
+        ],
+        "axis_suite_component_examples_1_body": [
+          "Locate rotating or sliding elements within a housing. Specify the mating part, fit, surface condition and any coating allowance that affects the finished interface."
+        ],
+        "_axis_suite_component_examples_1_body": [
+          "field_axis_suite_component_examples_body"
+        ],
+        "axis_suite_component_examples_2_title": [
+          "Drive and locating shafts"
+        ],
+        "_axis_suite_component_examples_2_title": [
+          "field_axis_suite_component_examples_title"
+        ],
+        "axis_suite_component_examples_2_image": [
+          "16"
+        ],
+        "_axis_suite_component_examples_2_image": [
+          "field_axis_suite_component_examples_image"
+        ],
+        "axis_suite_component_examples_2_body": [
+          "Bring shoulders, journals and coupling features into one datum scheme. Identify the functional fits and which dimensions require inspection after finishing."
+        ],
+        "_axis_suite_component_examples_2_body": [
+          "field_axis_suite_component_examples_body"
+        ],
+        "axis_suite_component_examples": [
+          "3"
+        ],
+        "_axis_suite_component_examples": [
+          "field_axis_suite_axis_suite_component_examples"
         ]
       },
       "refs": {
@@ -548,6 +620,18 @@
         "axis_suite_related": {
           "type": "relationship",
           "taxonomy": []
+        },
+        "axis_suite_component_examples_0_image": {
+          "type": "image",
+          "taxonomy": ""
+        },
+        "axis_suite_component_examples_1_image": {
+          "type": "image",
+          "taxonomy": ""
+        },
+        "axis_suite_component_examples_2_image": {
+          "type": "image",
+          "taxonomy": ""
         }
       },
       "terms": []
@@ -31398,7 +31482,7 @@
           "field_axis_suite_axis_suite_article_related"
         ],
         "_thumbnail_id": [
-          "98"
+          "286"
         ],
         "_wp_old_slug": [
           "axis-stage-9d74a534414ebc9"
@@ -37403,7 +37487,8 @@
         "axis_suite_cta": [
           {
             "title": "Discuss your project",
-            "url": "{{SITE_URL}}/contact/"
+            "url": "{{SITE_URL}}/contact/",
+            "target": ""
           }
         ],
         "_axis_suite_cta": [
@@ -37428,7 +37513,7 @@
           "field_axis_suite_axis_suite_inquiry_form"
         ],
         "axis_suite_related": [
-          []
+          ""
         ],
         "_axis_suite_related": [
           "field_axis_suite_axis_suite_related"
@@ -37475,7 +37560,7 @@
           "field_axis_suite_axis_suite_about_video"
         ],
         "axis_suite_milestones": [
-          ""
+          "5"
         ],
         "_axis_suite_milestones": [
           "field_axis_suite_axis_suite_milestones"
@@ -37711,6 +37796,138 @@
         ],
         "_axis_suite_identity": [
           "about"
+        ],
+        "axis_suite_milestones_intro": [
+          "An illustrative company journey for this website template. Dates and milestones can be replaced with your own verified history."
+        ],
+        "_axis_suite_milestones_intro": [
+          "field_axis_suite_axis_suite_milestones_intro"
+        ],
+        "axis_suite_milestones_0_date": [
+          "2016"
+        ],
+        "_axis_suite_milestones_0_date": [
+          "field_axis_suite_milestones_date"
+        ],
+        "axis_suite_milestones_0_title": [
+          "A focus on precision parts"
+        ],
+        "_axis_suite_milestones_0_title": [
+          "field_axis_suite_milestones_title"
+        ],
+        "axis_suite_milestones_0_body": [
+          "The example journey begins with a simple idea: make the drawing, the application and the manufacturing discussion work together. Early enquiries establish a clear brief before a process is selected."
+        ],
+        "_axis_suite_milestones_0_body": [
+          "field_axis_suite_milestones_body"
+        ],
+        "axis_suite_milestones_1_date": [
+          "2019"
+        ],
+        "_axis_suite_milestones_1_date": [
+          "field_axis_suite_milestones_date"
+        ],
+        "axis_suite_milestones_1_title": [
+          "From one part to an assembly"
+        ],
+        "_axis_suite_milestones_1_title": [
+          "field_axis_suite_milestones_title"
+        ],
+        "axis_suite_milestones_1_body": [
+          "The focus expands from individual features to mating interfaces, assembly access and practical material choices. Prototype reviews connect the part design with the equipment around it."
+        ],
+        "_axis_suite_milestones_1_body": [
+          "field_axis_suite_milestones_body"
+        ],
+        "axis_suite_milestones_2_date": [
+          "2021"
+        ],
+        "_axis_suite_milestones_2_date": [
+          "field_axis_suite_milestones_date"
+        ],
+        "axis_suite_milestones_2_title": [
+          "A connected process view"
+        ],
+        "_axis_suite_milestones_2_title": [
+          "field_axis_suite_milestones_title"
+        ],
+        "axis_suite_milestones_2_body": [
+          "Machining, fabrication and polymer processes become part of one planning conversation. Each route is assessed against geometry, finishing, quantity and the purpose of the next sample."
+        ],
+        "_axis_suite_milestones_2_body": [
+          "field_axis_suite_milestones_body"
+        ],
+        "axis_suite_milestones_3_date": [
+          "2024"
+        ],
+        "_axis_suite_milestones_3_date": [
+          "field_axis_suite_milestones_date"
+        ],
+        "axis_suite_milestones_3_title": [
+          "A clearer path to handover"
+        ],
+        "_axis_suite_milestones_3_title": [
+          "field_axis_suite_milestones_title"
+        ],
+        "axis_suite_milestones_3_body": [
+          "The example workflow gives equal attention to approval records, drawing revisions, identification and protective packaging, so the receiving team knows what it is reviewing."
+        ],
+        "_axis_suite_milestones_3_body": [
+          "field_axis_suite_milestones_body"
+        ],
+        "axis_suite_milestones_4_date": [
+          "2026"
+        ],
+        "_axis_suite_milestones_4_date": [
+          "field_axis_suite_milestones_date"
+        ],
+        "axis_suite_milestones_4_title": [
+          "New applications in automation"
+        ],
+        "_axis_suite_milestones_4_title": [
+          "field_axis_suite_milestones_title"
+        ],
+        "axis_suite_milestones_4_body": [
+          "Robotics and automation bring fresh interface questions: gripper adapters, joint housings and sensor mounts. The same structured approach connects component requirements with the next development stage."
+        ],
+        "_axis_suite_milestones_4_body": [
+          "field_axis_suite_milestones_body"
+        ],
+        "clone_about_hero": [
+          ""
+        ],
+        "_clone_about_hero": [
+          "field_axis_suite_clone_about_hero"
+        ],
+        "clone_about_stages": [
+          ""
+        ],
+        "_clone_about_stages": [
+          "field_axis_suite_clone_about_stages"
+        ],
+        "clone_about_quality": [
+          ""
+        ],
+        "_clone_about_quality": [
+          "field_axis_suite_clone_about_quality"
+        ],
+        "clone_about_inquiry": [
+          ""
+        ],
+        "_clone_about_inquiry": [
+          "field_axis_suite_clone_about_inquiry"
+        ],
+        "rank_math_title": [
+          ""
+        ],
+        "_rank_math_title": [
+          "field_axis_design_seo_rank_math_title"
+        ],
+        "rank_math_description": [
+          ""
+        ],
+        "_rank_math_description": [
+          "field_axis_design_seo_rank_math_description"
         ]
       },
       "refs": {
@@ -37836,8 +38053,9 @@
         ],
         "axis_suite_cta": [
           {
-            "title": "Complete the inquiry below",
-            "url": "{{SITE_URL}}/contact/#inquiry"
+            "title": "Send your project brief",
+            "url": "{{SITE_URL}}/contact/#inquiry",
+            "target": ""
           }
         ],
         "_axis_suite_cta": [
@@ -37862,7 +38080,7 @@
           "field_axis_suite_axis_suite_inquiry_form"
         ],
         "axis_suite_related": [
-          []
+          ""
         ],
         "_axis_suite_related": [
           "field_axis_suite_axis_suite_related"
@@ -38057,6 +38275,48 @@
         ],
         "_axis_suite_identity": [
           "contact"
+        ],
+        "axis_suite_contact_team_image": [
+          "445"
+        ],
+        "_axis_suite_contact_team_image": [
+          "field_axis_suite_axis_suite_contact_team_image"
+        ],
+        "axis_suite_highlights": [
+          ""
+        ],
+        "_axis_suite_highlights": [
+          "field_axis_suite_axis_suite_highlights"
+        ],
+        "clone_contact_hero": [
+          ""
+        ],
+        "_clone_contact_hero": [
+          "field_axis_suite_clone_contact_hero"
+        ],
+        "clone_contact_questions": [
+          ""
+        ],
+        "_clone_contact_questions": [
+          "field_axis_suite_clone_contact_questions"
+        ],
+        "clone_contact_inquiry": [
+          ""
+        ],
+        "_clone_contact_inquiry": [
+          "field_axis_suite_clone_contact_inquiry"
+        ],
+        "rank_math_title": [
+          ""
+        ],
+        "_rank_math_title": [
+          "field_axis_design_seo_rank_math_title"
+        ],
+        "rank_math_description": [
+          ""
+        ],
+        "_rank_math_description": [
+          "field_axis_design_seo_rank_math_description"
         ]
       },
       "refs": {
@@ -38067,6 +38327,10 @@
         "axis_suite_related": {
           "type": "relationship",
           "taxonomy": []
+        },
+        "axis_suite_contact_team_image": {
+          "type": "image",
+          "taxonomy": ""
         }
       },
       "terms": []
@@ -38410,6 +38674,27 @@
     ]
   },
   "media": [
+    {
+      "id": 447,
+      "title": "Mobile robotics application concept",
+      "alt": "Autonomous mobile robot concept with sensor mounts, machined platform and small robotic arm",
+      "mime": "image/webp",
+      "file": "robotics-mobile-platform.webp"
+    },
+    {
+      "id": 446,
+      "title": "Robotic tooling workstation concept",
+      "alt": "Collaborative robot with machined end-of-arm tooling at an assembly workstation",
+      "mime": "image/webp",
+      "file": "robotics-tooling-workstation.webp"
+    },
+    {
+      "id": 445,
+      "title": "International project support team concept",
+      "alt": "Fictional diverse project support team smiling and wearing headsets",
+      "mime": "image/webp",
+      "file": "contact-support-team.webp"
+    },
     {
       "id": 441,
       "title": "Robotics component application concept",
