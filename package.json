@@ -1,0 +1,22 @@
+{
+  "name": "axiscnc-wordpress-template",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A complete editable local AXISCNC WordPress demo.",
+  "license": "GPL-2.0-or-later",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node scripts/start.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "node scripts/verify.mjs",
+    "audit:package": "node scripts/audit-package.mjs",
+    "lint": "node scripts/lint.mjs"
+  },
+  "dependencies": {
+    "@php-wasm/node": "3.1.52",
+    "@php-wasm/universal": "3.1.52",
+    "@wp-playground/wordpress": "3.1.52",
+    "fflate": "0.8.3"
+  }
+}

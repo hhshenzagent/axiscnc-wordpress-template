@@ -1,10 +1,16 @@
 {
-  "at": "2026-10-22T07:19:20.250Z",
+  "at": "2026-10-23",
+  "version": "2.0.0",
   "files": [
     {
       "file": ".gitignore",
-      "bytes": 202,
-      "sha256": "add3d22f17de6061c007a4ae8b6de6087354db21c183302f58940ab578a5430e"
+      "bytes": 254,
+      "sha256": "eb47a7b942f0585dda0e739966cb6ddd032494e67394ce195162353eb57356ac"
+    },
+    {
+      "file": "AGENTS.md",
+      "bytes": 2204,
+      "sha256": "c45602607ddfcbe52fa107ed5d880f42b3ff27d18d3ef072bb87facecf9c1a00"
     },
     {
       "file": "content.json",
@@ -383,13 +389,128 @@
     },
     {
       "file": "import.php",
-      "bytes": 8152,
-      "sha256": "b58ad7ee3ccdeddaa316bc967b69617e8185c8a5274eb1d4b5e2ee68d20b3dc6"
+      "bytes": 8229,
+      "sha256": "006ece6ad916c02d714121a0f021374815241523adaf42ef379da44d081f2743"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 19519,
+      "sha256": "9e96286719cf8f2454ed94930edce751e1f409f184368284e8a514f3a26ed608"
+    },
+    {
+      "file": "local/activate.php",
+      "bytes": 929,
+      "sha256": "67045f424160278b86d58072ddb0b16cd9f6dabaf67935a417a3e9485565814b"
+    },
+    {
+      "file": "local/bootstrap.php",
+      "bytes": 2811,
+      "sha256": "d7ea4cd65493460b6ad9460717217f8840a3c8ed8c19790e615783fbb7875121"
+    },
+    {
+      "file": "local/local-demo.php",
+      "bytes": 814,
+      "sha256": "bf23cd53fdcba0f343d8f6f13b98786c9c49ab391f3b6eeb7be434f4bc54ae55"
+    },
+    {
+      "file": "package-lock.json",
+      "bytes": 16507,
+      "sha256": "e09f2f01adb3cff69649c6e6567212b8ce9ce7e3d718fd02a316e251bb608867"
+    },
+    {
+      "file": "package.json",
+      "bytes": 638,
+      "sha256": "8c1095debd8f707f13c43254ff10c6d04a2857239d99cbd1af8cf83c43659ece"
+    },
+    {
+      "file": "packages/advanced-custom-fields-pro.zip",
+      "bytes": 9726571,
+      "sha256": "6dc25d3fe1b12b546bb64dd1ee8587f8da6293157dc7551634701fdc222c2725"
+    },
+    {
+      "file": "packages/classic-editor.zip",
+      "bytes": 38882,
+      "sha256": "7cc7799b0b7d820fbb7528dbff8027c736e52513992416cb37279f44d3d9dd77"
+    },
+    {
+      "file": "packages/fluentform.zip",
+      "bytes": 10692538,
+      "sha256": "9ec4fce3857a0c069dcb392f6e0e9bd1a5a1231d94a49a76d9768a40e973a7fd"
+    },
+    {
+      "file": "packages/gtranslate.zip",
+      "bytes": 720458,
+      "sha256": "e1f2e4e4bd7eb24d66598aa3f9566e0d45ca68b0edbc7c165e5e4423e5027dff"
+    },
+    {
+      "file": "packages/manifest.json",
+      "bytes": 1152,
+      "sha256": "da1e77e54e00d43309bc223e81b7fb133171eeaa1c4b31a9d236470166653db8"
+    },
+    {
+      "file": "packages/seo-by-rank-math.zip",
+      "bytes": 3738812,
+      "sha256": "9ae865e3440a96526e6db1d721a7a6f41dca1e46f116630d3bdb9686fa8aa290"
+    },
+    {
+      "file": "packages/sqlite-database-integration.zip",
+      "bytes": 230051,
+      "sha256": "690f8521a351bf86b3e1516b3af1ab8191ac386e3233b04e4a043f826f961e83"
+    },
+    {
+      "file": "packages/wordpress-6.9.10.zip",
+      "bytes": 28694357,
+      "sha256": "4f18b9e25bd253b0c39009eafb651911e8de29465d6f62397369ff75a36fdb0e"
     },
     {
       "file": "README.md",
-      "bytes": 3198,
-      "sha256": "1c0a2da56f9c8a805df37e53cebf68b512e863c16ab5c2ea78ccf326a2efa220"
+      "bytes": 3628,
+      "sha256": "ee0193985233b76a627a3f0b0b7066f8bcd0b5bc42f1916b73205c10d58e74d3"
+    },
+    {
+      "file": "scripts/audit-package.mjs",
+      "bytes": 2862,
+      "sha256": "9e22e802c7d7f01333a10551e6848fd583cff588ca11e75c7d51c14bf3be2fb0"
+    },
+    {
+      "file": "scripts/lint.mjs",
+      "bytes": 727,
+      "sha256": "60dbf196fdefcefc3f5ee73b5873ce2a8a79ae289b19c533ee372ce60d5e816b"
+    },
+    {
+      "file": "scripts/runtime.mjs",
+      "bytes": 9538,
+      "sha256": "f044607949d29015ea15e0586584f09adca93498ae584bc72b7846c7e6e08d26"
+    },
+    {
+      "file": "scripts/start.mjs",
+      "bytes": 1001,
+      "sha256": "33b345c3dee8a830b2a7a26ad1b4e24e0d1b41c4e934af80d33b35cfcde8a5d8"
+    },
+    {
+      "file": "scripts/verify.mjs",
+      "bytes": 1733,
+      "sha256": "dedc217052f1948e4424733f8039a143760345a581a229b0862db13dfb218942"
+    },
+    {
+      "file": "start.ps1",
+      "bytes": 2333,
+      "sha256": "179af4238f860b88084cbaacb8082f6fb973fe6a3724f623ec77675c1b4d7639"
+    },
+    {
+      "file": "start.sh",
+      "bytes": 2072,
+      "sha256": "36617177b24775fd4e3811c461f7e03ac380d3c96a13f41804525cd11cdc7d4a"
+    },
+    {
+      "file": "tests/runtime.test.mjs",
+      "bytes": 3067,
+      "sha256": "f384ff8e0e463144c82fa6ea608402afee87acb23c1ece4fba1e08e08576f86c"
+    },
+    {
+      "file": "THIRD-PARTY-NOTICES.md",
+      "bytes": 2234,
+      "sha256": "37e707aa5be04ecc52a80e28e7d5ad1f46827cf98c8f6a978a2d1527287a18c7"
     },
     {
       "file": "wp-content/plugins/starter-model/assets/css/inquiry-attachments.css",
@@ -1223,12 +1344,16 @@
     },
     {
       "file": "安装说明.txt",
-      "bytes": 2281,
-      "sha256": "ce035fbc93c71c65e1630e6691012e140ed582eb4f9f064bce76f2445849915b"
+      "bytes": 3148,
+      "sha256": "7d3a34bdafabe87964d720290be9940a1adbb764833da1341cb9b3d91ab5b173"
+    },
+    {
+      "file": "客户启动话术.txt",
+      "bytes": 879,
+      "sha256": "567261ba423d73f2ba8134c96b43d0c62126de414015b081a6f20a9ab74e4396"
     }
   ],
-  "totalBytes": 9141354,
-  "records": 90,
   "images": 74,
-  "privacyScan": "pending-independent-history-audit"
+  "contentRecords": 90,
+  "totalBytes": 63055469
 }

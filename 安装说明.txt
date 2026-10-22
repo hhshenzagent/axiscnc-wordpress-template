@@ -1,17 +1,35 @@
-AXISCNC WordPress 网站模板
+AXISCNC 完整本地 WordPress 网站 · 2026-10-23
 
-安装目标：全新 WordPress 测试站；已有业务站不得直接运行导入。
-1. 安装 WordPress、PHP 8.3+，安装并启用合法授权的 ACF PRO、Fluent Forms、Rank Math SEO、Classic Editor。第三方插件不在本包内。
-2. 将 wp-content 下的主题与业务插件复制到对应目录，启用 starter-model 和 b2b-starter-theme。
-3. 将本包置于网站公开目录之外，再指定路径运行：wp --path=<WordPress目录> eval-file <解压目录>/import.php
-4. 导入完成后到设置→固定链接保存；首页、菜单、页脚、原生字段与图片会自动映射。
-5. 初始为演示模式、禁止索引、邮件通知关闭。邮箱 sales@example.com；没有真实 WhatsApp。
-6. 正式营业前：Business Profile/页面联系方式改为接收方资料，Fluent Forms→Settings→Email Notifications 配置收件人，FluentSMTP 配置接收方自己的发信身份并测试；确认真实通知可用后，运行 wp --path=<WordPress目录> option update axis_demo_mode 0 关闭演示提示，再开启索引。
-7. About 的历程是可编辑模板示例，正式公司使用前替换为核实后的历史；新增人物与机器人场景为概念示意，来源保留在媒体库。
-8. 能力在 Capabilities、行业在 Industries、方案在 Solutions、材料及牌号在 Materials、资料在 Resources；对应 Overview page 编辑聚合页。首页/关于/联系在 Pages，文章在 Posts，历史零件示例在 Example Parts。右侧 Page Template 选择模板，Classification 选择分组；材料牌号选择上级材料。
+一、启动
+将 GitHub 仓库克隆或公开 ZIP 解压至新文件夹，进入含 README.md 的那一层。
+Windows：powershell -NoProfile -ExecutionPolicy Bypass -File .\start.ps1
+macOS/Linux：bash start.sh
+自动准备 Node.js、PHP、WordPress、SQLite 与字段/表单依赖，不需要单独安装 MySQL 或提供 ACF ZIP。首次需联网下载公开运行依赖，预填导入请耐心等终端输出地址。
+前台默认 http://127.0.0.1:9410/；后台加 /wp-admin/。端口占用自动另选，以输出为准。
+首次账号 demo_admin，密码 AxisCNCDemo2026!。已有副本保留自己的密码。
 
-本包只有网站运行代码、公开内容、WebP素材及安装器。不含建站执行工具、私人运行环境、账号密码、SMTP连接、原始询盘或用户数据库。AI示意图片不能作为工厂、认证或客户实证。
+二、再次使用和备份
+关闭按 Ctrl+C；下次进入同一项目文件夹，执行相同启动命令。
+不要删除、重建或覆盖 .runtime；这个隐藏目录保存 WordPress、数据库、后台修改、上传和本地询盘。
+备份：停止本副本后，复制整个项目文件夹，包括 .runtime。需要在另一电脑恢复时，保留 .runtime 并重新启动；缺少的公开 Node 依赖会重新准备。
+只更新源码时先备份，不用新下载的 .runtime 覆盖自己的数据，不再次执行首次导入。
+端口变化自动调整本副本链接。指定端口：Windows 在命令末尾加 --port 9500；macOS/Linux 在 bash start.sh 后加 --port 9500。
 
-版本：2026-10-22。页面内容 90 条，媒体 74 张，原生表单 3 份。
+三、错误排查
+网络下载失败：保留所有文件，恢复网络后再运行同一命令。不要清空 .runtime。
+提示已有服务：打开显示的地址；服务准备中请等原终端，不启动第二次导入。
+提示 earlier import stopped：此前导入中断，保留 .runtime 和终端错误，请协助者检查已导入记录与标记后续接；不可自动清库、重建或重放导入。只有用户明确要另建一个全新演示时才换新文件夹。
+若之前用其他工具搭建过 .runtime：先保留原文件夹和全部数据，使用本仓库的新副本体验；不能把其他布局的运行目录当作可自动迁移的数据。
+不要停止其他项目来腾端口；默认会自动选择空闲端口。
+首次图片处理需要几分钟；终端出现 Website/CMS 才表示准备完成。
 
-导航多语言：如需语言入口，安装并启用官方 GTranslate 插件，在设置→GTranslate 选择语言；主题把原生切换器放在主导航右侧，自动移除浮动入口。演示语言为 English、简体中文、Deutsch、Français、日本語、Italiano、Español。账户和商业密钥不随模板分发。
+四、后台内容管理
+Pages：首页、About、Contact；Posts：Blog 完整正文。
+Capabilities / Industries / Solutions / Materials / Resources：各自对应前台页面；Overview page 为聚合页。
+右侧 Page Template 选择模板，Classification & navigation 指定分组/是否入导航；材料牌号设置上级材料。
+Example Parts 是零件示例；Media 管图片；Fluent Forms → Entries 管本地询盘。
+全部 90 条内容、74 张 WebP 原图、菜单、3 份表单在首次导入后可用。
+
+五、正式使用
+本地邮件禁用、搜索索引关闭、示例邮箱 sales@example.com，不带原作者业务账号及历史询盘。无需连接原网站或企业邮箱。依赖源码不代表厂商商业订阅、官方升级或支持授权。
+正式上线另行使用自己的主机、密码、企业资料和邮件身份，完成实际通知测试；示意图片及 About 历程须按真实资料替换。

@@ -13,5 +13,9 @@ wp-config.php
 .backups/
 backups/
 node_modules/
+.runtime/
+.tools/
+.test-runtime*/
+test-results/
 .DS_Store
 Thumbs.db

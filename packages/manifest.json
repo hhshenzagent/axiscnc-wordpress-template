@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "file": "advanced-custom-fields-pro.zip",
+      "bytes": 9726571,
+      "sha256": "6dc25d3fe1b12b546bb64dd1ee8587f8da6293157dc7551634701fdc222c2725"
+    },
+    {
+      "file": "classic-editor.zip",
+      "bytes": 38882,
+      "sha256": "7cc7799b0b7d820fbb7528dbff8027c736e52513992416cb37279f44d3d9dd77"
+    },
+    {
+      "file": "fluentform.zip",
+      "bytes": 10692538,
+      "sha256": "9ec4fce3857a0c069dcb392f6e0e9bd1a5a1231d94a49a76d9768a40e973a7fd"
+    },
+    {
+      "file": "gtranslate.zip",
+      "bytes": 720458,
+      "sha256": "e1f2e4e4bd7eb24d66598aa3f9566e0d45ca68b0edbc7c165e5e4423e5027dff"
+    },
+    {
+      "file": "seo-by-rank-math.zip",
+      "bytes": 3738812,
+      "sha256": "9ae865e3440a96526e6db1d721a7a6f41dca1e46f116630d3bdb9686fa8aa290"
+    },
+    {
+      "file": "sqlite-database-integration.zip",
+      "bytes": 230051,
+      "sha256": "690f8521a351bf86b3e1516b3af1ab8191ac386e3233b04e4a043f826f961e83"
+    },
+    {
+      "file": "wordpress-6.9.10.zip",
+      "bytes": 28694357,
+      "sha256": "4f18b9e25bd253b0c39009eafb651911e8de29465d6f62397369ff75a36fdb0e"
+    }
+  ]
+}

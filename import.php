@@ -2,7 +2,7 @@
 /** Run only on a new/disposable WordPress destination: wp eval-file import.php */
 defined('ABSPATH')||exit;
 if(!defined('AXIS_CONTENT_MIGRATION'))define('AXIS_CONTENT_MIGRATION',true);
-if(!defined('WP_CLI')||!WP_CLI)throw new RuntimeException('Run with WP-CLI');
+if((!defined('WP_CLI')||!WP_CLI)&&(!defined('AXIS_LOCAL_IMPORT')||!AXIS_LOCAL_IMPORT))throw new RuntimeException('Run with WP-CLI or the local launcher');
 if(!function_exists('acf_get_field')||!defined('FLUENTFORM'))throw new RuntimeException('Activate ACF PRO and Fluent Forms first');
 if(get_option('axiscnc_template_imported')||get_option('axiscnc_template_import_started'))throw new RuntimeException('An import already started; inspect its destination instead of replaying it');
 $foreign=get_posts(['post_type'=>array_merge(['page','post'],\AxisCNC\ContentTypes\types()),'post_status'=>'publish','numberposts'=>-1]);foreach($foreign as$p)if(!in_array($p->post_name,['hello-world','sample-page','thank-you'],true))throw new RuntimeException('Use a new destination; existing published content found');foreach($foreign as$p)if(in_array($p->post_name,['hello-world','sample-page'],true))wp_trash_post($p->ID);
